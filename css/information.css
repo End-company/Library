@@ -120,6 +120,7 @@ body {
 
 * {
   box-sizing: border-box;
+  font-family: "微软雅黑";
 }
 
 body {
@@ -236,14 +237,14 @@ body {
   width: 100%;
   height: 0.9rem;
   border-bottom: 1px dotted #999;
-  padding: .1rem;
+  padding: .13rem;
 }
 
 #recommed li .recommed-jt {
   display: inline-block;
   width: .5rem;
   height: 90%;
-  background: url(../imgs/information/jiantou.png) 0 0.1rem;
+  background: url(../imgs/information/jiantou.png);
   background-repeat: no-repeat;
   background-size: 60%;
   vertical-align: middle;
@@ -253,12 +254,12 @@ body {
 
 #recommed li .recommed-book {
   display: inline-block;
-  height: 100%;
+  height: .9rem;
 }
 
 #recommed li .recommed-book .recommed-t {
-  height: 60%;
-  line-height: 100%;
+  height: .4rem;
+  line-height: .4rem;
   font-size: 14px;
 }
 
@@ -266,7 +267,7 @@ body {
   height: 40%;
   line-height: 100%;
   color: #999;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #recommed li .recommed {
@@ -275,7 +276,7 @@ body {
   height: 100%;
   background: url(../imgs/information/1.png);
   background-repeat: no-repeat;
-  background-size: 70%;
+  background-size: 60%;
 }
 
 /*系统信息页面*/
@@ -394,7 +395,7 @@ body {
 .feedback-foot {
   width: 80%;
   height: 1rem;
-  line-height: 1rem;
+  line-height: .8rem;
   text-align: center;
   color: white;
   background: url(../imgs/information/5.png);
@@ -443,3 +444,125 @@ body {
 }
 
 /*版本信息*/
+/*个人中心*/
+.personal-tx {
+  width: 3rem;
+  height: 3rem;
+  background: url(../imgs/information/touxiang.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: .6rem auto;
+}
+
+.personal-nc {
+  width: 100%;
+  height: .6rem;
+  line-height: .6rem;
+  text-align: center;
+  font-size: 16px;
+}
+
+.personal-nc1 {
+  width: 100%;
+  height: .4rem;
+  line-height: .4rem;
+  text-align: center;
+  font-size: 12px;
+}
+
+.personal-nc1 img {
+  width: .4rem;
+  vertical-align: middle;
+}
+
+#personal {
+  width: 90%;
+  height: auto;
+  box-shadow: 1px 3px 3px 3px #eee;
+  margin: .1rem auto 0;
+}
+
+#personal li {
+  width: 100%;
+  height: 0.9rem;
+  border-bottom: 1px dotted #999;
+  padding: .13rem;
+}
+
+#personal li .personal-jt {
+  display: inline-block;
+  width: .5rem;
+  height: 90%;
+  background: url(../imgs/information/jiantou.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  vertical-align: middle;
+  margin: auto 0;
+  float: right;
+}
+
+#personal li .personal-banben {
+  float: right;
+}
+
+#personal li .personal-center {
+  display: inline-block;
+  height: .9rem;
+}
+
+#personal li .personal-center .personal-t {
+  height: .4rem;
+  line-height: .4rem;
+  font-size: 14px;
+}
+
+#personal li .personal-center .personal-b {
+  height: 40%;
+  line-height: 100%;
+  color: #999;
+  font-size: 12px;
+}
+
+#personal li .personal {
+  display: inline-block;
+  width: .8rem;
+  height: 100%;
+}
+
+#personal li .personal-1 {
+  background: url(../imgs/information/11.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+#personal li .personal-2 {
+  background: url(../imgs/information/12.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+#personal li .personal-3 {
+  background: url(../imgs/information/13.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+#personal li .personal-4 {
+  background: url(../imgs/information/14.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+.tishi {
+  width: 80%;
+  height: 3rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0rem;
+  bottom: 0;
+  margin: auto;
+  box-shadow: 10%;
+}
+
+/*个人中心*/
