@@ -1,0 +1,35 @@
+@import 'base.scss';
+@import 'header.scss';
+*{
+    box-sizing: border-box;
+}
+.header_c{
+    width:auto;
+    height:1rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0.4rem;
+    bottom: 0;
+    margin: auto;
+    color:white;
+    text-align: center;
+    .header-t{
+        height:60%;
+        line-height: 100%;
+        font-size: 20px;
+        position: relative;
+        img{
+            position: absolute;
+            left:0;
+            right:0;
+            bottom:-1px;
+            margin: auto;
+        }
+    }.header-b{
+        height:40%;
+        line-height: 100%;
+        color:#90dcff;
+    }
+}
+/* 头部*/
