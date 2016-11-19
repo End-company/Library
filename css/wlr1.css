@@ -1,0 +1,243 @@
+@charset "UTF-8";
+html {
+  font-size: 100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+body {
+  background: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+}
+
+.header {
+  width: 100%;
+  height: 1rem;
+  background: #29a6dc;
+  position: relative;
+}
+.header .header_L {
+  width: 0.6rem;
+  height: 0.6rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.2rem;
+  background: url(../imgs/header/header01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.6rem 0.6rem;
+}
+.header .set {
+  width: auto;
+  height: 1rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.2rem;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+.header .set .set1 {
+  height: 60%;
+  line-height: 100%;
+  font-size: 20px;
+  position: relative;
+}
+.header .set .set1 img {
+  position: absolute;
+  left: 28px;
+  right: 0;
+  bottom: -40px;
+  margin: auto;
+}
+.header .set .sets {
+  height: 40%;
+  line-height: 100%;
+  color: #90dcff;
+  font-size: 12px;
+}
+.header .header_R {
+  width: 0.6rem;
+  height: 0.6rem;
+  position: absolute;
+  right: 0.2rem;
+  top: 0.2rem;
+  background: url(../imgs/wlrimg/6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.9rem 0.9rem;
+}
+
+.main {
+  width: 90%;
+  height: 4rem;
+  margin: 0.3rem auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px #e7e7e7;
+  position: relative;
+}
+.main .main1 {
+  width: 100%;
+  height: 0.9rem;
+  position: relative;
+  margin-top: 5px;
+  border-bottom: 1px dotted #000;
+}
+.main .main1 .left1 {
+  background: url(../imgs/wlrimg/1.png);
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 33px;
+  height: 33px;
+  transform: scale(0.7);
+}
+.main .main1 .left2 {
+  background: url(../imgs/wlrimg/2.png);
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 33px;
+  height: 33px;
+  transform: scale(0.7);
+}
+.main .main1 .left3 {
+  background: url(../imgs/wlrimg/3.png);
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 33px;
+  height: 33px;
+  transform: scale(0.7);
+}
+.main .main1 .left4 {
+  background: url(../imgs/wlrimg/4.png);
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 33px;
+  height: 33px;
+  transform: scale(0.7);
+}
+.main .main1 .left {
+  font-size: 16px;
+  position: absolute;
+  top: 3px;
+  left: 45px;
+}
+.main .main1 span.yb {
+  font-size: 14px;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  color: #999;
+  transform: scale(0.7);
+}
+.main .main1 span {
+  font-size: 14px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  color: #999;
+  transform: scale(0.7);
+}
+.main .main1 span.zb {
+  font-size: 14px;
+  position: absolute;
+  top: 20px;
+  left: 8px;
+  color: #999;
+  transform: scale(0.7);
+}
+.main .main1 .right {
+  font-size: 14px;
+  position: absolute;
+  top: 12px;
+  right: 30px;
+}
+.main .main1 .right span {
+  color: #3daedf;
+  font-size: 18px;
+  top: -1px;
+  margin-left: -3px;
+}
+.main .main1 .right .jt {
+  color: #3daedf;
+  font-size: 18px;
+  top: -1px;
+  margin-left: -37px;
+}
+.main .main1 .right .yuan {
+  width: 60px;
+  height: 25px;
+  border-radius: 30px;
+  background: #3a91fd;
+  position: absolute;
+  top: -5px;
+  left: -35px;
+  box-shadow: 0 0 1px 2px #d9e1ff;
+}
+.main .main1 .right .yuan .yuan1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  margin-top: 3px;
+  margin-left: 6px;
+}
+.main .main1:nth-of-type(4) {
+  border: none;
+}
+
+.exit {
+  width: 100%;
+  height: 89px;
+}
+.exit img {
+  width: 300px;
+  margin: auto;
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+}

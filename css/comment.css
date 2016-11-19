@@ -1,0 +1,208 @@
+@charset "UTF-8";
+html {
+  font-size: 100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+body {
+  background: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 1rem;
+  background: #29a6dc;
+  position: relative;
+}
+.header .header_L {
+  width: 0.6rem;
+  height: 0.6rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.2rem;
+  background: url(../imgs/header/header01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.6rem 0.6rem;
+}
+.header .set {
+  width: auto;
+  height: 1rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.2rem;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+.header .set .set1 {
+  height: 60%;
+  line-height: 100%;
+  font-size: 20px;
+  position: relative;
+}
+.header .set .set1 img {
+  position: absolute;
+  left: 28px;
+  right: 0;
+  bottom: -40px;
+  margin: auto;
+}
+.header .set .sets {
+  height: 40%;
+  line-height: 100%;
+  color: #90dcff;
+  font-size: 12px;
+}
+
+.main {
+  width: 100%;
+  position: relative;
+}
+.main .main1 {
+  width: 90%;
+  height: 1.52rem;
+  margin: 0.3rem auto;
+  background: #fdfdfd;
+  box-shadow: 0 0 5px 2px #f2f7ff;
+}
+.main .main1 .tu {
+  width: 95px;
+  height: 95px;
+  background: url(../imgs/wlrimg/9.png);
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -10px;
+  transform: scale(0.7);
+}
+.main .main1 .tu1 {
+  width: 95px;
+  height: 95px;
+  background: url(../imgs/wlrimg/8.png);
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -10px;
+  transform: scale(0.7);
+}
+.main .main1 .mains {
+  font-size: 14px;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 51px;
+  width: 85%;
+  color: #999;
+  transform: scale(0.8);
+}
+.main .main1 .smile {
+  width: 64px;
+  height: 64px;
+  background: url(../imgs/wlrimg/11.png);
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 200px;
+  transform: scale(0.8);
+}
+.main .main1 .xian {
+  border-bottom: 1px dotted #000;
+  width: 65%;
+  position: absolute;
+  margin-top: 48px;
+  margin-left: 80px;
+}
+.main .main1 .time {
+  width: 64px;
+  height: 64px;
+  background: url(../imgs/wlrimg/10.png);
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 50px;
+  transform: scale(0.6);
+}
+.main .main1 .time1 {
+  font-size: 12px;
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 110px;
+  color: #999;
+}
+.main .main1 .sc {
+  width: 64px;
+  height: 64px;
+  background: url(../imgs/wlrimg/12.png);
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 245px;
+  transform: scale(0.6);
+}
+.main .main1 .sc1 {
+  font-size: 12px;
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 290px;
+  color: #999;
+}
+
+.foot {
+  width: 100%;
+  background: #151c2b;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1.2rem;
+}
+.foot .pl {
+  background: url(../imgs/wlrimg/fb.png);
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: -34px;
+  left: 115px;
+  transform: scale(0.6);
+}
