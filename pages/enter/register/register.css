@@ -1,0 +1,170 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "微软雅黑";
+  box-sixing: border-box; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: none; }
+
+button {
+  border: none; }
+
+html {
+  font-size: 100px; }
+
+body {
+  font-size: 16px;
+  background: #f2f2f2; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 51.2px; } }
+
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 53.33333px; } }
+
+@media screen and (min-width: 411px) {
+  html {
+    font-size: 54.8px; } }
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media screen and (min-width: 435px) {
+  html {
+    font-size: 58px; } }
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 102.4px; } }
+
+.box {
+  width: 8rem; }
+  .box .top1 {
+    width: 8rem;
+    height: 2.55rem;
+    background: #29a6dc;
+    padding-top: 0.5rem; }
+    .box .top1 .denglu {
+      height: 0.5rem;
+      font-size: 0.4rem;
+      color: #f2f2f2;
+      line-height: 0.5rem;
+      text-align: center;
+      background: url(../img/fan.png) no-repeat;
+      background-size: 0.5rem;
+      background-position: 0.3rem 0; }
+    .box .top1 .logo {
+      height: 0.5rem;
+      font-size: 0.4rem;
+      color: #f2f2f2;
+      line-height: 0.5rem;
+      text-align: center;
+      margin-top: 1rem; }
+  .box .bottom1 input {
+    width: 6.17rem;
+    height: 0.8rem;
+    margin-left: 0.9rem;
+    margin-bottom: 0.4rem;
+    border: 1px solid #3a91fd;
+    border-radius: 53px;
+    font-size: 0.3rem;
+    color: #999;
+    text-align: center;
+    background: #fff;
+    outline: none;
+    position: relative; }
+  .box .bottom1 .input1 {
+    margin-top: 0.7rem; }
+  .box .bottom1 .input3 {
+    width: 3.5rem;
+    height: 0.86rem;
+    margin-right: -0.5rem;
+    color: #3abffd; }
+  .box .bottom1 .input4 {
+    width: 2.08rem;
+    height: 0.86rem; }
+  .box .bottom1 img {
+    width: 0.4rem; }
+  .box .bottom1 .img1 {
+    position: absolute;
+    top: 4rem;
+    left: 1.4rem; }
+  .box .bottom1 .img2 {
+    position: absolute;
+    top: 5.2rem;
+    left: 1.4rem; }
+  .box .bottom1 .img3 {
+    position: absolute;
+    top: 6.5rem;
+    left: 1.4rem; }
+  .box .bottom1 .img4 {
+    position: absolute;
+    top: 7.7rem;
+    left: 1.4rem; }
+  .box .bottom1 .img5 {
+    position: absolute;
+    top: 9rem;
+    left: 1.4rem; }
+  .box .bottom1 .zhaohui {
+    width: 5.9rem;
+    height: 0.3rem;
+    margin-left: 1.3rem; }
+    .box .bottom1 .zhaohui .left {
+      width: 3rem;
+      height: 100%;
+      float: left;
+      background: url(../img/zhao.png) no-repeat;
+      background-size: 0.3rem;
+      font-size: 0.2rem;
+      color: #666; }
+    .box .bottom1 .zhaohui .right {
+      width: 2rem;
+      height: 100%;
+      float: right;
+      background: url(../img/zhuce.png) no-repeat;
+      background-size: 0.3rem;
+      font-size: 0.2rem;
+      color: #666; }
+  .box .bottom1 .btn {
+    width: 5.3rem;
+    height: 0.7rem;
+    background: #3abffd;
+    color: #fff;
+    margin-top: 0.8rem;
+    margin-left: 1.1rem;
+    position: relative; }
+  .box .bottom1 .bai, .box .bottom1 .bai1 {
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 13.1rem;
+    left: 1.4rem; }
+  .box .bottom1 .bai1 {
+    left: 5.9rem; }
