@@ -1,0 +1,55 @@
+@import url("../../../css/base.css");
+.Wtop{
+	width: 100%;
+	height: 1rem;
+	background: #29a6dc;
+	position: relative;
+}
+body{
+	background:#ffe7a7 ;
+}
+.houtui{
+	width:0.6rem;
+	height: 0.6rem;
+	position: absolute;
+	background: url(../../../imgs/wangchangqi/02.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:0.6rem 0.6rem;
+    top:0.2rem;
+    left:0.2rem;
+}
+.shuqian{
+	width:0.4rem;
+	height: 0.6rem;
+	position: absolute;
+	background: url(../../../imgs/wangchangqi/04.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:0.45rem 0.6rem;
+    top:0.3rem;
+    right:1.1rem;
+}
+.xiazai{
+	width:0.6rem;
+	height: 0.6rem;
+	position: absolute;
+	background: url(../../../imgs/wangchangqi/05.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:0.6rem 0.6rem;
+    top:0.2rem;
+    right:0.2rem;
+}
+.text1{
+	padding-left:0.3rem;
+	padding-right:0.2rem;
+}
+.text1 p{
+	margin-top:0.1rem;
+	margin-bottom: 0.2rem;
+	font-size: 12px;
+	line-height: 16px;
+	color:#7b6c55;
+}
+
