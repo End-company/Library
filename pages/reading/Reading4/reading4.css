@@ -54,7 +54,7 @@ body{
 }
 .bot2{
 	width: 100%;
-	height: 3rem;
+	height: 2rem;
 	position: absolute;
 	bottom: 0;
 	background: #000;
@@ -66,40 +66,62 @@ body{
 	position: absolute;
 	left:0;
 	right:0;
-	top:0.5rem;
+	top:0.4rem;
 	margin: auto;
 	
 }
+
 .li1{
-	width: 20%;
+	width: 10%;
 	height: 0.5rem;
 	color:#bcbcbc;
 	float: left;
+	
+}
+.li1 span{
 	text-align: center;
 	line-height: 0.5rem;
 }
 .li2{
-	width: 60%;
+	width: 65%;
 	height: 0.5rem;
 	color:#bcbcbc;
 	float: left;
 }
 .li3{
-	width: 20%;
+	width: 25%;
 	height: 0.5rem;
 	float: left;
-	text-align: center;
+	
 	line-height: 0.5rem;
 	color:#bcbcbc;
 }
+.li3 span:nth-of-type(1){
+	width:45% ;
+	height: 0.5rem;
+	display: inline-block;
+	text-align: center;
+}
+.li3 span:nth-of-type(2){
+	width:55% ;
+	height: 0.5rem;
+	display: inline-block;
+	text-align: center;
+	border:1px solid #f2f2f2;
+	box-sizing: border-box;
+	border-radius:5%;
+	font-size: 10px;
+}
 .baise{
 	width: 100%;
-	height: 0.15rem;
+	height: 0.1rem;
+	float: left;
 	margin-top:0.18rem;
 	background: #d5d5d5;
 	position: relative;
 	
 }
+
 .huang{
 	width:1rem ;
 	height: 100%;
@@ -109,63 +131,55 @@ body{
 	background: #2ecf2f;
 }
 .yuan2{
-	width: 0.4rem;
-	height: 0.4rem;
+	width: 0.3rem;
+	height: 0.3rem;
 	background: url(../../../imgs/wangchangqi/09.png);
 	position: absolute;
-	background-size: 0.4rem 0.4rem;
+	background-size: 0.3rem 0.3rem;
 	background-position: center;
 	background-repeat: no-repeat;
 	right:-0.2rem;
 	top:-0.1rem;
 }
-.shezhi{
+.huyan{
 	width: 90%;
+	height: auto;
 	position: absolute;
 	left:0;
 	right:0;
-	bottom:0.5rem;
-	margin:auto;
-	
+	bottom:0.2rem;
+	margin: auto;
 }
-.shezhi li{
-	width: 33.333%;
+.huyan li:nth-of-type(1){
+	width: 70%;
+	height: 0.5rem;
 	float: left;
-	color: #fff;
-	text-align: center;
 }
-.shezhiImg1{
-	width: 0.8rem;
-	height: 0.8rem;
+.huyan li:nth-of-type(2){
+	width: 30%;
+	height: 0.5rem;
+	float: left;
+}
+.yuandian1{
+	display: inline-block;
+	width:0.2rem;
+	height: 0.2rem;
 	margin:auto;
-	background: url(../../../imgs/wangchangqi/06.png);
-	background-size: 0.8rem 0.8rem;
-	background-position: center;
+	background: url(../../../imgs/wangchangqi/12.png);
 	background-repeat: no-repeat;
-	margin-bottom:0.1rem;
-	
+	background-position:center;
+	background-size:0.2rem 0.2rem;
 }
-.shezhiImg2{
-	width: 0.8rem;
-	height: 0.8rem;
+.yuandian2{
+	display: inline-block;
+	width:0.2rem;
+	height: 0.2rem;
 	margin:auto;
-	background: url(../../../imgs/wangchangqi/07.png);
-	background-size: 0.8rem 0.8rem;
-	background-position: center;
+	background: url(../../../imgs/wangchangqi/13.png);
 	background-repeat: no-repeat;
-	margin-bottom:0.1rem;
-	
+	background-position:center;
+	background-size:0.2rem 0.2rem;
 }
-.shezhiImg3{
-	width: 0.8rem;
-	height: 0.8rem;
-	margin-right:auto;
-	margin-left:auto;
-	margin-bottom:0.1rem;
-	background: url(../../../imgs/wangchangqi/08.png);
-	background-size: 0.8rem 0.8rem;
-	background-position: center;
-	background-repeat: no-repeat;
-	
+.huyan li span{
+	color:#999999;
 }
-
