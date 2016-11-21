@@ -28,7 +28,6 @@ $contentcolor:#7E7E7E;
     right: 0;
     margin: auto;
 }
-/*bookmark部分开始*/
 .header{
     height: 1.6rem;
     width: 100%;
@@ -40,7 +39,7 @@ $contentcolor:#7E7E7E;
         background: #fff;
         border: 2px solid $quan;
         position: absolute;
-        bottom: 0.1rem;
+        bottom: 0.2rem;
         left: 0.2rem;
         text-align: center;
         line-height: 0.7rem;
@@ -48,81 +47,98 @@ $contentcolor:#7E7E7E;
         font-weight: 600;
         color: $bg;
     }
-    .title{
-        width:4rem;
+    .navbar{
+        width: 70%;
         height: 1rem;
+        bottom: 0.1rem;
+        background: #2A3441;
+        border-radius: 0.5rem;
         @include left-right;
-        bottom: 0;
-        text-align: center;
-        color: #fff;
-        padding-bottom: 0.2rem;
-        p:nth-of-type(2){
-        margin-top: 0.1rem;
-        color: #91D8F9;  
-        }      
+        .mulu{
+            width: 30%;
+            height: 80%;
+            border: 2px solid #fff;
+            border-radius: 0.5rem;
+            float: left;
+            margin-top: 0.1rem;
+            margin-left: 0.1rem;
+            p:nth-of-type(1){
+             width: 60%;
+             height: 30%;
+             color: #fff;
+             text-align: center;
+             @include left-right;
+             top: 0.1rem;
+             font-size: 0.3rem;
+            }
+            p:nth-of-type(2){
+             width: 60%;
+             height: 30%;
+             color: #fff;
+             text-align: center;
+             @include left-right;
+             bottom: 0.1rem;
+             font-size: 0.1rem;
+            }            
+        }
+        .mark{
+            width: 30%;
+            height: 80%;
+            border: 2px solid #fff;
+            border-radius: 0.5rem;
+            float: left;
+            margin-top: 0.1rem;
+            margin-left: 0.1rem;
+            background:#29A6DC;
+            p:nth-of-type(1){
+             width: 60%;
+             height: 30%;
+             color: #fff;
+             text-align: center;
+             @include left-right;
+             top: 0.1rem;
+             font-size: 0.3rem;
+            }
+            p:nth-of-type(2){
+             width: 60%;
+             height: 30%;
+             color: #fff;
+             text-align: center;
+             @include left-right;
+             bottom: 0.1rem;
+             font-size: 0.1rem;
+            }             
+        }
+         .mynote{
+            width: 30%;
+            height: 80%;
+            border: 2px solid #fff;
+            border-radius: 0.5rem;
+            float: left;
+            margin-top: 0.1rem;
+            margin-left: 0.1rem;
+            p:nth-of-type(1){
+             width: 60%;
+             height: 30%;
+             color: #fff;
+             text-align: center;
+             @include left-right;
+             top: 0.1rem;
+             font-size: 0.3rem;
+            }
+            p:nth-of-type(2){
+             width: 60%;
+             height: 30%;
+             color: #fff;
+             text-align: center;
+             @include left-right;
+             bottom: 0.1rem;
+             font-size: 0.1rem;
+            }             
+        }
     }
 }
 
-.bookmark{
-    width: 100%;
-    height: 1.6rem;
-    .icon{
-        height: 100%;
-        width: 20%;
-        background: url(../imgs/note.png) 0.1rem 0.4rem no-repeat ;
-        float: left;
-    }
-    .content{
-        height: 1.6rem;
-        float: left;
-        width: 80%;
-        .pos{
-           padding-right: 20%; 
-           height: 50%;
-           color: #151C2B;
-           font-weight: 700;
-           font-size: 0.2rem; 
-           line-height: 0.9rem;
-           letter-spacing: 0.03rem; 
-           overflow: hidden;
-        }
-        .pos2{
-           padding-right: 20%;
-           height: 25%;
-           color:$contentcolor;
-           font-size: 0.2rem;
-           font-weight: 500; 
-           overflow: hidden;
-           line-height: 0.4rem; 
-        }
-        .time{
-           padding-right: 20%;
-           height: 25%;
-           color: $contentcolor;
-           font-size: 0.2rem;
-           line-height: 0.4rem; 
-               .eye{
-            height: 100%;
-            width: 20%;
-            position: absolute;
-            bottom: 0rem;
-            right: 20%;
-            .icon{
-                width: 50%;
-                float: left;
-                background: url(../imgs/note.png) 0 -184px no-repeat;
-            }
-            .pos1{
-                float: left;
-            }
-        }  
-        }
-
-    }
-}
-/*bookmark部分结束*/
-
-/*mynote部分开始*/
 .mynote{
     width: 100%;
     height: 2rem;
@@ -199,6 +215,3 @@ $contentcolor:#7E7E7E;
 
     }
 }
-
-
-/*mynote部分结束*/
