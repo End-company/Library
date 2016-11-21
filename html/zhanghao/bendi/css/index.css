@@ -1,0 +1,219 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "微软雅黑"; }
+
+div {
+  display: block; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+html {
+  font-size: 100px; }
+
+body {
+  background: #f2f2f2;
+  font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+#library {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+#header {
+  width: 100%;
+  height: 1rem;
+  background: #29a6dc; }
+  #header .return {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0.80rem;
+    height: 0.80rem;
+    border: 0.04rem solid #1074b5;
+    text-align: center;
+    border-radius: 50%;
+    background-size: cover;
+    left: 0.2rem;
+    background: url(../img/return.png) -1px -2px no-repeat; }
+  #header .yuyin {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0.80rem;
+    height: 0.80rem;
+    border: 0.04rem solid #1074b5;
+    text-align: center;
+    border-radius: 50%;
+    background-size: cover;
+    right: 0.2rem;
+    background: url(../img/yuyin.png) -1px -1px no-repeat; }
+  #header .search {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 5rem;
+    height: .7rem;
+    border-radius: 1rem;
+    background: #fff;
+    left: 1.3rem;
+    box-shadow: 0px 0px 15px #239ad1;
+    overflow: hidden; }
+    #header .search #search {
+      outline: none;
+      width: 100%;
+      height: 100%;
+      font-size: 15px;
+      color: #dcdcdc;
+      padding-left: 20px;
+      border: 0; }
+
+.content {
+  padding: 20px;
+  width: 100%;
+  height: 11.7rem; }
+  .content .hotser {
+    width: 100%;
+    height: 1.2rem; }
+    .content .hotser i {
+      width: 0.6rem;
+      height: 0.6rem;
+      display: block; }
+    .content .hotser span {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0.8rem;
+      font-size: 24px; }
+    .content .hotser .HOT {
+      display: block;
+      position: absolute;
+      top: 0.6rem;
+      left: 0.8rem;
+      font-size: 12px;
+      color: #939393; }
+    .content .hotser .xiaodian {
+      position: absolute;
+      top: 0.5rem;
+      left: 2.8rem; }
+      .content .hotser .xiaodian i:nth-child(1) {
+        width: 0.04rem;
+        height: 0.04rem;
+        float: left;
+        display: block;
+        margin-left: 0.08rem;
+        background: red; }
+      .content .hotser .xiaodian i:nth-child(2) {
+        width: 0.04rem;
+        height: 0.04rem;
+        float: left;
+        display: block;
+        margin-left: 0.08rem;
+        background: green; }
+      .content .hotser .xiaodian i:nth-child(3) {
+        width: 0.04rem;
+        height: 0.04rem;
+        float: left;
+        display: block;
+        margin-left: 0.08rem;
+        background: blue; }
+
+.shuji {
+  width: 100%;
+  height: 2.3rem;
+  background: #fff;
+  margin-bottom: 0.2rem;
+  border-radius: 0.1rem;
+  box-shadow: 0 0 7px #918a8a;
+  overflow: hidden; }
+  .shuji .book {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.15rem 0.15rem 0 0.15rem;
+    border-radius: 0.1rem;
+    background: url(../img/book.png) 0 0 no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    float: left; }
+  .shuji .shuneir {
+    width: 3.7rem;
+    height: 2rem;
+    margin: 0.15rem 0.15rem 0 0;
+    border-left: 1px dotted #a9a4a4;
+    float: left; }
+    .shuji .shuneir h4 {
+      font-size: 13px;
+      display: block;
+      margin-bottom: 0.1rem; }
+    .shuji .shuneir span {
+      font-size: 13px;
+      display: block;
+      margin-left: 0.1rem; }
+    .shuji .shuneir .press {
+      width: 50%;
+      height: 0.5rem;
+      float: left;
+      position: absolute;
+      bottom: 0;
+      left: 0.1rem; }
+      .shuji .shuneir .press i {
+        width: 0.3rem;
+        height: 0.4rem;
+        display: block;
+        background: url(../img/shu.png);
+        background-size: cover; }
+      .shuji .shuneir .press p {
+        font-size: 8px;
+        display: block;
+        position: absolute;
+        bottom: 0.1rem;
+        left: 0.4rem; }
+    .shuji .shuneir .address {
+      width: 50%;
+      height: 0.5rem;
+      float: left;
+      position: absolute;
+      bottom: 0;
+      right: -0.2rem; }
+      .shuji .shuneir .address i {
+        width: 0.3rem;
+        height: 0.4rem;
+        display: block;
+        background: url(../img/zuobiao.png);
+        background-size: cover; }
+      .shuji .shuneir .address p {
+        font-size: 8px;
+        position: absolute;
+        bottom: 0.1rem;
+        left: 0.4rem; }

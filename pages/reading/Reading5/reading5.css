@@ -1,0 +1,59 @@
+@import url("../../../css/base.css");
+.Dbox{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	position: absolute;
+	left:0;
+	top:0;
+	background: #ffe7a7;
+}
+.Topx{
+	width: 90%;
+	height: 2px;
+	background:red;
+	position: relative;
+	margin-right: auto;
+	margin-left:auto;
+	margin-top:0.4rem;
+	margin-bottom: 0.4rem;
+}
+.nongm{
+	position: absolute;
+	width:1.3rem;
+	left:0.2rem;
+	top:-0.1rem;
+	color:#7b6c55;
+	background:#ffe7a7 ;
+	font-size: 12px;
+	text-align: center;
+	
+}
+.text1{
+	padding-left:0.3rem;
+	padding-right:0.2rem;
+}
+.text1 p{
+	margin-top:0.1rem;
+	margin-bottom: 0.2rem;
+	font-size: 12px;
+	line-height: 16px;
+	color:#7b6c55;
+}
+.dibu{
+	width: 100%;
+	height: 0.6rem;
+	position: absolute;
+	bottom:0;
+	z-index: 1;
+	background: #ffe7a7;
+}
+.jindu{
+	margin-left:0.2rem;
+	float: left;
+}
+.shudu{
+	display: block;
+	float: right;
+	margin-right:0.2rem;
+}

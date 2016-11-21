@@ -1,0 +1,419 @@
+@charset "UTF-8";
+html {
+  font-size: 100px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+button {
+  border: none; }
+
+body {
+  font-size: 16px;
+  background: #fafafa;
+  font-family: "微软雅黑"; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+.zhe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100; }
+
+.header {
+  width: 100%;
+  height: 1rem;
+  background: #29a6dc;
+  position: relative; }
+  .header .header_L {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.2rem;
+    background: url(../imgs/header/header01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 0.6rem 0.6rem; }
+  .header .set {
+    width: auto;
+    height: 1rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0.2rem;
+    bottom: 0;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 14px; }
+    .header .set .set1 {
+      height: 60%;
+      line-height: 100%;
+      font-size: 20px;
+      position: relative; }
+      .header .set .set1 img {
+        position: absolute;
+        left: 28px;
+        right: 0;
+        bottom: -40px;
+        margin: auto; }
+    .header .set .sets {
+      height: 40%;
+      line-height: 100%;
+      color: #90dcff;
+      font-size: 12px; }
+  .header .header_R {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    right: 0.2rem;
+    top: 0.2rem;
+    background: url(../imgs/wlrimg/6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 0.9rem 0.9rem; }
+
+.main_t {
+  height: 4.8rem;
+  width: 92%;
+  background: #fff;
+  border-radius: 5px;
+  margin: 15px auto;
+  box-shadow: 0px 0px 10px #787878; }
+  .main_t ul {
+    width: 100%;
+    height: 100%; }
+    .main_t ul li {
+      width: 100%;
+      height: 25%;
+      line-height: 25%;
+      border-bottom: 2px dotted #333;
+      box-sizing: border-box;
+      position: relative; }
+      .main_t ul li .m_title {
+        font-size: 18px;
+        position: absolute;
+        top: 20px;
+        left: 45px;
+        height: 18px;
+        color: #000; }
+      .main_t ul li span.en {
+        font-size: 12px;
+        position: absolute;
+        top: 39px;
+        left: 45px;
+        color: #999; }
+      .main_t ul li .m_r {
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        font-size: 12px;
+        color: #000000; }
+      .main_t ul li .r_pic {
+        width: 0.4rem;
+        height: 0.4rem;
+        position: absolute;
+        right: 0.2rem;
+        top: 0.5rem;
+        background: url(../imgs/qian/tan_03.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+
+.main_t ul li span {
+  display: inline-block; }
+
+.main_b {
+  height: 2.4rem;
+  width: 92%;
+  background: #fff;
+  border-radius: 5px;
+  margin: 15px auto;
+  box-shadow: 0px 0px 10px #787878; }
+  .main_b ul {
+    width: 100%;
+    height: 100%; }
+    .main_b ul li {
+      width: 100%;
+      height: 50%;
+      line-height: 50%;
+      border-bottom: 2px dotted #333;
+      box-sizing: border-box;
+      position: relative; }
+      .main_b ul li .m_title {
+        font-size: 18px;
+        position: absolute;
+        top: 20px;
+        left: 45px;
+        height: 18px;
+        color: #000; }
+      .main_b ul li span.en {
+        font-size: 10px;
+        position: absolute;
+        top: 39px;
+        left: 45px;
+        color: #999; }
+      .main_b ul li .m_r {
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        font-size: 12px;
+        color: #000000; }
+      .main_b ul li .r_pic {
+        width: 0.4rem;
+        height: 0.4rem;
+        position: absolute;
+        right: 0.2rem;
+        top: 0.5rem;
+        background: url(../imgs/qian/tan_03.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+
+.main_l1 {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.4rem;
+  background: url(../imgs/qian/my_03.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.main_l2 {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.4rem;
+  background: url(../imgs/qian/my_06.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.main_l3 {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.4rem;
+  background: url(../imgs/qian/my_08.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.main_l4 {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.4rem;
+  background: url(../imgs/qian/my_10.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.main_l5 {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.4rem;
+  background: url(../imgs/qian/my_12.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.main_l6 {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.4rem;
+  background: url(../imgs/qian/my_14.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.zhe {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100; }
+  .zhe .tc {
+    width: 4.8rem;
+    height: 3rem;
+    box-sizing: border-box;
+    border-radius: 14px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5rem;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+    overflow: hidden; }
+    .zhe .tc .tc-top {
+      width: 100%;
+      height: 0.8rem;
+      background: #29dcbc;
+      overflow: hidden; }
+      .zhe .tc .tc-top .tc-t {
+        width: 0.6rem;
+        height: 0.6rem;
+        float: left;
+        margin-left: 0.2rem;
+        margin-top: 0.2rem;
+        background-image: url(../imgs/qian/tan_09.png);
+        background-repeat: no-repeat;
+        background-size: contain; }
+      .zhe .tc .tc-top .tc-t.he {
+        background-image: url(../imgs/qian/tan_07.png);
+        background-repeat: no-repeat;
+        background-size: contain; }
+      .zhe .tc .tc-top span:nth-of-type(1) {
+        width: 2.5rem;
+        float: left;
+        font-size: 16px;
+        margin-top: 4px;
+        margin-left: 0.1rem;
+        color: #fff; }
+      .zhe .tc .tc-top span:nth-of-type(2) {
+        width: 2.8rem;
+        float: left;
+        font-size: 6px;
+        margin-left: 0.1rem;
+        color: #fff; }
+    .zhe .tc .pl-cg {
+      width: 100%;
+      height: 1.2rem;
+      margin: 0 auto;
+      margin-top: 0.3rem; }
+      .zhe .tc .pl-cg div {
+        display: inline-block;
+        height: 1.2rem;
+        width: 1.2rem;
+        background-image: url(../imgs/qian/tan_17.png);
+        background-repeat: no-repeat;
+        background-size: contain; }
+      .zhe .tc .pl-cg .nan {
+        position: absolute;
+        left: 0.8rem; }
+      .zhe .tc .pl-cg .nv {
+        position: absolute;
+        right: 0.8rem;
+        background-image: url(../imgs/qian/tan_19.png);
+        background-repeat: no-repeat;
+        background-size: contain; }
+
+.tc.hea {
+  height: 3.6rem; }
+
+.xuan {
+  width: 100%;
+  height: 2.2rem;
+  margin: 0 auto;
+  margin-top: 0.1rem; }
+  .xuan li {
+    width: 100%;
+    height: 50%;
+    line-height: 50%;
+    border-bottom: 2px dotted #333;
+    box-sizing: border-box;
+    position: relative; }
+    .xuan li .m_title {
+      font-size: 16px;
+      position: absolute;
+      top: 20px;
+      left: 45px;
+      height: 18px;
+      color: #000; }
+    .xuan li span.en {
+      font-size: 10px;
+      position: absolute;
+      top: 37px;
+      left: 45px;
+      color: #999; }
+
+.toux1 {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.4rem;
+  background: url(../imgs/qian/tan_14.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.toux2 {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.4rem;
+  background: url(../imgs/qian/tan_22.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.t_cancel {
+  width: 3rem;
+  height: 0.7rem;
+  text-align: center;
+  background: #29dcbc;
+  border-radius: 30px;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 5px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 5rem;
+  left: 2.3rem;
+  z-index: 150; }
+
+.h_cancel {
+  width: 3rem;
+  height: 0.7rem;
+  text-align: center;
+  background: #29dcbc;
+  border-radius: 30px;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 5px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 4.5rem;
+  left: 2.3rem;
+  z-index: 150; }

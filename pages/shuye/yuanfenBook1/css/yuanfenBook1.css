@@ -1,0 +1,524 @@
+@charset "UTF-8";
+html {
+  font-size: 100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  font-size: 16px;
+  font-family: "微软雅黑";
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+
+img {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  width: 100%;
+  height: 1.28rem;
+  background: #29a6dc;
+}
+
+#header .back {
+  display: block;
+  height: 0.8rem;
+  margin-left: 0.24rem;
+}
+
+#header .back img {
+  height: 0.8rem;
+  margin-bottom: -0.8rem;
+}
+
+#top {
+  height: 605px;
+  width: 900px;
+  background: #fff;
+  margin: 12px auto;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #e9effc;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 60px;
+}
+
+#top img {
+  width: 700px;
+  margin-left: 28px;
+}
+
+#top .list {
+  height: 102px;
+  margin-top: 13px;
+}
+
+#top .list .mulu {
+  width: 260px;
+  height: 68px;
+  border-radius: 40px;
+  box-sizing: border-box;
+  box-shadow: 0 0 6px #e9effc;
+  float: left;
+  margin-left: 50px;
+  padding-top: 14px;
+  padding-bottom: 7px;
+}
+
+#top .list .mulu .left-mulu {
+  float: left;
+}
+
+#top .list .mulu .left-mulu .mulushu {
+  display: block;
+  width: 49px;
+  margin-left: 43px;
+  margin-top: -9px;
+}
+
+#top .list .mulu .right-mulu {
+  float: left;
+}
+
+#top .list .mulu .right-mulu .ckml {
+  display: inline-block;
+  color: #2d2d2d;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 16px;
+  margin-top: 6px;
+}
+
+#top .list .shujia {
+  float: left;
+  width: 260px;
+  height: 68px;
+  border-radius: 40px;
+  box-sizing: border-box;
+  box-shadow: 0 0 6px #e9effc;
+  margin-left: 100px;
+  padding-top: 14px;
+  padding-bottom: 7px;
+}
+
+#top .list .shujia .left-shujia {
+  float: left;
+}
+
+#top .list .shujia .left-shujia .mulushu {
+  display: block;
+  width: 54px;
+  margin-left: 43px;
+  margin-top: -9px;
+}
+
+#top .list .shujia .right-shujia {
+  float: left;
+}
+
+#top .list .shujia .right-shujia .ckml {
+  display: inline-block;
+  color: #2d2d2d;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 16px;
+  margin-top: 6px;
+}
+
+#top .reading {
+  width: 270px;
+  height: 69px;
+  background: #29a6dc;
+  border-radius: 40px;
+  position: relative;
+  margin-top: -3px;
+  margin-left: 220px;
+}
+
+#top .reading .scirle-a {
+  width: 9px;
+  height: 9px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 29px;
+}
+
+#top .reading .scirle-b {
+  width: 9px;
+  height: 9px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  right: 29px;
+}
+
+#top .reading .ljyd {
+  margin-left: 75px;
+}
+
+#top .reading .ljyd a {
+  display: inline-block;
+  font-size: 30px;
+  color: #FFFFFF;
+  font-weight: 500;
+  line-height: 69px;
+}
+
+#middle {
+  height: 455px;
+  width: 900px;
+  margin: 33px auto;
+  box-sizing: border-box;
+}
+
+#middle .zxsp {
+  width: 296px;
+  margin-left: 16px;
+}
+
+#middle .ping-a {
+  height: 154px;
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #e9effc;
+  box-sizing: border-box;
+  margin-top: 45px;
+}
+
+#middle .ping-a .left-p {
+  width: 100px;
+  height: 100%;
+  float: left;
+}
+
+#middle .ping-a .left-p .pic1 {
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+#middle .ping-a .right-p {
+  width: 800px;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding-right: 50px;
+  margin-top: 25px;
+}
+
+#middle .ping-a .right-p .txt1 {
+  font-size: 22px;
+  color: #8e8e8e;
+  margin-left: 84px;
+  letter-spacing: 2px;
+}
+
+#middle .ping-a .line {
+  margin-left: 84px;
+  margin-top: 10px;
+}
+
+#middle .ping-a .line .lines {
+  width: 545px;
+}
+
+#middle .ping-a .count {
+  margin-left: 73px;
+}
+
+#middle .ping-a .count .clocking {
+  float: left;
+}
+
+#middle .ping-a .count .clocking .clock {
+  height: 38px;
+  display: inline-block;
+}
+
+#middle .ping-a .count .shijian {
+  float: left;
+  margin-top: 6px;
+  font-size: 18px;
+  display: inline-block;
+  color: #a4a1a1;
+  margin-left: 5px;
+}
+
+#middle .ping-a .shoucang {
+  margin-left: 536px;
+}
+
+#middle .ping-a .shoucang .clocking {
+  float: left;
+}
+
+#middle .ping-a .shoucang .clocking .clock {
+  height: 38px;
+  display: inline-block;
+}
+
+#middle .ping-a .shoucang .shijian {
+  float: left;
+  margin-top: 6px;
+  font-size: 18px;
+  display: inline-block;
+  color: #a4a1a1;
+  margin-left: 5px;
+}
+
+#middle .ping-b {
+  height: 154px;
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #e9effc;
+  box-sizing: border-box;
+  margin-top: 21px;
+}
+
+#middle .ping-b .left-p {
+  width: 100px;
+  height: 100%;
+  float: left;
+}
+
+#middle .ping-b .left-p .pic1 {
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+#middle .ping-b .right-p {
+  width: 800px;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding-right: 50px;
+  margin-top: 25px;
+}
+
+#middle .ping-b .right-p .txt1 {
+  font-size: 22px;
+  color: #8e8e8e;
+  margin-left: 84px;
+  letter-spacing: 2px;
+}
+
+#middle .ping-b .line {
+  margin-left: 84px;
+  margin-top: 10px;
+}
+
+#middle .ping-b .line .lines {
+  width: 545px;
+}
+
+#middle .ping-b .count {
+  margin-left: 73px;
+}
+
+#middle .ping-b .count .clocking {
+  float: left;
+}
+
+#middle .ping-b .count .clocking .clock {
+  height: 38px;
+  display: inline-block;
+}
+
+#middle .ping-b .count .shijian {
+  float: left;
+  margin-top: 6px;
+  font-size: 18px;
+  display: inline-block;
+  color: #a4a1a1;
+  margin-left: 5px;
+}
+
+#middle .ping-b .shoucang {
+  margin-left: 536px;
+}
+
+#middle .ping-b .shoucang .clocking {
+  float: left;
+}
+
+#middle .ping-b .shoucang .clocking .clock {
+  height: 38px;
+  display: inline-block;
+}
+
+#middle .ping-b .shoucang .shijian {
+  float: left;
+  margin-top: 6px;
+  font-size: 18px;
+  display: inline-block;
+  color: #a4a1a1;
+  margin-left: 5px;
+}
+
+#bottom {
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+  padding-left: 38px;
+  padding-right: 38px;
+  margin-top: 29px;
+}
+
+#bottom .reading {
+  width: 222px;
+  height: 39px;
+  background: #29a6dc;
+  border-radius: 30px;
+  position: relative;
+  margin-left: 257px;
+}
+
+#bottom .reading .scirle-a {
+  width: 7px;
+  height: 7px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 29px;
+}
+
+#bottom .reading .scirle-b {
+  width: 7px;
+  height: 7px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  right: 29px;
+}
+
+#bottom .reading .ljyd {
+  margin-left: 63px;
+}
+
+#bottom .reading .ljyd a {
+  display: inline-block;
+  font-size: 22px;
+  color: #FFFFFF;
+  font-weight: 500;
+  line-height: 39px;
+}
+
+#bottom .my-sq {
+  margin-top: 71px;
+}
+
+#bottom .first {
+  margin-top: 37px;
+  height: 115px;
+}
+
+#bottom .first .first-left {
+  width: 78px;
+  height: 100%;
+  float: left;
+}
+
+#bottom .first .first-left .qian {
+  width: 74px;
+}
+
+#bottom .first .first-right {
+  width: 540px;
+  height: 100%;
+  float: left;
+  position: relative;
+  margin-left: 84px;
+}
+
+#bottom .first .first-right .first-title {
+  font-size: 24px;
+  color: #151c2b;
+  font-weight: 600;
+}
+
+#bottom .first .first-right .cont {
+  color: #505050;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+#bottom .first .first-right .sj {
+  display: inline-block;
+  margin-top: 16px;
+}
+
+#bottom .first .first-right .sj img {
+  width: 59px;
+}
+
+#bottom .first .first-right .eye {
+  margin-top: 16px;
+  position: absolute;
+  right: -30px;
+  display: inline-block;
+}
+
+#bottom .first .first-right .eye .eyes {
+  display: inline-block;
+}
+
+#bottom .first .first-right .eye .percity {
+  display: inline-block;
+}

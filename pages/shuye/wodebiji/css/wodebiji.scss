@@ -1,0 +1,339 @@
+$screen-list:320px,360px,375px,412px,414px;
+$design-size:750px;
+html{
+    font-size:100px;
+}
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+body{
+    font-size:16px;
+    font-family: "微软雅黑";
+}
+
+@each $i in $screen-list{
+    @media screen and (min-width:#{$i}){
+         html{
+         font-size:100px*$i/$design-size; 
+         }
+    }
+}
+img{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+#header{
+   width: 100%;
+   height: 1.28rem;
+   background: #29a6dc; 
+   
+   .back{
+       display: block;
+       height: 0.8rem;
+       margin:{
+           left: 0.24rem;
+           
+       }
+       img{
+          height: 0.8rem;
+          margin-bottom: -0.8rem;
+       }
+   }
+}
+#top{
+    width: 100%;
+//  height: 430px;
+    box-sizing: border-box;
+//  padding-left: 38px;
+//  padding-right: 38px;
+    margin-top: 41px;
+    
+    .my-sq{
+        margin-left: 48px;
+        margin-top: 71px;
+    }
+    .first{
+        margin-left: 61px;
+        margin-top: 21px;
+        height: 115px;
+        .first-left{
+            width: 78px;
+            height: 100%;
+            float: left;
+           .qian{
+               width: 74px;
+           }
+        }
+        .first-right{
+            width: 540px;
+            height: 100%;
+            float: left;
+            position: relative;
+           
+            margin-left: 84px;
+            .first-title{
+                font-size: 24px;
+                color: #151c2b;
+                font-weight: 600;
+            }
+            .cont{
+                color: #505050;
+                font-size: 18px;
+                margin-top: 12px;
+            }
+            .sj{
+                display: inline-block;
+                margin-top: 16px;
+                img{
+                    width: 59px;
+                }
+            }
+            .eye{
+                margin-top: 16px;
+                position: absolute;
+                right: -30px;
+                display: inline-block;
+                .eyes{
+                    display: inline-block;
+                }
+                .percity{
+                    display: inline-block;
+                }
+            }
+        }
+    }
+    .lang{
+        img{
+            width: 100%;
+        }
+    }
+    
+}
+#middle{
+    width: 900px;
+    height: 655px;
+    margin: 55px auto;
+//  background: red;
+    .reading{
+        width: 222px;
+        height: 39px;
+        background:#29a6dc;
+        border-radius: 30px;
+        position: relative;
+        margin:{
+            
+            left: 308px;
+        }
+        .scirle-a{
+            width: 7px;
+            height: 7px;
+            background: #FFFFFF;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+            left: 29px;
+        }
+        .scirle-b{
+            width: 7px;
+            height: 7px;
+            background: #FFFFFF;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+            right: 29px;
+        }
+        .ljyd{
+            margin-left: 63px;
+            a{
+                display:inline-block;
+                font-size: 22px;
+                color: #FFFFFF;
+                font-weight: 500;
+                line-height: 39px;
+            }
+        }
+        
+    }
+    .my-biji{
+        margin-top: 41px;
+    }
+    .cont1{
+        width: 900px;
+        height: 83px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: 0 0 5px #e9effc;
+        margin-top: 28px;
+        .cir1{
+            margin:{
+                left: 18px;
+                top: 20px;
+            }
+        }
+        .texts-a{
+            font-size: 22px;
+            color: #858585;
+            letter-spacing: 2px;
+            margin:{
+                left: 56px;
+//              top: 14px;
+            }
+            
+        }
+        
+    }
+    .cont2{
+        width: 900px;
+        height: 114px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: 0 0 5px #e9effc;
+        margin-top: 28px;
+        position: relative;
+        .cir1{
+            position: absolute;
+            display: inline-block;
+            left: 18px;
+            top: 16px;
+        }
+        .texts-a{
+            margin:{
+                left: 55px;
+                top: 16px;
+            }
+            display: inline-block;
+            font-size: 22px;
+            color: #858585;
+            letter-spacing: 2px;
+            
+            
+        }
+        .biao{
+            position: absolute;
+            width: 130px;
+            height: 36px;
+//          background: red;
+            right: 205px;
+            bottom: 1px;
+            .clk{
+                display: inline-block;
+            }
+            .date{
+                display: inline-block;
+                position: absolute;
+                right: -22px;
+                bottom: 4px;
+                color: #cfcfcf;
+                font-size: 22px;
+            }
+        }
+        
+    }
+}
+#bottom{
+    height: 544px;
+    width: 900px;
+    margin: 54px auto;
+    .reading{
+        width: 222px;
+        height: 39px;
+        background:#29a6dc;
+        border-radius: 30px;
+        position: relative;
+        margin:{
+            
+            left: 308px;
+        }
+        .scirle-a{
+            width: 7px;
+            height: 7px;
+            background: #FFFFFF;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+            left: 29px;
+        }
+        .scirle-b{
+            width: 7px;
+            height: 7px;
+            background: #FFFFFF;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+            right: 29px;
+        }
+        .ljyd{
+            margin-left: 63px;
+            a{
+                display:inline-block;
+                font-size: 22px;
+                color: #FFFFFF;
+                font-weight: 500;
+                line-height: 39px;
+            }
+        }
+        
+    }
+    .sxsj{
+        margin-left: -12px;
+    }
+    .books{
+        .tu{
+            margin-left: 10px;
+        }
+        position: relative;
+        .dian{
+           width: 100%;
+           height: 20px;
+           
+           margin: 10px auto;
+           .yuan{
+               position: absolute;
+               background: #0090ff;
+               width: 8px;
+               height: 8px;
+               border-radius: 50%;
+               float: left;
+               left: 400px;
+           }
+           .yuan2{
+               position: absolute;
+               border: 2px solid #0090ff;
+               box-sizing: border-box;
+               width: 8px;
+               height: 8px;
+               border-radius: 50%;
+               float: left;
+               left: 420px;
+              
+           }
+           .yuan3{
+               position: absolute;
+               border: 2px solid #0090ff;
+               box-sizing: border-box;
+               width: 8px;
+               height: 8px;
+               border-radius: 50%;
+               float: left;
+               left: 440px;
+             
+           }
+        }
+    }
+}
