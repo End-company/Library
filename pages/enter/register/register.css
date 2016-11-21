@@ -74,10 +74,15 @@ body {
       font-size: 0.4rem;
       color: #f2f2f2;
       line-height: 0.5rem;
-      text-align: center;
-      background: url(../img/fan.png) no-repeat;
-      background-size: 0.5rem;
-      background-position: 0.3rem 0; }
+      text-align: center; }
+      .box .top1 .denglu .cfan {
+        display: block;
+        height: 0.5rem;
+        width: 0.5rem;
+        background: url(img/fan.png) no-repeat;
+        background-size: 0.5rem;
+        margin-top: -0.5rem;
+        margin-left: 0.3rem; }
     .box .top1 .logo {
       height: 0.5rem;
       font-size: 0.4rem;
@@ -138,7 +143,7 @@ body {
       width: 3rem;
       height: 100%;
       float: left;
-      background: url(../img/zhao.png) no-repeat;
+      background: url(img/zhao.png) no-repeat;
       background-size: 0.3rem;
       font-size: 0.2rem;
       color: #666; }
@@ -146,7 +151,7 @@ body {
       width: 2rem;
       height: 100%;
       float: right;
-      background: url(../img/zhuce.png) no-repeat;
+      background: url(img/zhuce.png) no-repeat;
       background-size: 0.3rem;
       font-size: 0.2rem;
       color: #666; }
