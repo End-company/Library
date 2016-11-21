@@ -5,6 +5,7 @@
     height: 100%;
     background: rgba(0,0,0,0.3);
     z-index: 100;
+    display: none;
 //  position: relative;
     
 //  .t_box{
@@ -25,7 +26,12 @@
 
 
 
-    
+            .sex{
+                display: none;
+            }
+            .touxiang{
+                display: none;
+            }
             .tc{
             width: 4.8rem;
             height: 3rem;
@@ -110,6 +116,7 @@
     
     
 }
+
 .tc.hea{
     height: 3.6rem;
 }
@@ -187,3 +194,5 @@
                 left: 2.3rem;
                 z-index: 150;
             }
+            
+
