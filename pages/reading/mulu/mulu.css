@@ -1,0 +1,132 @@
+@import url("../../../css/base.css");
+.Wtop{
+	width: 100%;
+	height: 1rem;
+	background: #29a6dc;
+	position: relative;
+}
+.houtui{
+	width:0.6rem;
+	height: 0.6rem;
+	position: absolute;
+	background: url(../../../imgs/wangchangqi/02.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:0.6rem 0.6rem;
+    top:0.2rem;
+    left:0.2rem;
+}
+.Wtop_M{
+	width: 80%;
+	height: 1rem;
+	position: absolute;
+	left:0.8rem;
+	top:0;
+	
+}
+.Wheiz{
+	width: 100%;
+	height: 1rem;
+	background: url(../../../imgs/wangchangqi/01.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:120% 1.5rem;
+}
+.mulu{
+	width: 100%;
+	height: 1rem;
+	
+}
+.mulu li{
+	width: 33.333%;
+	height: 1rem;
+	float: left;
+	position: relative;
+	
+	
+}
+.box1{
+	width: 1px;
+	height: 0.6rem;
+	background:#fff ;
+	position: absolute;
+	right:-0.1rem;
+	top:0.1rem;
+}
+.active{
+	width: 85%;
+	height: 90%;
+	position: absolute;
+	left:0.2rem;
+	top:0.05rem;
+	background: url(../../../imgs/wangchangqi/03.png);
+	background-repeat:no-repeat ;
+	background-position: -0.9rem -0.55rem;
+	background-size:220%;
+}
+.span1{
+	position: absolute;
+	left:-0.1rem;
+	top:0.2rem;
+	right:0;
+	bottom:0;
+	margin:auto;
+	color:#fff;
+	font-size: 12px;
+	text-align:center;
+}
+.span2{
+	position: absolute;
+	
+	left:-0.1rem;
+	top:0.41rem;
+	right:0;
+	bottom:0;
+	margin:auto;
+	color:#bddbe8;
+	font-size:8px!important;
+	text-align:center;
+}
+/*头部*/
+.neirong{
+	width: 100%;
+	height: auto;
+}
+.neirong li{
+	width: 100%;
+	height: 1.2rem;
+	
+	position: relative;
+	box-sizing: border-box;
+	border-bottom: 1px dashed #999999;
+}
+.neirong_1{
+	display: block;
+	float: left;
+	margin-left:0.3rem;
+	line-height: 1.2rem;
+	text-align: center;
+}
+.neirong_2{
+	display: block;
+	float: left;
+	line-height: 1.2rem;
+	text-align: center;
+	margin-left:0.3rem;
+}
+.neirong_3{
+	display: block;
+	float: left;
+	line-height: 1.2rem;
+	text-align: center;
+	margin-left:0.3rem;
+}
+.neirong_4{
+	display: block;
+	float: right;
+	height: 1.2rem;
+	margin-right:0.2rem;
+	line-height: 1.2rem;
+	text-align: center;
+}
+
