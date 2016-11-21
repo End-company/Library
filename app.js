@@ -10,7 +10,9 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/bookcity/jingxuan/selected.html'
 	}).when('/class',{
 		templateUrl:'pages/bookcity/fenlei/class.html'
-	}).when('/class',{
-		templateUrl:'pages/bookcity/fenlei/class.html'
+	}).when('/comment',{
+		templateUrl:'pages/shuye/Allshuping/comment.html'
+	}).when('/index',{
+		templateUrl:'pages/mine/shezhi/index.html'
 	})
 }])
