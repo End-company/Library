@@ -63,9 +63,9 @@ body {
     font-size: 102.4px; } }
 
 .box {
-  width: 8rem; }
+  width: 100%; }
   .box .top1 {
-    width: 8rem;
+    width: 100%;
     height: 2.55rem;
     background: #29a6dc;
     padding-top: 0.5rem; }
