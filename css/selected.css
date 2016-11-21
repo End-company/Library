@@ -1,0 +1,337 @@
+@charset "UTF-8";
+html {
+  font-size: 100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "微软雅黑";
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+
+.header {
+  width: 100%;
+  height: 1rem;
+  background: #29a6dc;
+  position: relative;
+}
+
+.header_R {
+  width: 0.8rem;
+  height: 0.8rem;
+  position: absolute;
+  right: 0.2rem;
+  top: 0.15rem;
+  background: url(../imgs/header/header02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.nav {
+  width: 5rem;
+  height: 1rem;
+  background-image: url(../imgs/imgle/headbg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 1.2rem;
+  top: 0.17rem;
+}
+
+.nav .selected {
+  width: 33.3%;
+  height: 100%;
+  background-image: url(../imgs/imgle/nav.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: -0.01rem;
+}
+
+.nav .selected p {
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.1rem;
+}
+
+.nav .selected img {
+  position: absolute;
+  left: 0.55rem;
+  top: 0.5rem;
+  width: 0.6rem;
+  height: 0.1rem;
+}
+
+.nav .col1 {
+  width: 0.1rem;
+  height: 60%;
+  background-image: url(../imgs/imgle/col.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 35%;
+  top: 10%;
+}
+
+.nav .list {
+  width: 33.3%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 38%;
+  top: -0.03rem;
+}
+
+.nav .list p {
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  left: 0.5rem;
+  top: 0.1rem;
+}
+
+.nav .list img {
+  position: absolute;
+  left: 0.55rem;
+  top: 0.5rem;
+  width: 0.4rem;
+  height: 0.1rem;
+}
+
+.nav .col2 {
+  width: 0.1rem;
+  height: 60%;
+  background-image: url(../imgs/imgle/col.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 69%;
+  top: 10%;
+}
+
+.nav .class {
+  width: 33.3%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: -0.03rem;
+}
+
+.nav .class p {
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  left: 0.55rem;
+  top: 0.1rem;
+}
+
+.nav .class img {
+  position: absolute;
+  left: 0.55rem;
+  top: 0.5rem;
+  width: 0.6rem;
+  height: 0.1rem;
+}
+
+.banner {
+  width: 100%;
+  height: 5.3rem;
+  overflow: hidden;
+}
+
+.banner .imgBox {
+  width: 100%;
+  height: 5rem;
+}
+
+.banner .imgBox img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner ul {
+  width: auto;
+  height: 0.3rem;
+  padding-left: 3rem;
+}
+
+.banner ul li {
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  border: 1px solid #29A6DC;
+  margin-left: 0.2rem;
+  margin-top: 0.15rem;
+  float: left;
+}
+
+.banner ul .blue {
+  background: #29A6DC;
+}
+
+.new {
+  width: 100%;
+  height: auto;
+}
+
+.new .newTitle {
+  height: 1rem;
+  padding-left: 0.4rem;
+  position: relative;
+}
+
+.new .newTitle .i1 {
+  width: 0.4rem;
+  height: 0.4rem;
+  position: absolute;
+  left: 0.4rem;
+  top: 0.05rem;
+}
+
+.new .newTitle p {
+  font-size: 18px;
+  color: #000;
+  position: absolute;
+  left: 0.95rem;
+  top: 0;
+}
+
+.new .newTitle span {
+  font-size: 12px;
+  color: #666;
+  position: absolute;
+  left: 0.95rem;
+  top: 0.4rem;
+}
+
+.new .newTitle .i2 {
+  width: 0.6rem;
+  height: 0.3rem;
+  position: absolute;
+  left: 2.7rem;
+  top: 0.3rem;
+}
+
+.new .bookList {
+  width: 100%;
+  height: auto;
+}
+
+.new .bookList li {
+  width: 1.8rem;
+  height: 3.7rem;
+  float: left;
+  margin-left: 0.55rem;
+  margin-top: 0.2rem;
+}
+
+.new .bookList li .face {
+  width: 1.8rem;
+  height: 2.6rem;
+}
+
+.new .bookList li .face img {
+  width: 1.8rem;
+  height: 2.6rem;
+}
+
+.new .bookList li p {
+  padding-left: 0.1rem;
+  font-size: 12px;
+  color: #666;
+}
+
+.new .bookList li span {
+  padding-left: 0.1rem;
+  color: #999;
+  font-size: 12px;
+}
+
+.nav_bot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 1.2rem;
+  width: 100%;
+}
+
+.nav_bot ul {
+  width: 100%;
+  height: 100%;
+  background: #151C2B;
+}
+
+.nav_bot ul li {
+  float: left;
+  width: 33.3%;
+  height: 1.2rem;
+  position: relative;
+}
+
+.nav_bot ul li img {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-left: 0.9rem;
+  margin-top: 0.1rem;
+}
+
+.nav_bot ul li span {
+  color: #676869;
+  font-size: 14px;
+  position: absolute;
+  left: 0.9rem;
+  top: 0.7rem;
+}
+
+.nav_bot ul .sel {
+  background-image: url(../imgs/imgle/sel-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nav_bot ul .sel span {
+  color: #fff;
+}
