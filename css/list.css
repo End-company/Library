@@ -1,0 +1,295 @@
+@charset "UTF-8";
+html {
+  font-size: 100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "微软雅黑";
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+
+.header {
+  width: 100%;
+  height: 1rem;
+  background: #29a6dc;
+  position: relative;
+}
+
+.header_R {
+  width: 0.8rem;
+  height: 0.8rem;
+  position: absolute;
+  right: 0.2rem;
+  top: 0.15rem;
+  background: url(../imgs/header/header02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.nav {
+  width: 5rem;
+  height: 1rem;
+  background-image: url(../imgs/imgle/headbg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 1.2rem;
+  top: 0.17rem;
+}
+
+.nav .selected {
+  width: 33.3%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: -0.01rem;
+}
+
+.nav .selected p {
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.1rem;
+}
+
+.nav .selected img {
+  position: absolute;
+  left: 0.55rem;
+  top: 0.5rem;
+  width: 0.6rem;
+  height: 0.1rem;
+}
+
+.nav .col1 {
+  width: 0.1rem;
+  height: 60%;
+  background-image: url(../imgs/imgle/col.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 35%;
+  top: 10%;
+}
+
+.nav .list {
+  width: 33.3%;
+  height: 100%;
+  background-image: url(../imgs/imgle/nav.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 36.5%;
+  top: -0.03rem;
+}
+
+.nav .list p {
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  left: 0.57rem;
+  top: 0.1rem;
+}
+
+.nav .list img {
+  position: absolute;
+  left: 0.7rem;
+  top: 0.5rem;
+  width: 0.3rem;
+  height: 0.1rem;
+}
+
+.nav .col2 {
+  width: 0.1rem;
+  height: 60%;
+  background-image: url(../imgs/imgle/col.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 69%;
+  top: 10%;
+}
+
+.nav .class {
+  width: 33.3%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: -0.03rem;
+}
+
+.nav .class p {
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  left: 0.55rem;
+  top: 0.1rem;
+}
+
+.nav .class img {
+  position: absolute;
+  left: 0.55rem;
+  top: 0.5rem;
+  width: 0.6rem;
+  height: 0.1rem;
+}
+
+.list_con {
+  width: 100%;
+  height: auto;
+  background: #dedede;
+}
+
+.list_con ul {
+  width: 100%;
+  height: 100%;
+}
+
+.list_con ul li {
+  width: 100%;
+  height: 2.5rem;
+  margin-bottom: 0.3rem;
+  background-image: url(../imgs/imgle/9111.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.list_con ul li .zhao {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.list_con ul li .new {
+  display: block;
+  width: 50%;
+  height: 100%;
+  background-image: url(../imgs/imgle/t1.png);
+  background-repeat: no-repeat;
+  background-size: 90% 80%;
+  position: absolute;
+  left: 0.5rem;
+  top: 0.3rem;
+}
+
+.list_con ul li .top2 {
+  width: 40%;
+  height: 0.23rem;
+  background-image: url(../imgs/imgle/t2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 4.5rem;
+  top: 0.5rem;
+}
+
+.list_con ul li .top1 {
+  width: 40%;
+  height: 0.3rem;
+  background-image: url(../imgs/imgle/t4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 4.3rem;
+  top: 0.95rem;
+}
+
+.list_con ul li .top3 {
+  width: 40%;
+  height: 0.23rem;
+  background-image: url(../imgs/imgle/t3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 4.5rem;
+  top: 1.45rem;
+}
+
+.nav_bot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 1.2rem;
+  width: 100%;
+}
+
+.nav_bot ul {
+  width: 100%;
+  height: 100%;
+  background: #151C2B;
+}
+
+.nav_bot ul li {
+  float: left;
+  width: 33.3%;
+  height: 1.2rem;
+  position: relative;
+}
+
+.nav_bot ul li img {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-left: 0.9rem;
+  margin-top: 0.1rem;
+}
+
+.nav_bot ul li span {
+  color: #676869;
+  font-size: 14px;
+  position: absolute;
+  left: 0.9rem;
+  top: 0.7rem;
+}
+
+.nav_bot ul .sel {
+  background-image: url(../imgs/imgle/sel-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nav_bot ul .sel span {
+  color: #fff;
+}

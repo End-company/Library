@@ -1,0 +1,292 @@
+$screen-list:320px,360px,375px,412px,414px;
+html{
+    font-size:100px;
+}
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+    font-family: "微软雅黑";
+    box-sizing: border-box;
+}
+body{
+    font-size:16px;
+}
+$design-size:750px;
+@each $i in $screen-list{
+    @media screen and (min-width:#{$i}){
+         html{
+         font-size:100px*$i/$design-size; 
+         }
+    }
+}
+.header{
+    width: 100%;
+    height: 1rem;
+    background: #29a6dc;
+    position: relative;
+    
+}
+//.header_L{
+//  width: 1.1rem;
+//  height: 1.1rem;
+//  position: absolute;
+//  left:0.2rem;
+//  top:0.2rem;
+//  background:url(../imgs/header/header01.jpg);
+//  background-repeat: no-repeat;
+//  background-position: center;
+//}
+.header_R{
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    right:0.2rem;
+    top:0.15rem;
+    background:url(../imgs/header/header02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.nav{
+    width:5rem;
+    height:1rem;
+    background-image: url(../imgs/imgle/headbg.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    position: absolute;
+    left:1.2rem;
+    top:0.17rem;
+    .selected{
+        width: 33.3%;
+        height:100%;
+        background-image: url(../imgs/imgle/nav.png);
+        background-size:contain ;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0;
+        top:-0.01rem;
+        p{
+            font-size:14px;
+            color: #fff;
+            position: absolute;
+            left: 0.6rem;
+            top:0.1rem;
+        }
+        img{
+            position: absolute;
+            left: 0.55rem;
+            top:0.5rem;
+            width: 0.6rem;
+            height: 0.1rem;
+        }
+    }
+    .col1{
+        width: 0.1rem;
+        height: 60%;
+        background-image:url(../imgs/imgle/col.png) ;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 35%;
+        top:10%;
+    }
+    .list{
+        width: 33.3%;
+        height:100%;
+//      background-image: url(../imgs/imgle/nav.png);
+        background-size:contain ;
+        background-repeat: no-repeat;
+        position: absolute;
+        left:38%;
+        top:-0.03rem;
+        p{
+            font-size:14px;
+            color: #fff;
+            position: absolute;
+            left: 0.5rem;
+            top:0.1rem;
+        }
+        img{
+            position: absolute;
+            left: 0.55rem;
+            top:0.5rem;
+            width: 0.4rem;
+            height: 0.1rem;
+        }
+    }
+    .col2{
+        width: 0.1rem;
+        height: 60%;
+        background-image:url(../imgs/imgle/col.png) ;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 69%;
+        top:10%;
+    }
+    .class{
+        width: 33.3%;
+        height:100%;
+//      background-image: url(../imgs/imgle/nav.png);
+        background-size:contain ;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 0;
+        top:-0.03rem;
+        p{
+            font-size:14px;
+            color: #fff;
+            position: absolute;
+            left: 0.55rem;
+            top:0.1rem;
+        }
+        img{
+            position: absolute;
+            left: 0.55rem;
+            top:0.5rem;
+            width: 0.6rem;
+            height: 0.1rem;
+        }
+    }
+}
+.banner{
+    width:100%;
+    height:5.3rem;
+//  background: #eee;
+    overflow: hidden;
+    .imgBox{
+        width: 100%;
+        height:5rem;
+        img{
+            width: 100%;
+            height:100%;
+        }
+    }
+    ul{
+        width: auto;
+        height: 0.3rem;
+        padding-left:3rem;
+        li{
+            width: 0.1rem;
+            height:0.1rem;
+            border-radius: 50%;
+            border: 1px solid #29A6DC;
+            margin-left: 0.2rem;
+            margin-top: 0.15rem;
+            float: left;
+        }
+        .blue{
+            background: #29A6DC;
+        }
+    }
+}
+.new{
+    width: 100%;
+    height:auto;
+    .newTitle{
+//      width: 100%;
+        height:1rem;
+        padding-left: 0.4rem;
+        position: relative;
+    .i1{
+        width: 0.4rem;
+        height:0.4rem;
+        position: absolute;
+        left:0.4rem;
+        top:0.05rem;
+    }
+    p{
+        font-size: 18px;
+        color:#000;
+        position: absolute;
+        left:0.95rem;
+        top:0;
+    }    
+    span{
+        font-size: 12px;
+        color: #666;
+        position: absolute;
+        left:0.95rem;
+        top:0.4rem;
+    }
+    .i2{
+        width: 0.6rem;
+        height:0.3rem;
+        position: absolute;
+        left:2.7rem;
+        top:0.3rem;
+    }   
+    }
+    .bookList{
+        width: 100%;
+        height:auto;
+        li{
+            width: 1.8rem;
+            height:3.7rem;
+            float: left;
+            margin-left: 0.55rem;
+            margin-top: 0.2rem;
+//          background: #eee;
+            .face{
+                width: 1.8rem;
+                height:2.6rem;
+                img{
+                    width: 1.8rem;
+                    height:2.6rem;
+                }
+            }
+            p{
+                padding-left:0.1rem;
+//              padding-right: 0.05rem;
+                font-size: 12px;
+                color:#666;
+            }
+            span{
+                padding-left: 0.1rem;
+                color:#999;
+                font-size: 12px;
+            }    
+        }
+    }
+}
+.nav_bot{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height:1.2rem;
+    width: 100%;
+    ul{
+        width: 100%;
+        height:100%;
+        background: #151C2B;
+        li{
+            float: left;
+            width: 33.3%;
+            height:1.2rem;
+            position: relative;
+            img{
+                width: 0.6rem;
+                height:0.6rem;
+                margin-left: 0.9rem;
+                margin-top: 0.1rem;
+            }
+            span{
+                color:#676869;
+                font-size: 14px;
+                position: absolute;
+                left:0.9rem;
+                top:0.7rem;
+            }
+        }
+        .sel{
+            background-image: url(../imgs/imgle/sel-bg.png);
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+            span{
+                color:#fff;
+            }
+        }
+    }
+}
+

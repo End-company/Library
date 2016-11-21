@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family: "微软雅黑";
+	box-sixing:border-box;
+}
+a{
+   text-decoration:none;
+}
+img{
+   border:none;
+}
+button{
+ border:none;
+}
+$d-list:320px,360px,375px,384px,400px,411px,412px,414px,435px,768px;
+html{
+	font-size: 100px;
+}
+body{
+	font-size: 16px;
+	background:#f2f2f2;
+}
+$design-size:750px;
+@each $w in $d-list{
+	@media screen and (min-width:#{$w}){
+	    html{
+	        font-size: 100px * $w / $design-size;
+	    }
+	}
+}
+$img-path:"../img/";
+.box{
+	width:8rem;
+	.top{
+	    width:8rem;
+	    height:4.33rem;
+	    background:#29a6dc;
+	    padding-top:0.5rem;
+	    .denglu{
+	        height:0.5rem;
+	        font-size:0.4rem;
+	        color:#f2f2f2;
+	        line-height:0.5rem;
+	        text-align:center;
+	        background:url($img-path+'fan.png') no-repeat;
+	        background-size:0.5rem;
+	        background-position:0.3rem 0;
+	    }
+	    .logo{
+	        height:0.5rem;
+	        font-size:0.4rem;
+	        color:#f2f2f2;
+	        line-height:0.5rem;
+	        text-align:center;
+	        margin-top:1.6rem;
+	    }
+	}
+	
+	.bottom{
+	    .zi{
+	    width:6rem;
+	    height:0.6rem;
+	    margin-top:1.5rem;
+	    margin-left:1rem;
+	    font-size:0.26rem;
+	    color:#0a196b;
+	    margin-bottom:1rem;
+	    }
+	    input{
+	    width:6rem;
+	    height:0.8rem;
+        margin-left:0.9rem;
+        margin-bottom:0.5rem;
+        border:1px solid #3a91fd;
+        border-radius:53px;
+        font-size:0.3rem;
+        color:#999;
+        text-align:center;
+        background:#fff;
+        outline:none;
+        position:relative;
+	    }
+	    img{
+	    width:0.4rem;
+        }
+        .img1{
+        position:absolute;
+        top:8.2rem;
+        left:1.4rem;
+        }
+       .img2{
+        position:absolute;
+        top:9.5rem;
+        left:1.4rem;
+        }
+	    .zhaohui{
+	    width:5.9rem;
+	    height:0.3rem;
+	    margin-left:1.3rem;
+	    .left{
+	        width:3rem;
+	        height:100%;
+	        float:left;
+	        background:url($img-path+'zhao.png') no-repeat;
+	        background-size:0.3rem;
+	        font-size:0.2rem;
+	        color:#666;
+	    }
+	    .right{
+	        width:2rem;
+	        height:100%;
+	        float:right;
+	        background:url($img-path+'zhuce.png') no-repeat;
+	        background-size:0.3rem;
+	        font-size:0.2rem;
+	        color:#666;
+	    }
+	    }
+	    .btn{
+	    width:5.3rem;
+	    height:0.7rem;
+	    background:#3abffd;
+	    color:#fff;
+	    margin-top:1.2rem;
+	    margin-left:1.1rem;
+	    position:relative;
+	    }
+	    .bai,.bai1{
+	    width:0.1rem;
+	    height:0.1rem;
+	    background:#fff;
+	    border-radius:50%;
+	    position:absolute;
+	    top:12.41rem;
+	    left:1.4rem;
+	    }
+	    .bai1{
+	    left:5.9rem;
+	     }
+	}
+	
+
+}
