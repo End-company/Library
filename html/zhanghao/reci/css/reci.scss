@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "微软雅黑";
+}
+div{
+  display: block;
+}
+ul, li {
+  list-style: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+html {
+  font-size: 100px;
+}
+body {
+  background: #f2f2f2;
+  font-size: 16px;
+}
+
+$device-list: 320px, 360px, 375px, 412px, 414px;
+$design-size: 750px;
+@each $w in $device-list {
+  @media screen and (min-width: #{$w}) {
+    html {
+      font-size: 100px *  $w / $design-size;
+    }
+  }
+}
+@mixin top-bottom {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+@mixin yuan{
+   width: 0.80rem;
+   height: 0.80rem;
+   border: 0.04rem solid #1074b5;
+   text-align: center;
+   border-radius: 50%; 
+   background-size: cover;
+}
+#library{
+   width: 100%;
+   height: 100%; 
+   overflow: hidden;
+}
+#header{
+    width: 100%;
+    height: 1rem;
+    background: #29a6dc;
+    .return{     
+       @include top-bottom;
+       @include yuan;
+       left: 0.2rem;
+       background: url(../img/2.png) -7px -7px no-repeat;
+    }
+    .yuyin{
+       @include top-bottom;
+       @include yuan;
+       right: 0.2rem;
+       background: url(../img/1.png) -7px -6px no-repeat;
+    }
+    .search{
+       @include top-bottom;
+       width: 5rem;
+       height: .7rem;
+       border-radius: 1rem;
+       background: #fff;
+       left: 1.3rem;
+       box-shadow: 0px 0px 15px #239ad1;
+       overflow: hidden;
+       #search{
+            outline: none;
+            width: 100%;
+            height: 100%;
+            font-size: 15px;
+            color: #dcdcdc;
+            padding-left: 20px;
+            border: 0;
+       }
+    }
+}
+@mixin zz{
+    position: absolute;
+    left: 0.2rem;
+    font-size: 13px;
+    color: #bdbdbd;
+}
+.content{
+    width: 100%;
+    height: 12.3rem;
+    overflow: hidden;
+  .shuben{
+      width: 100%;
+      height: 4.4rem;
+      background: #fff;
+      margin: 0.2rem 0;
+      box-shadow: 0 0 10px #e0e0e0;
+    .book1{
+        width: 2.5rem;
+        height: 4rem;
+        position: absolute;
+        left: 0.2rem; 
+        top: 0.2rem;      
+        background: url(../img/6.png);
+        background-size: cover;
+    }
+    .booknr{
+        width: 4.5rem;
+        height: 4rem;
+        position: absolute;
+        right: 0.2rem;
+        top: 0.2rem;
+        h4{
+            font-size: 20px;
+        }
+        P{
+            padding-left: 0.2rem;
+            font-size: 12px;
+            margin-top: 0.1rem;
+            color: #c2c2c2;
+        }
+        .contet{
+            padding-left: 0.2rem;
+            font-size: 13px;
+            margin-top: 0.1rem;
+            color: #8c8c8c;
+        }
+        span:nth-of-type(1){
+           @include zz;
+           top: 2.9rem;
+        }
+        span:nth-of-type(2){
+           @include zz;
+           top:3.3rem;
+        }
+        .xingxing{
+            width: 2rem;
+            height: 0.4rem;
+            position: absolute;
+            bottom: 0;
+            left: 0.1rem;
+           li{
+              width: 0.3rem;
+              height: 100%;
+              background: url(../img/4.png);
+              background-size: cover;
+              float: left;
+           }
+           li:nth-of-type(5){
+              background: url(../img/5.png);
+              background-size: cover;
+           }
+        }
+        .ck{
+            width: 2.4rem;
+            height: 0.8rem;
+            background: #29a6dc;
+            border-radius: 50px;
+            position: absolute;
+            right: 0rem;
+            bottom: 0;
+            div:nth-of-type(1){
+              width: 0.1rem;
+              height: 0.1rem;
+              background: #fff;
+              border-radius: 50%;
+              position: absolute;
+              left: 0.1rem;
+              top: 0.35rem;
+            }
+            div:nth-of-type(2){
+              width: 0.8rem;
+              height: 0.8rem;
+              background: url(../img/3.png);
+              background-size: cover;
+              position: absolute;
+              left: 0.1rem;
+              top: 0rem;
+            }
+            div:nth-of-type(3){
+              position: absolute;
+              left: 0.8rem;
+              top: 0.2rem;
+              font-size: 12px;
+              color: #fff;
+            }
+            div:nth-of-type(4){
+              width: 0.1rem;
+              height: 0.1rem;
+              background: #fff;
+              border-radius: 50%;
+              position: absolute;
+              right: 0.1rem;
+              top: 0.35rem;
+            }
+        }
+    }
+  }
+}
+.reci{
+    width: 100%;
+    height: 13rem;
+    background: rgba(0,0,0,0.5);
+    z-index: 9999;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+  .rcnr{
+      width: 100%;
+      height: 4.6rem;
+      background: #fff;
+      border-radius:0px 0px 30px 30px;
+      background: url(../img/rcbg.png) -15px 0 no-repeat;
+      background-size: cover;
+      .resou{
+          position: absolute;
+          bottom: 0;
+          left: 0.5rem;
+          width: 100%;
+          height: 3.2rem;
+          div{
+          width: 1.8rem;
+          height: 0.6rem;
+          line-height: 0.6rem;
+          float: left;
+          border-radius: 20px;
+          border: 1px solid #000000;
+          text-align: center;
+          margin:0.2rem 0.2rem;
+      }
+      div:nth-of-type(1){
+          border: none;
+          background: #29a6dc;
+          color: #fff;
+      }
+      }
+      
+  }
+}
