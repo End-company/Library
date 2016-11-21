@@ -69,34 +69,34 @@ a {
   margin-bottom: -0.8rem;
 }
 
-#top {
+#toping {
   width: 100%;
   box-sizing: border-box;
   margin-top: 41px;
 }
 
-#top .my-sq {
+#toping .my-sq {
   margin-left: 48px;
   margin-top: 71px;
 }
 
-#top .first {
+#toping .first {
   margin-left: 61px;
   margin-top: 21px;
   height: 115px;
 }
 
-#top .first .first-left {
+#toping .first .first-left {
   width: 78px;
   height: 100%;
   float: left;
 }
 
-#top .first .first-left .qian {
+#toping .first .first-left .qian {
   width: 74px;
 }
 
-#top .first .first-right {
+#toping .first .first-right {
   width: 540px;
   height: 100%;
   float: left;
@@ -104,53 +104,53 @@ a {
   margin-left: 84px;
 }
 
-#top .first .first-right .first-title {
+#toping .first .first-right .first-title {
   font-size: 24px;
   color: #151c2b;
   font-weight: 600;
 }
 
-#top .first .first-right .cont {
+#toping .first .first-right .cont {
   color: #505050;
   font-size: 18px;
   margin-top: 12px;
 }
 
-#top .first .first-right .sj {
+#toping .first .first-right .sj {
   display: inline-block;
   margin-top: 16px;
 }
 
-#top .first .first-right .sj img {
+#toping .first .first-right .sj img {
   width: 59px;
 }
 
-#top .first .first-right .eye {
+#toping .first .first-right .eye {
   margin-top: 16px;
   position: absolute;
   right: -30px;
   display: inline-block;
 }
 
-#top .first .first-right .eye .eyes {
+#toping .first .first-right .eye .eyes {
   display: inline-block;
 }
 
-#top .first .first-right .eye .percity {
+#toping .first .first-right .eye .percity {
   display: inline-block;
 }
 
-#top .lang img {
+#toping .lang img {
   width: 100%;
 }
 
-#middle {
+#middleing {
   width: 900px;
   height: 655px;
   margin: 55px auto;
 }
 
-#middle .reading {
+#middleing .reading {
   width: 222px;
   height: 39px;
   background: #29a6dc;
@@ -159,7 +159,7 @@ a {
   margin-left: 308px;
 }
 
-#middle .reading .scirle-a {
+#middleing .reading .scirle-a {
   width: 7px;
   height: 7px;
   background: #FFFFFF;
@@ -172,7 +172,7 @@ a {
   left: 29px;
 }
 
-#middle .reading .scirle-b {
+#middleing .reading .scirle-b {
   width: 7px;
   height: 7px;
   background: #FFFFFF;
@@ -185,11 +185,11 @@ a {
   right: 29px;
 }
 
-#middle .reading .ljyd {
+#middleing .reading .ljyd {
   margin-left: 63px;
 }
 
-#middle .reading .ljyd a {
+#middleing .reading .ljyd a {
   display: inline-block;
   font-size: 22px;
   color: #FFFFFF;
@@ -197,11 +197,11 @@ a {
   line-height: 39px;
 }
 
-#middle .my-biji {
+#middleing .my-biji {
   margin-top: 41px;
 }
 
-#middle .cont1 {
+#middleing .cont1 {
   width: 900px;
   height: 83px;
   box-sizing: border-box;
@@ -210,19 +210,19 @@ a {
   margin-top: 28px;
 }
 
-#middle .cont1 .cir1 {
+#middleing .cont1 .cir1 {
   margin-left: 18px;
   margin-top: 20px;
 }
 
-#middle .cont1 .texts-a {
+#middleing .cont1 .texts-a {
   font-size: 22px;
   color: #858585;
   letter-spacing: 2px;
   margin-left: 56px;
 }
 
-#middle .cont2 {
+#middleing .cont2 {
   width: 900px;
   height: 114px;
   box-sizing: border-box;
@@ -232,14 +232,14 @@ a {
   position: relative;
 }
 
-#middle .cont2 .cir1 {
+#middleing .cont2 .cir1 {
   position: absolute;
   display: inline-block;
   left: 18px;
   top: 16px;
 }
 
-#middle .cont2 .texts-a {
+#middleing .cont2 .texts-a {
   margin-left: 55px;
   margin-top: 16px;
   display: inline-block;
@@ -248,7 +248,7 @@ a {
   letter-spacing: 2px;
 }
 
-#middle .cont2 .biao {
+#middleing .cont2 .biao {
   position: absolute;
   width: 130px;
   height: 36px;
@@ -256,11 +256,11 @@ a {
   bottom: 1px;
 }
 
-#middle .cont2 .biao .clk {
+#middleing .cont2 .biao .clk {
   display: inline-block;
 }
 
-#middle .cont2 .biao .date {
+#middleing .cont2 .biao .date {
   display: inline-block;
   position: absolute;
   right: -22px;
@@ -269,13 +269,13 @@ a {
   font-size: 22px;
 }
 
-#bottom {
+#bottoming {
   height: 544px;
   width: 900px;
   margin: 54px auto;
 }
 
-#bottom .reading {
+#bottoming .reading {
   width: 222px;
   height: 39px;
   background: #29a6dc;
@@ -284,7 +284,7 @@ a {
   margin-left: 308px;
 }
 
-#bottom .reading .scirle-a {
+#bottoming .reading .scirle-a {
   width: 7px;
   height: 7px;
   background: #FFFFFF;
@@ -297,7 +297,7 @@ a {
   left: 29px;
 }
 
-#bottom .reading .scirle-b {
+#bottoming .reading .scirle-b {
   width: 7px;
   height: 7px;
   background: #FFFFFF;
@@ -310,11 +310,11 @@ a {
   right: 29px;
 }
 
-#bottom .reading .ljyd {
+#bottoming .reading .ljyd {
   margin-left: 63px;
 }
 
-#bottom .reading .ljyd a {
+#bottoming .reading .ljyd a {
   display: inline-block;
   font-size: 22px;
   color: #FFFFFF;
@@ -322,25 +322,25 @@ a {
   line-height: 39px;
 }
 
-#bottom .sxsj {
+#bottoming .sxsj {
   margin-left: -12px;
 }
 
-#bottom .books {
+#bottoming .books {
   position: relative;
 }
 
-#bottom .books .tu {
+#bottoming .books .tu {
   margin-left: 10px;
 }
 
-#bottom .books .dian {
+#bottoming .books .dian {
   width: 100%;
   height: 20px;
   margin: 10px auto;
 }
 
-#bottom .books .dian .yuan {
+#bottoming .books .dian .yuan {
   position: absolute;
   background: #0090ff;
   width: 8px;
@@ -350,7 +350,7 @@ a {
   left: 400px;
 }
 
-#bottom .books .dian .yuan2 {
+#bottoming .books .dian .yuan2 {
   position: absolute;
   border: 2px solid #0090ff;
   box-sizing: border-box;
@@ -361,7 +361,7 @@ a {
   left: 420px;
 }
 
-#bottom .books .dian .yuan3 {
+#bottoming .books .dian .yuan3 {
   position: absolute;
   border: 2px solid #0090ff;
   box-sizing: border-box;
