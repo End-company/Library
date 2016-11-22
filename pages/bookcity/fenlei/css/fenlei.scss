@@ -43,12 +43,15 @@ $design-size:750px;
 	        background:red;
 	        margin-left:0.25rem;
             background:url(../img/fan.png) no-repeat;
-	        background-size:0.6rem;
+	        background-size:0.5rem;
 	        background-position:0 0.1rem;
 	        color:#f2f2f2;
 	        font-size:0.33rem;
 	        text-align:center;
-	        .zi1{
+            .chang-pianhao{
+                margin-top:0.1rem;
+            }
+            .zi1{
 	             font-size:0.12rem;
 	             color:#90dcff;
 	        }

@@ -107,15 +107,15 @@ body {
     outline: none;
     position: relative; }
   .chang-box .chang-bottom img {
-    width: 0.4rem; }
+    width: 0.4rem;
+    height: 0.4rem; }
   .chang-box .chang-bottom .chang-img1 {
-    position: absolute;
-    top: 8.2rem;
-    left: 1.4rem; }
+    margin-top: -6.4rem; }
   .chang-box .chang-bottom .chang-img2 {
     position: absolute;
     top: 9.5rem;
-    left: 1.4rem; }
+    left: 1.4rem;
+    margin-top: -6.4rem; }
   .chang-box .chang-bottom .chang-zhaohui {
     width: 5.9rem;
     height: 0.3rem;

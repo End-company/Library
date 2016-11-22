@@ -131,6 +131,7 @@ body {
 }
 
 .in-tittle .in-my {
+  display: block;
   width: 40%;
   height: 100%;
   position: absolute;
@@ -142,6 +143,7 @@ body {
 }
 
 .in-tittle .in-my .in-my-font {
+  display: block;
   width: 100%;
   height: 100%;
   background: url(../imgs/information/my.png);
@@ -164,6 +166,7 @@ body {
 }
 
 .in-tittle .system {
+  display: block;
   width: 40%;
   height: 100%;
   position: absolute;
@@ -175,6 +178,7 @@ body {
 }
 
 .in-tittle .system .system-font {
+  display: block;
   width: 100%;
   height: 0.9rem;
   background: url(../imgs/information/system.png);
@@ -240,7 +244,6 @@ body {
 /*我的信息页面*/
 #my-recommed {
   width: 90%;
-  height: 4rem;
   box-shadow: 1px 2px 2px 2px #eee;
   margin: 0 auto;
   padding: .2rem;
@@ -514,6 +517,7 @@ body {
 }
 
 .zcc-tishi {
+  display: block;
   width: 5rem;
   height: 4.5rem;
   position: fixed;
