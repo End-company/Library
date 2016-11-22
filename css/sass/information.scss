@@ -1,5 +1,5 @@
 @import 'base.scss';
-@import 'header.scss';
+
 *{
     box-sizing: border-box;
     font-family: "微软雅黑";
@@ -7,7 +7,7 @@
 body{
     background: #fafafa;
 }
-@mixin center{
+@mixin zcc-center{
     position: absolute;
     left: 0;
     right: 0;
@@ -16,25 +16,57 @@ body{
     margin: auto;
 }
 
-.header_c{
+.zcc{
+    width: 100%;
+    height: 1rem;
+    background: #29a6dc;
+    position: relative;
+}
+.zcc_L{
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    left:0.2rem;
+    top:0.2rem;
+    background:url(../imgs/header/header01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:0.6rem 0.6rem;
+}
+.zcc_R{
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    right:0.2rem;
+    top:0.2rem;
+    background:url(../imgs/header/header02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size:0.6rem 0.6rem;
+}
+
+
+.zcc_c{
     width:auto;
     height:0.6rem;
-    @include center;
+    @include zcc-center;
     color:white;
     text-align: center;
-    .header-t{
+    .zcc-t{
         height:60%;
         line-height: 100%;
         font-size: 16px;
         position: relative;
+        
         img{
+            width:1.5rem;
             position: absolute;
             left:0;
             right:0;
-            bottom:-0.1rem;
+            bottom:-0.14rem;
             margin: auto;
         }
-    }.header-b{
+    }.zcc-b{
         height:40%;
         line-height: 100%;
         color:#90dcff;
@@ -73,7 +105,7 @@ body{
          background:url(../imgs/information/10.png);
         background-repeat: no-repeat;
         background-size: 100%;
-        @include center;
+        @include zcc-center;
     }
      .system{
         width:40%;
@@ -391,10 +423,15 @@ body{
     }
     
 }
-.tishi{
-    width:80%;
+.zcc-tishi{
+    width:5rem;
     height:4.5rem;
-    @include center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     border-radius: 5%;
     background: white;
     box-shadow: 0 0 0 500px rgba(0,0,0,0.7);
@@ -424,6 +461,10 @@ body{
         line-height: .3rem;
         font-size: 12px;
         color:#666;
+    }
+    .tishi-4{
+        width:2rem;
+        height:.1rem;
     }
     
 }

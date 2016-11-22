@@ -26,25 +26,26 @@ img{
 a{
     text-decoration: none;
 }
-#header{
+#header_lcq{
    width: 100%;
-   height: 1.28rem;
+   height: 2.2rem;
    background: #29a6dc; 
    
    .back{
        display: block;
-       height: 0.8rem;
+//     height: 0.8rem;
        margin:{
            left: 0.24rem;
            
        }
        img{
-          height: 0.8rem;
-          margin-bottom: -0.8rem;
+          height: 1.2rem;
+          margin-bottom: -1.4rem;
+          
        }
    }
 }
-#top{
+#top_lcq{
     height: 605px;
     width: 900px;
     background: #fff;
@@ -195,7 +196,7 @@ a{
         
     }
 }
-#middle{
+#middle_lcq{
     height: 455px;
     width: 900px;
 //  background: red;
@@ -374,7 +375,7 @@ a{
         }
     }
 }
-#bottom{
+#bottom_lcq{
     width: 100%;
     height: 300px;
     box-sizing: border-box;
