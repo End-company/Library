@@ -64,5 +64,7 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/mine/pianhao/pianhao.html'
 	}).when("/Reading1",{
 		templateUrl:'pages/reading/Reading1/reading1.html'
+	}).when("/gerenCenter",{
+		templateUrl:'pages/mine/gerenCenter/gerenCenter.html'
 	})
 }])
