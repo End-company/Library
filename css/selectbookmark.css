@@ -33,11 +33,11 @@ body {
   position: relative;
   box-sizing: border-box; }
 
-.header {
+.header-gy {
   height: 1.6rem;
   width: 100%;
   background: #29A6DC; }
-  .header .circle {
+  .header-gy .circle {
     width: 0.7rem;
     height: 0.7rem;
     border-radius: 50%;
@@ -51,116 +51,43 @@ body {
     font-size: 0.4rem;
     font-weight: 600;
     color: #29A6DC; }
-  .header .navbar {
+  .header-gy .navbar {
     width: 70%;
     height: 1rem;
     bottom: 0.1rem;
-    background: #2A3441;
-    border-radius: 0.5rem;
     position: absolute;
     left: 0;
     right: 0;
-    margin: auto; }
-    .header .navbar .mulu {
+    margin: auto;
+    background: url(../imgs/navbar-gy.png) no-repeat 0rem 0.2rem;
+    background-size: cover; }
+    .header-gy .navbar .mulu {
       width: 30%;
       height: 80%;
-      border: 2px solid #fff;
-      border-radius: 0.5rem;
       float: left;
-      margin-top: 0.1rem;
+      margin-top: 0.2rem;
       margin-left: 0.1rem; }
-      .header .navbar .mulu p:nth-of-type(1) {
-        width: 60%;
-        height: 30%;
-        color: #fff;
-        text-align: center;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-        top: 0.1rem;
-        font-size: 0.3rem; }
-      .header .navbar .mulu p:nth-of-type(2) {
-        width: 60%;
-        height: 30%;
-        color: #fff;
-        text-align: center;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-        bottom: 0.1rem;
-        font-size: 0.1rem; }
-    .header .navbar .mark {
+    .header-gy .navbar .mark {
       width: 30%;
       height: 80%;
-      border: 2px solid #fff;
-      border-radius: 0.5rem;
       float: left;
-      margin-top: 0.1rem;
-      margin-left: 0.1rem;
-      background: #29A6DC; }
-      .header .navbar .mark p:nth-of-type(1) {
-        width: 60%;
-        height: 30%;
-        color: #fff;
-        text-align: center;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-        top: 0.1rem;
-        font-size: 0.3rem; }
-      .header .navbar .mark p:nth-of-type(2) {
-        width: 60%;
-        height: 30%;
-        color: #fff;
-        text-align: center;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-        bottom: 0.1rem;
-        font-size: 0.1rem; }
-    .header .navbar .mynote {
-      width: 30%;
-      height: 80%;
-      border: 2px solid #fff;
-      border-radius: 0.5rem;
-      float: left;
-      margin-top: 0.1rem;
+      margin-top: 0.2rem;
       margin-left: 0.1rem; }
-      .header .navbar .mynote p:nth-of-type(1) {
-        width: 60%;
-        height: 30%;
-        color: #fff;
-        text-align: center;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-        top: 0.1rem;
-        font-size: 0.3rem; }
-      .header .navbar .mynote p:nth-of-type(2) {
-        width: 60%;
-        height: 30%;
-        color: #fff;
-        text-align: center;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-        bottom: 0.1rem;
-        font-size: 0.1rem; }
+    .header-gy .navbar .mynote-gy {
+      width: 30%;
+      height: 80%;
+      float: left;
+      margin-top: 0.2rem;
+      margin-left: 0.1rem; }
 
 .bookmark {
   width: 100%;
   height: 1.6rem; }
   .bookmark .icon {
-    height: 80%;
-    margin-top: 0.32rem;
+    height: 70%;
+    margin-top: 0.3rem;
     width: 20%;
-    background: url(../imgs/note.png) 0.1rem 0.3rem no-repeat;
+    background: url(../imgs/note.png) 0.1rem 0rem no-repeat;
     float: left; }
   .bookmark .content-gy {
     height: 1.6rem;
@@ -191,14 +118,14 @@ body {
       line-height: 0.4rem; }
       .bookmark .content-gy .time .eye {
         height: 100%;
-        width: 20%;
+        width: 25%;
         position: absolute;
         bottom: 0rem;
         right: 20%; }
         .bookmark .content-gy .time .eye .icon {
           width: 50%;
           float: left;
-          background: url(../imgs/note.png) 0 -184px no-repeat;
+          background: url(../imgs/note.png) 0 -186px no-repeat;
           margin-top: 0; }
         .bookmark .content-gy .time .eye .pos1 {
           float: left; }
