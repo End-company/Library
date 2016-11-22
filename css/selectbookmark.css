@@ -162,11 +162,11 @@ body {
     width: 20%;
     background: url(../imgs/note.png) 0.1rem 0.3rem no-repeat;
     float: left; }
-  .bookmark .content {
+  .bookmark .content-gy {
     height: 1.6rem;
     float: left;
     width: 80%; }
-    .bookmark .content .pos {
+    .bookmark .content-gy .pos {
       padding-right: 20%;
       height: 50%;
       color: #151C2B;
@@ -175,7 +175,7 @@ body {
       line-height: 0.9rem;
       letter-spacing: 0.03rem;
       overflow: hidden; }
-    .bookmark .content .pos2 {
+    .bookmark .content-gy .pos2 {
       padding-right: 20%;
       height: 25%;
       color: #7E7E7E;
@@ -183,22 +183,22 @@ body {
       font-weight: 500;
       overflow: hidden;
       line-height: 0.4rem; }
-    .bookmark .content .time {
+    .bookmark .content-gy .time {
       padding-right: 20%;
       height: 25%;
       color: #7E7E7E;
       font-size: 0.2rem;
       line-height: 0.4rem; }
-      .bookmark .content .time .eye {
+      .bookmark .content-gy .time .eye {
         height: 100%;
         width: 20%;
         position: absolute;
         bottom: 0rem;
         right: 20%; }
-        .bookmark .content .time .eye .icon {
+        .bookmark .content-gy .time .eye .icon {
           width: 50%;
           float: left;
           background: url(../imgs/note.png) 0 -184px no-repeat;
           margin-top: 0; }
-        .bookmark .content .time .eye .pos1 {
+        .bookmark .content-gy .time .eye .pos1 {
           float: left; }
