@@ -52,24 +52,23 @@ a {
   text-decoration: none;
 }
 
-#header {
+#headers_lcq {
   width: 100%;
-  height: 1.28rem;
+  height: 2.2rem;
   background: #29a6dc;
 }
 
-#header .back {
+#headers_lcq .back {
   display: block;
-  height: 0.8rem;
   margin-left: 0.24rem;
 }
 
-#header .back img {
-  height: 0.8rem;
-  margin-bottom: -0.8rem;
+#headers_lcq .back img {
+  height: 1.2rem;
+  margin-bottom: -1.4rem;
 }
 
-#toper {
+#toper_lcq {
   height: 605px;
   width: 900px;
   background: #fff;
@@ -82,17 +81,17 @@ a {
   padding-top: 60px;
 }
 
-#toper img {
+#toper_lcq img {
   width: 700px;
   margin-left: 28px;
 }
 
-#toper .list {
+#toper_lcq .list {
   height: 102px;
   margin-top: 13px;
 }
 
-#toper .list .mulu {
+#toper_lcq .list .mulu {
   width: 260px;
   height: 68px;
   border-radius: 40px;
@@ -104,22 +103,22 @@ a {
   padding-bottom: 7px;
 }
 
-#toper .list .mulu .left-mulu {
+#toper_lcq .list .mulu .left-mulu {
   float: left;
 }
 
-#toper .list .mulu .left-mulu .mulushu {
+#toper_lcq .list .mulu .left-mulu .mulushu {
   display: block;
   width: 49px;
   margin-left: 43px;
   margin-top: -9px;
 }
 
-#toper .list .mulu .right-mulu {
+#toper_lcq .list .mulu .right-mulu {
   float: left;
 }
 
-#toper .list .mulu .right-mulu .ckml {
+#toper_lcq .list .mulu .right-mulu .ckml {
   display: inline-block;
   color: #2d2d2d;
   font-size: 24px;
@@ -128,7 +127,7 @@ a {
   margin-top: 6px;
 }
 
-#toper .list .shujia {
+#toper_lcq .list .shujia {
   float: left;
   width: 260px;
   height: 68px;
@@ -140,22 +139,22 @@ a {
   padding-bottom: 7px;
 }
 
-#toper .list .shujia .left-shujia {
+#toper_lcq .list .shujia .left-shujia {
   float: left;
 }
 
-#toper .list .shujia .left-shujia .mulushu {
+#toper_lcq .list .shujia .left-shujia .mulushu {
   display: block;
   width: 54px;
   margin-left: 43px;
   margin-top: -9px;
 }
 
-#toper .list .shujia .right-shujia {
+#toper_lcq .list .shujia .right-shujia {
   float: left;
 }
 
-#toper .list .shujia .right-shujia .ckml {
+#toper_lcq .list .shujia .right-shujia .ckml {
   display: inline-block;
   color: #2d2d2d;
   font-size: 24px;
@@ -164,7 +163,7 @@ a {
   margin-top: 6px;
 }
 
-#toper .reading {
+#toper_lcq .reading {
   width: 270px;
   height: 69px;
   background: #29a6dc;
@@ -174,7 +173,7 @@ a {
   margin-left: 220px;
 }
 
-#toper .reading .scirle-a {
+#toper_lcq .reading .scirle-a {
   width: 9px;
   height: 9px;
   background: #FFFFFF;
@@ -187,7 +186,7 @@ a {
   left: 29px;
 }
 
-#toper .reading .scirle-b {
+#toper_lcq .reading .scirle-b {
   width: 9px;
   height: 9px;
   background: #FFFFFF;
@@ -200,11 +199,11 @@ a {
   right: 29px;
 }
 
-#toper .reading .ljyd {
+#toper_lcq .reading .ljyd {
   margin-left: 75px;
 }
 
-#toper .reading .ljyd a {
+#toper_lcq .reading .ljyd a {
   display: inline-block;
   font-size: 30px;
   color: #FFFFFF;
@@ -212,19 +211,19 @@ a {
   line-height: 69px;
 }
 
-#middles {
+#middles_lcq {
   height: 275px;
   width: 900px;
   margin: 33px auto;
   box-sizing: border-box;
 }
 
-#middles .zxsp {
+#middles_lcq .zxsp {
   width: 296px;
   margin-left: 16px;
 }
 
-#middles .ping-a {
+#middles_lcq .ping-a {
   height: 154px;
   width: 100%;
   background: #FFFFFF;
@@ -234,18 +233,18 @@ a {
   margin-top: 45px;
 }
 
-#middles .ping-a .left-p {
+#middles_lcq .ping-a .left-p {
   width: 100px;
   height: 100%;
   float: left;
 }
 
-#middles .ping-a .left-p .pic1 {
+#middles_lcq .ping-a .left-p .pic1 {
   margin-left: 20px;
   margin-top: 25px;
 }
 
-#middles .ping-a .right-p {
+#middles_lcq .ping-a .right-p {
   width: 800px;
   height: 100%;
   float: left;
@@ -254,36 +253,36 @@ a {
   margin-top: 25px;
 }
 
-#middles .ping-a .right-p .txt1 {
+#middles_lcq .ping-a .right-p .txt1 {
   font-size: 22px;
   color: #8e8e8e;
   margin-left: 84px;
   letter-spacing: 2px;
 }
 
-#middles .ping-a .line {
+#middles_lcq .ping-a .line {
   margin-left: 84px;
   margin-top: 10px;
 }
 
-#middles .ping-a .line .lines {
+#middles_lcq .ping-a .line .lines {
   width: 545px;
 }
 
-#middles .ping-a .count {
+#middles_lcq .ping-a .count {
   margin-left: 73px;
 }
 
-#middles .ping-a .count .clocking {
+#middles_lcq .ping-a .count .clocking {
   float: left;
 }
 
-#middles .ping-a .count .clocking .clock {
+#middles_lcq .ping-a .count .clocking .clock {
   height: 38px;
   display: inline-block;
 }
 
-#middles .ping-a .count .shijian {
+#middles_lcq .ping-a .count .shijian {
   float: left;
   margin-top: 6px;
   font-size: 18px;
@@ -292,20 +291,20 @@ a {
   margin-left: 5px;
 }
 
-#middles .ping-a .shoucang {
+#middles_lcq .ping-a .shoucang {
   margin-left: 536px;
 }
 
-#middles .ping-a .shoucang .clocking {
+#middles_lcq .ping-a .shoucang .clocking {
   float: left;
 }
 
-#middles .ping-a .shoucang .clocking .clock {
+#middles_lcq .ping-a .shoucang .clocking .clock {
   height: 38px;
   display: inline-block;
 }
 
-#middles .ping-a .shoucang .shijian {
+#middles_lcq .ping-a .shoucang .shijian {
   float: left;
   margin-top: 6px;
   font-size: 18px;
@@ -314,17 +313,17 @@ a {
   margin-left: 5px;
 }
 
-#mid-bots {
+#mid-bots_lcq {
   width: 900px;
   height: 402px;
   margin: 113px auto;
 }
 
-#mid-bots .my-sqs {
+#mid-bots_lcq .my-sqs {
   margin-left: 16px;
 }
 
-#mid-bots .add-sq {
+#mid-bots_lcq .add-sq {
   margin-top: 28px;
   width: 100%;
   height: 83px;
@@ -335,12 +334,12 @@ a {
   position: relative;
 }
 
-#mid-bots .add-sq .add {
+#mid-bots_lcq .add-sq .add {
   display: inline-block;
   margin-left: 350px;
 }
 
-#mid-bots .add-sq .add img {
+#mid-bots_lcq .add-sq .add img {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -348,7 +347,7 @@ a {
   margin-bottom: auto;
 }
 
-#mid-bots .add-sq .tjsq {
+#mid-bots_lcq .add-sq .tjsq {
   display: inline-block;
   margin-left: 45px;
   color: #656565;
@@ -356,12 +355,12 @@ a {
   line-height: 83px;
 }
 
-#mid-bots .my-bj {
+#mid-bots_lcq .my-bj {
   margin-left: -23px;
   margin-top: 28px;
 }
 
-#mid-bots .add-sq {
+#mid-bots_lcq .add-sq {
   margin-top: 28px;
   width: 100%;
   height: 83px;
@@ -372,12 +371,12 @@ a {
   position: relative;
 }
 
-#mid-bots .add-sq .add {
+#mid-bots_lcq .add-sq .add {
   display: inline-block;
   margin-left: 350px;
 }
 
-#mid-bots .add-sq .add img {
+#mid-bots_lcq .add-sq .add img {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -385,7 +384,7 @@ a {
   margin-bottom: auto;
 }
 
-#mid-bots .add-sq .tjsq {
+#mid-bots_lcq .add-sq .tjsq {
   display: inline-block;
   margin-left: 45px;
   color: #656565;
@@ -393,31 +392,31 @@ a {
   line-height: 83px;
 }
 
-#bottoms {
+#bottoms_lcq {
   width: 900px;
   height: 480px;
   margin: 12px auto;
 }
 
-#bottoms .sxsj {
+#bottoms_lcq .sxsj {
   margin-left: -12px;
 }
 
-#bottoms .books {
+#bottoms_lcq .books {
   position: relative;
 }
 
-#bottoms .books .tu {
+#bottoms_lcq .books .tu {
   margin-left: 10px;
 }
 
-#bottoms .books .dian {
+#bottoms_lcq .books .dian {
   width: 100%;
   height: 20px;
   margin: 10px auto;
 }
 
-#bottoms .books .dian .yuan {
+#bottoms_lcq .books .dian .yuan {
   position: absolute;
   background: #0090ff;
   width: 8px;
@@ -427,7 +426,7 @@ a {
   left: 400px;
 }
 
-#bottoms .books .dian .yuan2 {
+#bottoms_lcq .books .dian .yuan2 {
   position: absolute;
   border: 2px solid #0090ff;
   box-sizing: border-box;
@@ -438,7 +437,7 @@ a {
   left: 420px;
 }
 
-#bottoms .books .dian .yuan3 {
+#bottoms_lcq .books .dian .yuan3 {
   position: absolute;
   border: 2px solid #0090ff;
   box-sizing: border-box;
