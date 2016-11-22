@@ -61,7 +61,6 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/mine/pianhao/pianhao.html'
 	}).when("/Reading1",{
 		templateUrl:'pages/reading/Reading1/reading1.html'
-<<<<<<< HEAD
 	}).when("/Reading2",{
 		templateUrl:'pages/reading/Reading2/reading2.html'
 	}).when("/Reading3",{
@@ -72,9 +71,7 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/reading/Reading5/reading5.html'
 	}).when("/Reading6",{
 		templateUrl:'pages/reading/Reading6/reading6.html'
-=======
 	}).when("/gerenCenter",{
 		templateUrl:'pages/mine/gerenCenter/gerenCenter.html'
->>>>>>> 75f3ffc6c464dee554883d81354557ebae0023b1
 	})
 }])
