@@ -31,7 +31,33 @@ body {
 @media screen and (min-width: 1024px) {
   html {
     font-size: 136.53333px; } }
+.header {
+  width: 100%;
+  height: 1rem;
+  background: #29a6dc;
+  position: relative; }
 
+.header_L {
+  width: 0.6rem;
+  height: 0.6rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.2rem;
+  background: url(imgs/header/header01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.6rem 0.6rem; }
+
+.header_R {
+  width: 0.6rem;
+  height: 0.6rem;
+  position: absolute;
+  right: 0.2rem;
+  top: 0.2rem;
+  background: url(imgs/header/header02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.6rem 0.6rem; }
 .box {
   width: 8rem; }
   .box .top {
