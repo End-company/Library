@@ -48,29 +48,4 @@
 	</body>
 </html>
 <script src="../../js/jquery.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript">
-	var app=angular.module('x',[])
-//	app.controller("testCtrl",["$scope",function($scope){
-//	$scope.pic=[
-//   {lu:"../../imgs/1.jpg"},
-//   {lu:"../../imgs/2.jpg"},
-//   {lu:"../../imgs/3.jpg"}
-//   ]	
-//	}])
 
-	app.directive('lb',[function(){
-		return{
-			restrict:'E',
-			replace:true,
-			scope:{
-				lujin: '='
-			},
-			templateUrl: '../../components/lunbo/lunbo.html',
-			link:function($scope,el){
-                
-			}
-		}
-}])
-
-
-</script>
