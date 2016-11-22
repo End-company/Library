@@ -6,11 +6,11 @@ body{
     box-sizing: border-box;
     font-family:"微软雅黑";
 }
-#box1{
+#box1_wlr{
     width:100%;
     height:100%;
 }
-#header_wl1{
+#header_wlr1{
     width: 100%;
     height: 1rem;
     background: #29a6dc;
@@ -46,8 +46,9 @@ body{
             img{
             position: absolute;
             left:28px;
+            width:20%;
             right:0;
-            bottom:-40px;
+            bottom:-8px;
             margin: auto;
           }
         }
@@ -70,7 +71,7 @@ body{
         background-size:0.9rem 0.9rem;
     }
 }
-#main_wl1{
+#main_wlr1{
     width:90%;
     height:4rem;
     margin:0.3rem auto;
@@ -191,22 +192,22 @@ body{
         border:none;
     }
 }
-.exit{
-    width:100%;
-    height:89px;
+#exit_wlr1{
+     width:100%;
+    height:70px;
     img{
         width:300px;
         margin:auto;
-        position: absolute;
-        bottom:50px;
+//      position: absolute;
+        bottom:-260px;
         left:40px;
     }
 }
-.zhao{
+#zhao_wlr1{
     width:240px;
     height:280px;
     margin:auto;
-    top:-80px;
+    top:200px;
     bottom:0;
     left:0;
     right:0;
@@ -214,6 +215,7 @@ body{
     background:white;
     border-radius: 20px;
     box-shadow:0 0 0 1000px rgba(0,0,0,0.7);
+//  display: none;
     .zHead{
         width:100%;
         height:40px;
@@ -309,13 +311,13 @@ body{
             }
         }
     }
-    .quxiao{
+    .quxiao_wlr1{
         width:90px;
         height:35px;
         border-radius: 30px;
         border:1px solid #29dcbc;
         position: absolute;
-        bottom:15px;
+        bottom:-45px;
         left:20px;
         .xd{
             width:5px;
@@ -339,14 +341,14 @@ body{
             background: #29dcbc;
         }
     }
-    .queding{
+    .queding_wlr1{
         width:90px;
         height:35px;
         border-radius: 30px;
         background: #29dcbc;
         position: absolute;
-        bottom:15px;
-        right:20px;
+        bottom:-45px;
+        right:-225px;
         .xd{
             width:5px;
             height:5px;

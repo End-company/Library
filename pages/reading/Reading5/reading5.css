@@ -1,14 +1,14 @@
 @import url("../../../css/base.css");
-.Dbox{
+._w5Dbox{
 	width: 100%;
 	height: 100%;
 	overflow: auto;
-	position: absolute;
+	position: fixed;
 	left:0;
 	top:0;
 	background: #ffe7a7;
 }
-.Topx{
+._w5Topx{
 	width: 90%;
 	height: 2px;
 	background:red;
@@ -18,7 +18,7 @@
 	margin-top:0.4rem;
 	margin-bottom: 0.4rem;
 }
-.nongm{
+._w5nongm{
 	position: absolute;
 	width:1.3rem;
 	left:0.2rem;
@@ -29,18 +29,18 @@
 	text-align: center;
 	
 }
-.text1{
+._w5text1{
 	padding-left:0.3rem;
 	padding-right:0.2rem;
 }
-.text1 p{
+._w5text1 p{
 	margin-top:0.1rem;
 	margin-bottom: 0.2rem;
 	font-size: 12px;
 	line-height: 16px;
 	color:#7b6c55;
 }
-.dibu{
+._w5dibu{
 	width: 100%;
 	height: 0.6rem;
 	position: absolute;
@@ -48,11 +48,11 @@
 	z-index: 1;
 	background: #ffe7a7;
 }
-.jindu{
+._w5jindu{
 	margin-left:0.2rem;
 	float: left;
 }
-.shudu{
+._w5shudu{
 	display: block;
 	float: right;
 	margin-right:0.2rem;
