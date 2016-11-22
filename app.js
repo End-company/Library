@@ -14,8 +14,14 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/shuye/Allshuping/comment.html'
 	}).when('/index',{
 		templateUrl:'pages/mine/shezhi/index.html'
+	}).when('/sex',{
+		templateUrl:'pages/mine/wodeziliao/shexingbie.html'
+	}).when('/toux',{
+		templateUrl:'pages/mine/wodeziliao/shetouxiang.html'
 	}).when('/pinglunOK',{
 		templateUrl:'pages/shuye/pinglunOK/pinglunOK.html'
+	}).when('/pingOK',{
+		templateUrl:'pages/shuye/pinglunOK/pingOK.html'
 	}).when('/yijianfankui',{
 		templateUrl:'pages/mine/yijianfankui/feedback.html'
 	}).when('/xitongxinxi',{
