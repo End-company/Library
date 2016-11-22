@@ -30,11 +30,11 @@ body {
   box-sizing: border-box; }
 
 /*bookmark部分开始*/
-.header {
+.header-gy1 {
   height: 1.6rem;
   width: 100%;
   background: #29A6DC; }
-  .header .circle {
+  .header-gy1 .circle {
     width: 0.7rem;
     height: 0.7rem;
     border-radius: 50%;
@@ -48,7 +48,7 @@ body {
     font-size: 0.4rem;
     font-weight: 600;
     color: #29A6DC; }
-  .header .title {
+  .header-gy1 .title-gy {
     width: 4rem;
     height: 1rem;
     position: absolute;
@@ -59,9 +59,10 @@ body {
     text-align: center;
     color: #fff;
     padding-bottom: 0.2rem; }
-    .header .title p:nth-of-type(2) {
+    .header-gy1 .title-gy p:nth-of-type(2) {
       margin-top: 0.1rem;
-      color: #91D8F9; }
+      color: #91D8F9;
+      font-size: 0.1rem; }
 
 .bookmark {
   width: 100%;
@@ -79,7 +80,7 @@ body {
       padding-right: 20%;
       height: 50%;
       color: #151C2B;
-      font-weight: 700;
+      font-weight: 600;
       font-size: 0.2rem;
       line-height: 0.9rem;
       letter-spacing: 0.03rem;
@@ -107,7 +108,8 @@ body {
         .bookmark .content .time .eye .icon {
           width: 50%;
           float: left;
-          background: url(../imgs/note.png) 0 -184px no-repeat; }
+          background: url(../imgs/note.png) 0 -184px no-repeat;
+          margin-top: 0; }
         .bookmark .content .time .eye .pos1 {
           float: left; }
 
