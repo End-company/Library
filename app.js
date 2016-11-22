@@ -58,5 +58,7 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/reading/Mybiji/Mybiji.html'
 	}).when("/close",{
 		templateUrl:'html/wangling/close.html'
+	}).when("/clear",{
+		templateUrl:'html/wangling/clear.html'
 	})
 }])
