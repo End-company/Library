@@ -1,0 +1,163 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family: "微软雅黑";
+	box-sixing:border-box;
+}
+a{
+   text-decoration:none;
+}
+img{
+   border:none;
+}
+button{
+ border:none;
+}
+$d-list:320px,360px,375px,384px,400px,411px,412px,414px,435px,768px;
+html{
+	font-size: 100px;
+}
+body{
+	font-size: 16px;
+	background:#fafafa;
+}
+$design-size:750px;
+@each $w in $d-list{
+	@media screen and (min-width:#{$w}){
+	    html{
+	        font-size: 100px * $w / $design-size;
+	    }
+	}
+}
+.box{
+	width:100%;
+	.top{
+	    width:100%;
+	    height:0.9rem;
+	    background:#29a6dc;
+	    padding-top:0.1rem;
+	    .zi{
+	        width:7rem;
+	        height:0.7rem;
+	        background:red;
+	        margin-left:0.25rem;
+            background:url(../img/fan.png) no-repeat;
+	        background-size:0.5rem;
+	        background-position:0 0.1rem;
+	        color:#f2f2f2;
+	        font-size:0.33rem;
+	        text-align:center;
+            .chang-pianhao{
+                margin-top:0.1rem;
+            }
+            .zi1{
+	             font-size:0.12rem;
+	             color:#90dcff;
+	        }
+	    }
+	}
+	.bottom{
+	    input{
+	        height:0.6rem;
+	        border:1px solid #3a3a3a;
+	        border-radius:1rem;
+	        text-align:center;
+	        line-height:0.6rem;
+	        margin-right:0.3rem;
+	    }
+	    div{
+	        text-align:center;
+	        margin-bottom:0.5rem;
+	    }
+	    .div1{
+	        margin-top:1.53rem;
+	        .i1{
+	            width:1.28rem;
+	            
+	        }
+	        .i2{
+	            width:1.85rem;
+	        }
+	    }
+        .div2{
+            .i3{
+                width:1.85rem;
+            }
+            .i4{
+                width:2.04rem;
+                background:#29a6dc;
+            }
+            .i5{
+                width:1.28rem;
+            }
+        }
+        .div3{
+            .i6{
+                width:1.28rem;
+            }
+            .i7{
+                width:2.12rem;
+            }
+        }
+        .div4{
+            .i8{
+                width:1.3rem;
+            }
+            .i9{
+                width:1.85rem;
+            }
+            .i10{
+                width:1.46rem;
+                background:#29a6dc;
+            }
+        }
+        .div5{
+            .i11{
+                width:2.3rem;
+                background:#29a6dc;
+            }
+            .i11{
+                width:1.86rem;
+            }
+        }
+        .div6{
+            .i13{
+                width:3.95rem;
+            }
+            .i14{
+                width:2.30rem;
+                background:#29a6dc;
+            }
+        }
+        .div7{
+            .i15{
+                width:4.1rem;
+                background:#29a6dc;
+            }
+        }
+        .input{
+            width:5.65rem;
+            height:0.68rem;
+            background:#28dd8b;
+            color:#d4f2e4;
+            margin-left:0.9rem;
+            position:relative;
+            top:1.1rem;
+        }
+        .bai,.bai1{
+            width:0.1rem;
+            height:0.1rem;
+            background:#fff;
+            border-radius:50%;
+            position:absolute;
+            top:11.92rem;
+        }
+        .bai{
+            left:1.3rem;
+        }
+        .bai1{
+            left:6rem;
+        }
+	}
+}

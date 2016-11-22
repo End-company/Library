@@ -29,7 +29,7 @@ $contentcolor:#7E7E7E;
     margin: auto;
 }
 /*bookmark部分开始*/
-.header{
+.header-gy1{
     height: 1.6rem;
     width: 100%;
     background: $bg;
@@ -48,7 +48,7 @@ $contentcolor:#7E7E7E;
         font-weight: 600;
         color: $bg;
     }
-    .title{
+    .title-gy{
         width:4rem;
         height: 1rem;
         @include left-right;
@@ -58,7 +58,8 @@ $contentcolor:#7E7E7E;
         padding-bottom: 0.2rem;
         p:nth-of-type(2){
         margin-top: 0.1rem;
-        color: #91D8F9;  
+        color: #91D8F9;
+        font-size: 0.1rem;  
         }      
     }
 }
@@ -80,7 +81,7 @@ $contentcolor:#7E7E7E;
            padding-right: 20%; 
            height: 50%;
            color: #151C2B;
-           font-weight: 700;
+           font-weight: 600;
            font-size: 0.2rem; 
            line-height: 0.9rem;
            letter-spacing: 0.03rem; 
@@ -101,7 +102,7 @@ $contentcolor:#7E7E7E;
            color: $contentcolor;
            font-size: 0.2rem;
            line-height: 0.4rem; 
-               .eye{
+            .eye{
             height: 100%;
             width: 20%;
             position: absolute;
@@ -111,6 +112,7 @@ $contentcolor:#7E7E7E;
                 width: 50%;
                 float: left;
                 background: url(../imgs/note.png) 0 -184px no-repeat;
+                margin-top: 0;
             }
             .pos1{
                 float: left;
