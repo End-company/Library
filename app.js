@@ -16,6 +16,8 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/mine/shezhi/index.html'
 	}).when('/pinglunOK',{
 		templateUrl:'pages/shuye/pinglunOK/pinglunOK.html'
+	}).when('/pingOK',{
+		templateUrl:'pages/shuye/pinglunOK/pingOK.html'
 	}).when('/yijianfankui',{
 		templateUrl:'pages/mine/yijianfankui/feedback.html'
 	}).when('/xitongxinxi',{
