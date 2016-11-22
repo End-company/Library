@@ -52,5 +52,9 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'html/guying/selectbookmark.html'
 	}).when('/selectnote',{
 		templateUrl:'html/guying/selectnote.html'
+	}).when('/mulu',{
+		templateUrl:'pages/reading/mulu/mulu.html'
+	}).when('/Mybiji',{
+		templateUrl:'pages/reading/Mybiji/Mybiji .html'
 	})
 }])
