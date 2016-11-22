@@ -51,13 +51,13 @@ a {
   color: #000;
 }
 
-.header {
+#header-wrl {
   width: 100%;
   height: 1rem;
   background: #29a6dc;
   position: relative;
 }
-.header .header_L {
+#header-wrl .header_L {
   width: 0.6rem;
   height: 0.6rem;
   position: absolute;
@@ -68,7 +68,7 @@ a {
   background-position: center;
   background-size: 0.6rem 0.6rem;
 }
-.header .set {
+#header-wrl #set {
   width: auto;
   height: 1rem;
   position: absolute;
@@ -81,26 +81,27 @@ a {
   text-align: center;
   font-size: 14px;
 }
-.header .set .set1 {
+#header-wrl #set .set1 {
   height: 60%;
   line-height: 100%;
   font-size: 20px;
   position: relative;
 }
-.header .set .set1 img {
+#header-wrl #set .set1 img {
   position: absolute;
   left: 28px;
+  width: 20%;
   right: 0;
-  bottom: -40px;
+  bottom: -8px;
   margin: auto;
 }
-.header .set .sets {
+#header-wrl #set .sets {
   height: 40%;
   line-height: 100%;
   color: #90dcff;
   font-size: 12px;
 }
-.header .header_R {
+#header-wrl .header_R {
   width: 0.6rem;
   height: 0.6rem;
   position: absolute;
@@ -112,7 +113,7 @@ a {
   background-size: 0.9rem 0.9rem;
 }
 
-.main {
+#main-wrl {
   width: 90%;
   height: 4rem;
   margin: 0.3rem auto;
@@ -121,14 +122,14 @@ a {
   box-shadow: 0 0 5px 2px #e7e7e7;
   position: relative;
 }
-.main .main1 {
+#main-wrl .main1 {
   width: 100%;
   height: 0.9rem;
   position: relative;
   margin-top: 5px;
   border-bottom: 1px dotted #000;
 }
-.main .main1 .left1 {
+#main-wrl .main1 .left1 {
   background: url(../imgs/wlrimg/1.png);
   position: absolute;
   top: 2px;
@@ -137,7 +138,7 @@ a {
   height: 33px;
   transform: scale(0.7);
 }
-.main .main1 .left2 {
+#main-wrl .main1 .left2 {
   background: url(../imgs/wlrimg/2.png);
   position: absolute;
   top: 2px;
@@ -146,7 +147,7 @@ a {
   height: 33px;
   transform: scale(0.7);
 }
-.main .main1 .left3 {
+#main-wrl .main1 .left3 {
   background: url(../imgs/wlrimg/3.png);
   position: absolute;
   top: 2px;
@@ -155,7 +156,7 @@ a {
   height: 33px;
   transform: scale(0.7);
 }
-.main .main1 .left4 {
+#main-wrl .main1 .left4 {
   background: url(../imgs/wlrimg/4.png);
   position: absolute;
   top: 2px;
@@ -164,13 +165,13 @@ a {
   height: 33px;
   transform: scale(0.7);
 }
-.main .main1 .left {
+#main-wrl .main1 .left {
   font-size: 16px;
   position: absolute;
   top: 3px;
   left: 45px;
 }
-.main .main1 span.yb {
+#main-wrl .main1 span.yb {
   font-size: 14px;
   position: absolute;
   top: 20px;
@@ -178,7 +179,7 @@ a {
   color: #999;
   transform: scale(0.7);
 }
-.main .main1 span {
+#main-wrl .main1 span {
   font-size: 14px;
   position: absolute;
   top: 20px;
@@ -186,7 +187,7 @@ a {
   color: #999;
   transform: scale(0.7);
 }
-.main .main1 span.zb {
+#main-wrl .main1 span.zb {
   font-size: 14px;
   position: absolute;
   top: 20px;
@@ -194,25 +195,25 @@ a {
   color: #999;
   transform: scale(0.7);
 }
-.main .main1 .right {
+#main-wrl .main1 .right {
   font-size: 14px;
   position: absolute;
   top: 12px;
   right: 30px;
 }
-.main .main1 .right span {
+#main-wrl .main1 .right span {
   color: #3daedf;
   font-size: 18px;
   top: -1px;
   margin-left: -3px;
 }
-.main .main1 .right .jt {
+#main-wrl .main1 .right .jt {
   color: #3daedf;
   font-size: 18px;
   top: -1px;
   margin-left: -37px;
 }
-.main .main1 .right .yuan {
+#main-wrl .main1 .right .yuan {
   width: 60px;
   height: 25px;
   border-radius: 30px;
@@ -222,7 +223,7 @@ a {
   left: -35px;
   box-shadow: 0 0 1px 2px #d9e1ff;
 }
-.main .main1 .right .yuan .yuan1 {
+#main-wrl .main1 .right .yuan .yuan1 {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -230,18 +231,17 @@ a {
   margin-top: 3px;
   margin-left: 6px;
 }
-.main .main1:nth-of-type(4) {
+#main-wrl .main1:nth-of-type(4) {
   border: none;
 }
 
-.exit {
+#exit-wrl {
   width: 100%;
-  height: 89px;
+  height: 70px;
 }
-.exit img {
+#exit-wrl img {
   width: 300px;
   margin: auto;
-  position: absolute;
-  bottom: 50px;
+  bottom: -260px;
   left: 40px;
 }

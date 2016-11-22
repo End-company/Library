@@ -47,18 +47,18 @@ body {
   font-family: "微软雅黑";
 }
 
-.box {
+#box1 {
   width: 100%;
   height: 100%;
 }
 
-.header {
+#header_wl1 {
   width: 100%;
   height: 1rem;
   background: #29a6dc;
   position: relative;
 }
-.header .header_L {
+#header_wl1 .header_L {
   width: 0.6rem;
   height: 0.6rem;
   position: absolute;
@@ -69,7 +69,7 @@ body {
   background-position: center;
   background-size: 0.6rem 0.6rem;
 }
-.header .set {
+#header_wl1 .set {
   width: auto;
   height: 1rem;
   position: absolute;
@@ -82,26 +82,26 @@ body {
   text-align: center;
   font-size: 14px;
 }
-.header .set .set1 {
+#header_wl1 .set .set1 {
   height: 60%;
   line-height: 100%;
   font-size: 20px;
   position: relative;
 }
-.header .set .set1 img {
+#header_wl1 .set .set1 img {
   position: absolute;
   left: 28px;
   right: 0;
   bottom: -40px;
   margin: auto;
 }
-.header .set .sets {
+#header_wl1 .set .sets {
   height: 40%;
   line-height: 100%;
   color: #90dcff;
   font-size: 12px;
 }
-.header .header_R {
+#header_wl1 .header_R {
   width: 0.6rem;
   height: 0.6rem;
   position: absolute;
@@ -113,7 +113,7 @@ body {
   background-size: 0.9rem 0.9rem;
 }
 
-.main {
+#main_wl1 {
   width: 90%;
   height: 4rem;
   margin: 0.3rem auto;
@@ -122,14 +122,14 @@ body {
   box-shadow: 0 0 5px 2px #e7e7e7;
   position: relative;
 }
-.main .main1 {
+#main_wl1 .main1 {
   width: 100%;
   height: 0.9rem;
   position: relative;
   margin-top: 5px;
   border-bottom: 1px dotted #000;
 }
-.main .main1 .left1 {
+#main_wl1 .main1 .left1 {
   background: url(../imgs/wlrimg/1.png);
   position: absolute;
   top: 2px;
@@ -138,7 +138,7 @@ body {
   height: 33px;
   transform: scale(0.7);
 }
-.main .main1 .left2 {
+#main_wl1 .main1 .left2 {
   background: url(../imgs/wlrimg/2.png);
   position: absolute;
   top: 2px;
@@ -147,7 +147,7 @@ body {
   height: 33px;
   transform: scale(0.7);
 }
-.main .main1 .left3 {
+#main_wl1 .main1 .left3 {
   background: url(../imgs/wlrimg/3.png);
   position: absolute;
   top: 2px;
@@ -156,7 +156,7 @@ body {
   height: 33px;
   transform: scale(0.7);
 }
-.main .main1 .left4 {
+#main_wl1 .main1 .left4 {
   background: url(../imgs/wlrimg/4.png);
   position: absolute;
   top: 2px;
@@ -165,13 +165,13 @@ body {
   height: 33px;
   transform: scale(0.7);
 }
-.main .main1 .left {
+#main_wl1 .main1 .left {
   font-size: 16px;
   position: absolute;
   top: 3px;
   left: 45px;
 }
-.main .main1 span.yb {
+#main_wl1 .main1 span.yb {
   font-size: 14px;
   position: absolute;
   top: 20px;
@@ -179,7 +179,7 @@ body {
   color: #999;
   transform: scale(0.7);
 }
-.main .main1 span {
+#main_wl1 .main1 span {
   font-size: 14px;
   position: absolute;
   top: 20px;
@@ -187,7 +187,7 @@ body {
   color: #999;
   transform: scale(0.7);
 }
-.main .main1 span.zb {
+#main_wl1 .main1 span.zb {
   font-size: 14px;
   position: absolute;
   top: 20px;
@@ -195,25 +195,25 @@ body {
   color: #999;
   transform: scale(0.7);
 }
-.main .main1 .right {
+#main_wl1 .main1 .right {
   font-size: 14px;
   position: absolute;
   top: 12px;
   right: 30px;
 }
-.main .main1 .right span {
+#main_wl1 .main1 .right span {
   color: #3daedf;
   font-size: 18px;
   top: -1px;
   margin-left: -3px;
 }
-.main .main1 .right .jt {
+#main_wl1 .main1 .right .jt {
   color: #3daedf;
   font-size: 18px;
   top: -1px;
   margin-left: -37px;
 }
-.main .main1 .right .yuan {
+#main_wl1 .main1 .right .yuan {
   width: 60px;
   height: 25px;
   border-radius: 30px;
@@ -223,7 +223,7 @@ body {
   left: -35px;
   box-shadow: 0 0 1px 2px #d9e1ff;
 }
-.main .main1 .right .yuan .yuan1 {
+#main_wl1 .main1 .right .yuan .yuan1 {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -231,7 +231,7 @@ body {
   margin-top: 3px;
   margin-left: 6px;
 }
-.main .main1:nth-of-type(4) {
+#main_wl1 .main1:nth-of-type(4) {
   border: none;
 }
 

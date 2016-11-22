@@ -51,18 +51,13 @@ a {
   color: #000;
 }
 
-.box {
-  width: 100%;
-  height: 100%;
-}
-
-.header {
+#header_wlr {
   width: 100%;
   height: 1rem;
   background: #29a6dc;
   position: relative;
 }
-.header .header_L {
+#header_wlr .header_L {
   width: 0.6rem;
   height: 0.6rem;
   position: absolute;
@@ -73,7 +68,7 @@ a {
   background-position: center;
   background-size: 0.6rem 0.6rem;
 }
-.header .set {
+#header_wlr #set-wlr {
   width: auto;
   height: 1rem;
   position: absolute;
@@ -86,38 +81,39 @@ a {
   text-align: center;
   font-size: 14px;
 }
-.header .set .set1 {
+#header_wlr #set-wlr .set1 {
   height: 60%;
   line-height: 100%;
   font-size: 20px;
   position: relative;
 }
-.header .set .set1 img {
+#header_wlr #set-wlr .set1 img {
+  width: 20%;
   position: absolute;
   left: 28px;
   right: 0;
-  bottom: -40px;
+  bottom: -8px;
   margin: auto;
 }
-.header .set .sets {
+#header_wlr #set-wlr .sets {
   height: 40%;
   line-height: 100%;
   color: #90dcff;
   font-size: 12px;
 }
 
-.mainl {
+#mainl_wlr {
   width: 100%;
   position: relative;
 }
-.mainl .main2 {
+#mainl_wlr .main2 {
   width: 90%;
   height: 1.5rem;
   margin: 0.3rem auto;
   background: #fdfdfd;
   box-shadow: 0 0 5px 2px #f2f7ff;
 }
-.mainl .main2 .tu {
+#mainl_wlr .main2 .tu {
   width: 95px;
   height: 95px;
   background: url(../imgs/wlrimg/9.png);
@@ -126,7 +122,7 @@ a {
   margin-left: -10px;
   transform: scale(0.7);
 }
-.mainl .main2 .tu1 {
+#mainl_wlr .main2 .tu1 {
   width: 95px;
   height: 95px;
   background: url(../imgs/wlrimg/8.png);
@@ -135,7 +131,7 @@ a {
   margin-left: -10px;
   transform: scale(0.7);
 }
-.mainl .main2 .mains {
+#mainl_wlr .main2 .mains {
   font-size: 14px;
   position: absolute;
   margin-top: 5px;
@@ -144,7 +140,7 @@ a {
   color: #999;
   transform: scale(0.8);
 }
-.mainl .main2 .smile {
+#mainl_wlr .main2 .smile {
   width: 64px;
   height: 64px;
   background: url(../imgs/wlrimg/11.png);
@@ -153,14 +149,14 @@ a {
   margin-left: 200px;
   transform: scale(0.8);
 }
-.mainl .main2 .xian {
+#mainl_wlr .main2 .xian {
   border-bottom: 1px dotted #000;
   width: 65%;
   position: absolute;
   margin-top: 48px;
   margin-left: 80px;
 }
-.mainl .main2 .time {
+#mainl_wlr .main2 .time {
   width: 64px;
   height: 64px;
   background: url(../imgs/wlrimg/10.png);
@@ -169,14 +165,14 @@ a {
   margin-left: 50px;
   transform: scale(0.6);
 }
-.mainl .main2 .time1 {
+#mainl_wlr .main2 .time1 {
   font-size: 12px;
   position: absolute;
   margin-top: 55px;
   margin-left: 110px;
   color: #999;
 }
-.mainl .main2 .sc {
+#mainl_wlr .main2 .sc {
   width: 64px;
   height: 64px;
   background: url(../imgs/wlrimg/12.png);
@@ -185,7 +181,7 @@ a {
   margin-left: 245px;
   transform: scale(0.6);
 }
-.mainl .main2 .sc1 {
+#mainl_wlr .main2 .sc1 {
   font-size: 12px;
   position: absolute;
   margin-top: 55px;
@@ -193,15 +189,13 @@ a {
   color: #999;
 }
 
-.foot {
+#foot_wlr {
   width: 100%;
   background: #151c2b;
-  position: absolute;
-  bottom: 0;
   left: 0;
   height: 1.2rem;
 }
-.foot .pl {
+#foot_wlr .pl {
   background: url(../imgs/wlrimg/fb.png);
   width: 150px;
   height: 100px;
