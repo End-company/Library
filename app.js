@@ -55,6 +55,8 @@ app.config(['$routeProvider',function($routeProvider){
 	}).when('/mulu',{
 		templateUrl:'pages/reading/mulu/mulu.html'
 	}).when('/Mybiji',{
-		templateUrl:'pages/reading/Mybiji/Mybiji .html'
+		templateUrl:'pages/reading/Mybiji/Mybiji.html'
+	}).when("/close",{
+		templateUrl:'html/wangling/close.html'
 	})
 }])
