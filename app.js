@@ -54,5 +54,13 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'html/guying/selectnote.html'
 	}).when('/close',{
 		templateUrl:'html/wangling/close.html'
+	}).when("/clear",{
+		templateUrl:'html/wangling/clear.html'
+	}).when("/pianhao",{
+		templateUrl:'pages/mine/pianhao/pianhao.html'
+	}).when("/Reading1",{
+		templateUrl:'pages/reading/Reading1/reading1.html'
+	}).when("/gerenCenter",{
+		templateUrl:'pages/mine/gerenCenter/gerenCenter.html'
 	})
 }])
