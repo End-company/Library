@@ -43,58 +43,23 @@ body {
   }
 }
 
-html {
-  font-size: 100px;
-}
-
 * {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+  box-sizing: border-box;
+  font-family: "微软雅黑";
 }
 
 body {
-  font-size: 16px;
+  background: #fafafa;
 }
 
-@media screen and (min-width: 320px) {
-  html {
-    font-size: 42.66667px;
-  }
-}
-
-@media screen and (min-width: 360px) {
-  html {
-    font-size: 48px;
-  }
-}
-
-@media screen and (min-width: 375px) {
-  html {
-    font-size: 50px;
-  }
-}
-
-@media screen and (min-width: 412px) {
-  html {
-    font-size: 54.93333px;
-  }
-}
-
-@media screen and (min-width: 414px) {
-  html {
-    font-size: 55.2px;
-  }
-}
-
-.header {
+.zcc {
   width: 100%;
   height: 1rem;
   background: #29a6dc;
   position: relative;
 }
 
-.header_L {
+.zcc_L {
   width: 0.6rem;
   height: 0.6rem;
   position: absolute;
@@ -106,7 +71,7 @@ body {
   background-size: 0.6rem 0.6rem;
 }
 
-.header_R {
+.zcc_R {
   width: 0.6rem;
   height: 0.6rem;
   position: absolute;
@@ -118,16 +83,7 @@ body {
   background-size: 0.6rem 0.6rem;
 }
 
-* {
-  box-sizing: border-box;
-  font-family: "微软雅黑";
-}
-
-body {
-  background: #fafafa;
-}
-
-.header_c {
+.zcc_c {
   width: auto;
   height: 0.6rem;
   position: absolute;
@@ -140,22 +96,23 @@ body {
   text-align: center;
 }
 
-.header_c .header-t {
+.zcc_c .zcc-t {
   height: 60%;
   line-height: 100%;
   font-size: 16px;
   position: relative;
 }
 
-.header_c .header-t img {
+.zcc_c .zcc-t img {
+  width: 1.5rem;
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -0.1rem;
+  bottom: -0.14rem;
   margin: auto;
 }
 
-.header_c .header-b {
+.zcc_c .zcc-b {
   height: 40%;
   line-height: 100%;
   color: #90dcff;
@@ -556,13 +513,13 @@ body {
   background-size: 60%;
 }
 
-.tishi {
-  width: 80%;
+.zcc-tishi {
+  width: 5rem;
   height: 4.5rem;
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
-  top: 0rem;
+  top: 0;
   bottom: 0;
   margin: auto;
   border-radius: 5%;
@@ -571,21 +528,21 @@ body {
   text-align: center;
 }
 
-.tishi .tishi-t {
+.zcc-tishi .tishi-t {
   width: 100%;
   height: 1.2rem;
   background: #29dcbc url(../imgs/information/tishi.png);
   background-repeat: no-repeat;
 }
 
-.tishi .tishi-1 {
+.zcc-tishi .tishi-1 {
   width: 100%;
   height: .6rem;
   line-height: .6rem;
   margin-top: .5rem;
 }
 
-.tishi .tishi-2 {
+.zcc-tishi .tishi-2 {
   width: 100%;
   height: .3rem;
   line-height: .3rem;
@@ -593,12 +550,17 @@ body {
   color: #666;
 }
 
-.tishi .tishi-3 {
+.zcc-tishi .tishi-3 {
   width: 100%;
   height: .3rem;
   line-height: .3rem;
   font-size: 12px;
   color: #666;
+}
+
+.zcc-tishi .tishi-4 {
+  width: 2rem;
+  height: .1rem;
 }
 
 .personal-foot {
