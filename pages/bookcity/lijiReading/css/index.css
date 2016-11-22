@@ -1,0 +1,341 @@
+html {
+  font-size: 100px; }
+
+body {
+  font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 102.4px; } }
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 136.53333px; } }
+.header {
+  width: 100%;
+  height: 1rem;
+  background: #29a6dc;
+  position: relative; }
+
+.header_L {
+  width: 0.6rem;
+  height: 0.6rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.2rem;
+  background: url(imgs/header/header01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.6rem 0.6rem; }
+
+.header_R {
+  width: 0.6rem;
+  height: 0.6rem;
+  position: absolute;
+  right: 0.2rem;
+  top: 0.2rem;
+  background: url(imgs/header/header02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.6rem 0.6rem; }
+.box {
+  width: 8rem; }
+  .box .top {
+    width: 100%;
+    height: 0.8rem;
+    background: #29a6dc; }
+    .box .top img {
+      width: 0.35rem;
+      height: 0.35rem;
+      margin-top: 0.35rem;
+      margin-left: 0.2rem; }
+  .box .ban {
+    height: 7.2rem;
+    width: 100%; }
+    .box .ban .banbox {
+      height: 7rem;
+      width: 7rem;
+      border: 0.02rem solid #e5ecf8;
+      border-radius: 0.2rem;
+      margin-top: 0.1rem;
+      margin-left: 0.38rem;
+      position: relative; }
+      .box .ban .banbox .shu {
+        height: 3.28rem; }
+        .box .ban .banbox .shu img {
+          width: 2.3rem;
+          height: 3rem;
+          margin-top: 0.5rem;
+          margin-left: 0.5rem; }
+        .box .ban .banbox .shu .yuan {
+          width: 3.6rem;
+          height: 3rem;
+          float: right;
+          margin-top: 0.6rem;
+          margin-right: 0.5rem;
+          position: relative; }
+          .box .ban .banbox .shu .yuan h1 {
+            font-size: 16px;
+            color: #333333; }
+          .box .ban .banbox .shu .yuan p {
+            color: #3f3f3f;
+            font-size: 12px;
+            margin-top: -0.2rem; }
+          .box .ban .banbox .shu .yuan span {
+            font-size: 12px;
+            color: #777777; }
+          .box .ban .banbox .shu .yuan h6 {
+            font-size: 12px;
+            color: #777777;
+            margin-top: -0.3rem; }
+          .box .ban .banbox .shu .yuan h5 {
+            font-size: 12px;
+            color: #777777;
+            margin-top: -0.6rem; }
+          .box .ban .banbox .shu .yuan .xing {
+            float: left;
+            width: 1.34rem;
+            height: 0.38rem;
+            position: absolute;
+            top: 0.8rem;
+            left: -.5rem; }
+          .box .ban .banbox .shu .yuan .wenzi {
+            font-size: 12px;
+            color: #bebbbb;
+            width: 3.8rem;
+            margin-top: 0.2rem; }
+          .box .ban .banbox .shu .yuan div {
+            font-size: 0.12rem;
+            width: 0.8rem;
+            height: 0.4rem;
+            background: #67e479;
+            border-radius: 0.5rem;
+            text-align: center;
+            line-height: 0.4rem;
+            color: #ffffff; }
+          .box .ban .banbox .shu .yuan #wen1 {
+            float: left;
+            margin-top: 0.1rem; }
+          .box .ban .banbox .shu .yuan #wen2 {
+            float: right;
+            margin-right: 1.6rem;
+            margin-top: 0.1rem; }
+          .box .ban .banbox .shu .yuan #wen3 {
+            float: right;
+            margin-right: 0.4rem;
+            margin-top: -0.4rem; }
+        .box .ban .banbox .shu .zuo {
+          margin-top: 1.5rem;
+          margin-left: 0.4rem;
+          width: 2.2rem;
+          height: 0.7rem;
+          border: 0.05rem solid #e5ecf8;
+          border-radius: 0.5rem; }
+          .box .ban .banbox .shu .zuo img {
+            width: 0.6rem;
+            height: 0.6rem;
+            margin-top: 0.05rem;
+            margin-left: 0.25rem; }
+          .box .ban .banbox .shu .zuo p {
+            float: right;
+            font-size: 0.12rem;
+            text-align: center;
+            line-height: 0.2rem;
+            margin-right: 0.15rem;
+            color: #cacaca; }
+        .box .ban .banbox .shu .you {
+          float: right;
+          margin-top: -0.8rem;
+          margin-right: 0.4rem;
+          width: 2.2rem;
+          height: 0.7rem;
+          border: 0.05rem solid #e5ecf8;
+          border-radius: 0.5rem; }
+          .box .ban .banbox .shu .you img {
+            width: 0.6rem;
+            height: 0.6rem;
+            margin-top: 0.05rem;
+            margin-left: 0.25rem; }
+          .box .ban .banbox .shu .you p {
+            float: right;
+            font-size: 0.12rem;
+            text-align: center;
+            line-height: 0.2rem;
+            margin-right: 0.15rem;
+            color: #cacaca; }
+        .box .ban .banbox .shu .yue {
+          width: 2.7rem;
+          height: 0.65rem;
+          background: #29a6dc;
+          border-radius: 0.5rem;
+          top: -0.2rem;
+          margin: 0 auto; }
+          .box .ban .banbox .shu .yue p {
+            color: #fff;
+            text-align: center;
+            line-height: 0.65rem; }
+  .box .zhong {
+    width: 100%;
+    height: 1.2rem; }
+    .box .zhong img {
+      width: 0.45rem;
+      height: 0.69rem;
+      margin-top: 0.15rem;
+      margin-left: 0.5rem; }
+    .box .zhong .zui {
+      float: right;
+      height: 1.2rem;
+      width: 6.9rem; }
+      .box .zhong .zui h1 {
+        font-size: 0.25rem;
+        color: #676767; }
+      .box .zhong .zui p {
+        font-size: 0.12rem;
+        margin-top: -0.1rem; }
+  .box .tu1 {
+    height: 2.3rem;
+    width: 7rem;
+    border: 0.02rem solid #e5ecf8;
+    border-radius: 0.2rem;
+    margin-left: 0.38rem;
+    position: relative; }
+    .box .tu1 img {
+      width: 0.8rem;
+      height: 0.8rem;
+      border-radius: 50%;
+      margin-top: 0.2rem;
+      margin-left: 0.2rem; }
+    .box .tu1 .xiao {
+      float: right;
+      width: 5.8rem;
+      height: 1.6rem;
+      border-radius: 0.2rem; }
+      .box .tu1 .xiao p {
+        font-size: 0.12rem;
+        color: #bfbfbf; }
+      .box .tu1 .xiao .lian {
+        position: absolute;
+        left: 3.4rem;
+        top: 0.25rem; }
+    .box .tu1 .dian {
+      width: 5.8rem;
+      border: 0.8px dashed black;
+      margin-top: 0.2rem;
+      margin-left: 1.16rem; }
+    .box .tu1 .biao {
+      width: 5.8rem;
+      height: 0.8rem;
+      margin-left: 1rem; }
+      .box .tu1 .biao .ji {
+        width: 0.25rem;
+        height: 0.25rem;
+        margin-top: 0.1rem; }
+      .box .tu1 .biao span {
+        font-size: 0.12px;
+        color: #bbbbbb; }
+    .box .tu1 .a {
+      float: right; }
+      .box .tu1 .a img {
+        width: 0.25rem;
+        height: 0.25rem;
+        margin-top: 0.1rem; }
+  .box .tu2 {
+    height: 2.3rem;
+    width: 7rem;
+    border: 0.02rem solid #e5ecf8;
+    margin-left: 0.38rem;
+    border-radius: 0.2rem;
+    position: relative; }
+    .box .tu2 img {
+      width: 0.8rem;
+      height: 0.8rem;
+      border-radius: 50%;
+      margin-top: 0.2rem;
+      margin-left: 0.2rem; }
+    .box .tu2 .xiao {
+      float: right;
+      width: 5.8rem;
+      height: 1.6rem;
+      border-radius: 0.2rem; }
+      .box .tu2 .xiao p {
+        font-size: 0.12rem;
+        color: #bfbfbf; }
+      .box .tu2 .xiao .lian {
+        position: absolute;
+        left: 3.4rem;
+        top: 0.25rem; }
+    .box .tu2 .dian {
+      width: 5.8rem;
+      border: 1px dashed black;
+      margin-top: 0.2rem;
+      margin-left: 1.16rem; }
+    .box .tu2 .biao {
+      width: 5.8rem;
+      height: 0.8rem;
+      margin-left: 1rem; }
+      .box .tu2 .biao .ji {
+        width: 0.25rem;
+        height: 0.25rem;
+        margin-top: 0.1rem; }
+      .box .tu2 .biao span {
+        font-size: 0.12px;
+        color: #bbbbbb; }
+    .box .tu2 .a {
+      float: right; }
+      .box .tu2 .a img {
+        width: 0.25rem;
+        height: 0.25rem;
+        margin-top: 0.1rem; }
+  .box .cha {
+    width: 2.7rem;
+    height: 0.5rem;
+    background: #29a6dc;
+    border-radius: 0.5rem;
+    top: -0.2rem;
+    margin: 0 auto;
+    margin-top: 0.5rem; }
+    .box .cha p {
+      color: #fff;
+      font-size: 14px;
+      text-align: center;
+      line-height: 0.5rem; }
+  .box .bb {
+    height: 1.3rem;
+    width: 7rem;
+    border: 0.02rem solid #e5ecf8;
+    border-radius: 0.2rem;
+    margin-left: 0.38rem; }
+    .box .bb .sass {
+      width: 2.3rem;
+      height: 1rem;
+      margin: 0.4rem auto;
+      position: relative; }
+      .box .bb .sass img {
+        width: 0.4rem;
+        height: 0.5rem; }
+      .box .bb .sass span {
+        font-size: 14px;
+        color: #e0e0e0;
+        position: absolute;
+        left: 0.5rem;
+        top: 0.1rem; }

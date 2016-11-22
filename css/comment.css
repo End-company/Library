@@ -47,6 +47,10 @@ body {
   font-family: "微软雅黑";
 }
 
+a {
+  color: #000;
+}
+
 .box {
   width: 100%;
   height: 100%;
@@ -102,18 +106,18 @@ body {
   font-size: 12px;
 }
 
-.main {
+.mainl {
   width: 100%;
   position: relative;
 }
-.main .main1 {
+.mainl .main2 {
   width: 90%;
-  height: 1.52rem;
+  height: 1.5rem;
   margin: 0.3rem auto;
   background: #fdfdfd;
   box-shadow: 0 0 5px 2px #f2f7ff;
 }
-.main .main1 .tu {
+.mainl .main2 .tu {
   width: 95px;
   height: 95px;
   background: url(../imgs/wlrimg/9.png);
@@ -122,7 +126,7 @@ body {
   margin-left: -10px;
   transform: scale(0.7);
 }
-.main .main1 .tu1 {
+.mainl .main2 .tu1 {
   width: 95px;
   height: 95px;
   background: url(../imgs/wlrimg/8.png);
@@ -131,7 +135,7 @@ body {
   margin-left: -10px;
   transform: scale(0.7);
 }
-.main .main1 .mains {
+.mainl .main2 .mains {
   font-size: 14px;
   position: absolute;
   margin-top: 5px;
@@ -140,7 +144,7 @@ body {
   color: #999;
   transform: scale(0.8);
 }
-.main .main1 .smile {
+.mainl .main2 .smile {
   width: 64px;
   height: 64px;
   background: url(../imgs/wlrimg/11.png);
@@ -149,14 +153,14 @@ body {
   margin-left: 200px;
   transform: scale(0.8);
 }
-.main .main1 .xian {
+.mainl .main2 .xian {
   border-bottom: 1px dotted #000;
   width: 65%;
   position: absolute;
   margin-top: 48px;
   margin-left: 80px;
 }
-.main .main1 .time {
+.mainl .main2 .time {
   width: 64px;
   height: 64px;
   background: url(../imgs/wlrimg/10.png);
@@ -165,14 +169,14 @@ body {
   margin-left: 50px;
   transform: scale(0.6);
 }
-.main .main1 .time1 {
+.mainl .main2 .time1 {
   font-size: 12px;
   position: absolute;
   margin-top: 55px;
   margin-left: 110px;
   color: #999;
 }
-.main .main1 .sc {
+.mainl .main2 .sc {
   width: 64px;
   height: 64px;
   background: url(../imgs/wlrimg/12.png);
@@ -181,7 +185,7 @@ body {
   margin-left: 245px;
   transform: scale(0.6);
 }
-.main .main1 .sc1 {
+.mainl .main2 .sc1 {
   font-size: 12px;
   position: absolute;
   margin-top: 55px;
