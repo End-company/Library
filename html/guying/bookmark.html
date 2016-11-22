@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="x">
 	<head>
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width" />
 		<title></title>
+        <script src="../../js/angular.js" type="text/javascript" charset="utf-8"></script>		
 		<link rel="stylesheet" href="../../css/gy.css" />
+		
 	</head>
 	<body>
 		<div class="header">
@@ -46,4 +48,29 @@
 	</body>
 </html>
 <script src="../../js/jquery.js" type="text/javascript" charset="utf-8"></script>
-<script src="../../js/angular.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	var app=angular.module('x',[])
+//	app.controller("testCtrl",["$scope",function($scope){
+//	$scope.pic=[
+//   {lu:"../../imgs/1.jpg"},
+//   {lu:"../../imgs/2.jpg"},
+//   {lu:"../../imgs/3.jpg"}
+//   ]	
+//	}])
+
+	app.directive('lb',[function(){
+		return{
+			restrict:'E',
+			replace:true,
+			scope:{
+				lujin: '='
+			},
+			templateUrl: '../../components/lunbo/lunbo.html',
+			link:function($scope,el){
+                
+			}
+		}
+}])
+
+
+</script>
