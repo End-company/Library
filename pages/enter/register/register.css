@@ -109,7 +109,9 @@ body {
     width: 3.5rem;
     height: 0.86rem;
     margin-right: -0.5rem;
-    color: #3abffd; }
+    color: #3abffd;
+    background: url(img/input.png) no-repeat;
+    background-size: 3.5rem 0.86rem; }
   .chang-box .chang-bottom1 .chang-input4 {
     width: 2.08rem;
     height: 0.86rem; }
