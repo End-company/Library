@@ -52,5 +52,13 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'html/guying/selectbookmark.html'
 	}).when('/selectnote',{
 		templateUrl:'html/guying/selectnote.html'
+	}).when('/yuanfenBook1',{
+		templateUrl:'pages/shuye/yuanfenBook1/yuanfenBook1.html'
+	}).when('/yuanfenBook3',{
+		templateUrl:'pages/shuye/yuanfenBook3/yuanfenBook3.html',
+		controller:"yuanfenBook3Ctrl"
+	}).when('/wodebiji',{
+		templateUrl:'pages/shuye/wodebiji/wodebiji.html',
+		controller:"wodebijiCtrl"
 	})
 }])
