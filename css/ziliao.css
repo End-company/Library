@@ -37,17 +37,6 @@ body {
   html {
     font-size: 55.2px; } }
 
-.zhe {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
-  z-index: 100; }
-
 .q_header {
   width: 100%;
   height: 1rem;
@@ -63,6 +52,9 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 0.6rem 0.6rem; }
+    .q_header .header_L a {
+      width: 0.6rem;
+      height: 0.6rem; }
   .q_header .q_set {
     width: auto;
     height: 1rem;

@@ -257,11 +257,11 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.7);
   overflow: hidden; }
-  .zhe .tc .tc-top {
+  .zhe .tc .q-tc-top {
     width: 100%;
     height: 0.8rem;
     background: #29dcbc; }
-    .zhe .tc .tc-top .tc-t {
+    .zhe .tc .q-tc-top .tc-t {
       width: 0.4rem;
       height: 0.4rem;
       float: left;
@@ -270,39 +270,39 @@ body {
       background-image: url("../imgs/qian/plt_03.png");
       background-repeat: no-repeat;
       background-size: contain; }
-    .zhe .tc .tc-top span:nth-of-type(1) {
+    .zhe .tc .q-tc-top span:nth-of-type(1) {
       width: 2.5rem;
       float: left;
       font-size: 14px;
       margin-top: 0.1rem;
       margin-left: 0.1rem;
       color: #fff; }
-    .zhe .tc .tc-top span:nth-of-type(2) {
+    .zhe .tc .q-tc-top span:nth-of-type(2) {
       width: 2.5rem;
       float: left;
       font-size: 12px;
       margin-left: 0.1rem;
       color: #fff; }
-  .zhe .tc .pl-cg {
+  .zhe .tc .q-pl-cg {
     width: 2.4rem;
     height: 0.65rem;
     margin: 0 auto;
     margin-top: 0.5rem; }
-    .zhe .tc .pl-cg span:nth-of-type(1) {
+    .zhe .tc .q-pl-cg span:nth-of-type(1) {
       display: block;
       width: 100%;
       text-align: center;
       font-size: 16px; }
-    .zhe .tc .pl-cg span:nth-of-type(2) {
+    .zhe .tc .q-pl-cg span:nth-of-type(2) {
       display: block;
       width: 100%;
       text-align: center;
       font-size: 12px; }
-  .zhe .tc .qx-cg {
+  .zhe .tc .q-qx-cg {
     width: 100%;
     height: 0.58rem;
     margin-top: 0.3rem; }
-    .zhe .tc .qx-cg .qx {
+    .zhe .tc .q-qx-cg .qx {
       width: 1.95rem;
       height: 0.58rem;
       border: 1px solid #28dd8b;
@@ -312,7 +312,7 @@ body {
       color: #28DD8B;
       float: left;
       margin-left: 0.3rem; }
-      .zhe .tc .qx-cg .qx span:nth-of-type(1) {
+      .zhe .tc .q-qx-cg .qx span:nth-of-type(1) {
         float: left;
         width: 0.1rem;
         height: 0.1rem;
@@ -320,7 +320,7 @@ body {
         border-radius: 50%;
         margin-left: 0.2rem;
         margin-top: 0.25rem; }
-      .zhe .tc .qx-cg .qx span:nth-of-type(2) {
+      .zhe .tc .q-qx-cg .qx span:nth-of-type(2) {
         float: right;
         width: 0.1rem;
         height: 0.1rem;
@@ -328,7 +328,7 @@ body {
         border-radius: 50%;
         margin-right: 0.2rem;
         margin-top: 0.25rem; }
-    .zhe .tc .qx-cg .cg {
+    .zhe .tc .q-qx-cg .cg {
       width: 1.95rem;
       height: 0.58rem;
       border: 1px solid #28dd8b;
@@ -339,7 +339,7 @@ body {
       color: #fff;
       float: right;
       margin-right: 0.3rem; }
-      .zhe .tc .qx-cg .cg span:nth-of-type(1) {
+      .zhe .tc .q-qx-cg .cg span:nth-of-type(1) {
         float: left;
         width: 0.12rem;
         height: 0.12rem;
@@ -347,7 +347,7 @@ body {
         border-radius: 50%;
         margin-left: 0.2rem;
         margin-top: 0.25rem; }
-      .zhe .tc .qx-cg .cg span:nth-of-type(2) {
+      .zhe .tc .q-qx-cg .cg span:nth-of-type(2) {
         float: right;
         width: 0.12rem;
         height: 0.12rem;
@@ -447,207 +447,3 @@ body {
   outline: none; }
   .q_yes a {
     color: #fff !important; }
-
-#sy-34 {
-  width: 100%;
-  height: auto;
-  overflow: hidden; }
-  #sy-34 .zhezhao {
-    width: 100%;
-    height: 13.3rem;
-    background: rgba(0, 0, 0, 0.3); }
-    #sy-34 .zhezhao .header {
-      width: 100%;
-      height: 1rem;
-      background: #29a6dc;
-      position: relative; }
-      #sy-34 .zhezhao .header .header_L {
-        width: 0.6rem;
-        height: 0.6rem;
-        position: absolute;
-        left: 0.2rem;
-        top: 0.2rem;
-        background: url(../imgs/header/header01.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 0.6rem 0.6rem; }
-      #sy-34 .zhezhao .header .set {
-        width: auto;
-        height: 1rem;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0.2rem;
-        bottom: 0;
-        margin: auto;
-        color: white;
-        text-align: center;
-        font-size: 14px; }
-        #sy-34 .zhezhao .header .set .set1 {
-          height: 60%;
-          line-height: 100%;
-          font-size: 20px;
-          position: relative; }
-          #sy-34 .zhezhao .header .set .set1 img {
-            position: absolute;
-            left: 28px;
-            right: 0;
-            bottom: -40px;
-            margin: auto; }
-        #sy-34 .zhezhao .header .set .sets {
-          height: 40%;
-          line-height: 100%;
-          color: #90dcff;
-          font-size: 12px; }
-      #sy-34 .zhezhao .header .header_R {
-        width: 0.6rem;
-        height: 0.6rem;
-        position: absolute;
-        right: 0.2rem;
-        top: 0.2rem;
-        background: url(../imgs/wlrimg/6.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 0.9rem 0.9rem; }
-    #sy-34 .zhezhao .xing {
-      width: 100%;
-      height: 1.6rem;
-      border-bottom: 2px solid #999;
-      overflow: hidden; }
-      #sy-34 .zhezhao .xing ul {
-        width: 5rem;
-        height: 0.8rem;
-        margin: 0 auto;
-        margin-top: 0.4rem; }
-        #sy-34 .zhezhao .xing ul li {
-          width: 0.8rem;
-          height: 0.8rem;
-          margin: 0 0.1rem;
-          float: left;
-          background-image: url("../imgs/qian/xing.png");
-          background-repeat: no-repeat;
-          background-size: contain; }
-    #sy-34 .zhezhao .pinglun {
-      width: 7rem;
-      height: 3.25rem;
-      margin: 0 auto;
-      margin-top: 0.4rem;
-      padding-top: 0.05rem;
-      box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2); }
-      #sy-34 .zhezhao .pinglun p {
-        width: 6.6rem;
-        margin: 0 auto;
-        font-size: 12px;
-        margin-top: 0.2rem;
-        color: #999999;
-        font-size: 14px; }
-    #sy-34 .zhezhao .tc {
-      width: 4.8rem;
-      height: 3rem;
-      position: fixed;
-      left: 0;
-      right: 0;
-      top: 5rem;
-      margin: auto;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
-      overflow: hidden; }
-      #sy-34 .zhezhao .tc .tc-top {
-        width: 100%;
-        height: 0.8rem;
-        background: #29dcbc; }
-        #sy-34 .zhezhao .tc .tc-top .tc-t {
-          width: 0.4rem;
-          height: 0.4rem;
-          float: left;
-          margin-left: 0.4rem;
-          margin-top: 0.2rem;
-          background-image: url("../imgs/qian/plt_03.png");
-          background-repeat: no-repeat;
-          background-size: contain; }
-        #sy-34 .zhezhao .tc .tc-top span:nth-of-type(1) {
-          width: 2.5rem;
-          float: left;
-          font-size: 14px;
-          margin-top: 0.1rem;
-          margin-left: 0.1rem;
-          color: #fff; }
-        #sy-34 .zhezhao .tc .tc-top span:nth-of-type(2) {
-          width: 2.5rem;
-          float: left;
-          font-size: 12px;
-          margin-left: 0.1rem;
-          color: #fff; }
-      #sy-34 .zhezhao .tc .pl-cg {
-        width: 2rem;
-        height: 0.65rem;
-        margin: 0 auto;
-        margin-top: 0.5rem; }
-        #sy-34 .zhezhao .tc .pl-cg span:nth-of-type(1) {
-          display: block;
-          width: 100%;
-          text-align: center;
-          font-size: 16px; }
-        #sy-34 .zhezhao .tc .pl-cg span:nth-of-type(2) {
-          display: block;
-          width: 100%;
-          text-align: center;
-          font-size: 12px; }
-      #sy-34 .zhezhao .tc .qx-cg {
-        width: 100%;
-        height: 0.58rem;
-        margin-top: 0.3rem; }
-        #sy-34 .zhezhao .tc .qx-cg .qx {
-          width: 1.95rem;
-          height: 0.58rem;
-          border: 1px solid #28dd8b;
-          border-radius: 15px;
-          text-align: center;
-          line-height: 0.58rem;
-          color: #28DD8B;
-          float: left;
-          margin-left: 0.3rem; }
-          #sy-34 .zhezhao .tc .qx-cg .qx span:nth-of-type(1) {
-            float: left;
-            width: 0.1rem;
-            height: 0.1rem;
-            background: #28DD8B;
-            border-radius: 50%;
-            margin-left: 0.2rem;
-            margin-top: 0.25rem; }
-          #sy-34 .zhezhao .tc .qx-cg .qx span:nth-of-type(2) {
-            float: right;
-            width: 0.1rem;
-            height: 0.1rem;
-            background: #28DD8B;
-            border-radius: 50%;
-            margin-right: 0.2rem;
-            margin-top: 0.25rem; }
-        #sy-34 .zhezhao .tc .qx-cg .cg {
-          width: 1.95rem;
-          height: 0.58rem;
-          border: 1px solid #28dd8b;
-          background: #28DD8B;
-          border-radius: 15px;
-          text-align: center;
-          line-height: 0.58rem;
-          color: #fff;
-          float: right;
-          margin-right: 0.3rem; }
-          #sy-34 .zhezhao .tc .qx-cg .cg span:nth-of-type(1) {
-            float: left;
-            width: 0.12rem;
-            height: 0.12rem;
-            background: #fff;
-            border-radius: 50%;
-            margin-left: 0.2rem;
-            margin-top: 0.25rem; }
-          #sy-34 .zhezhao .tc .qx-cg .cg span:nth-of-type(2) {
-            float: right;
-            width: 0.12rem;
-            height: 0.12rem;
-            background: #fff;
-            border-radius: 50%;
-            margin-right: 0.2rem;
-            margin-top: 0.25rem; }
