@@ -6,7 +6,7 @@ body{
     box-sizing: border-box;
     font-family:"微软雅黑";
 }
-#box2{
+#box2_wlr2{
     width:100%;
     height:100%;
 }
@@ -44,10 +44,11 @@ body{
             font-size: 20px;
             position: relative;
             img{
-            position: absolute;
+             position: absolute;
             left:28px;
+            width:20%;
             right:0;
-            bottom:-40px;
+            bottom:-8px;
             margin: auto;
           }
         }
@@ -191,22 +192,22 @@ body{
         border:none;
     }
 }
-.exit{
+#exit_wlr2{
     width:100%;
-    height:89px;
+    height:70px;
     img{
         width:300px;
         margin:auto;
-        position: absolute;
-        bottom:50px;
+//      position: absolute;
+        bottom:-260px;
         left:40px;
     }
 }
-.zhao{
+#zhao_wlr2{
     width:240px;
     height:280px;
     margin:auto;
-    top:-80px;
+    top:200px;
     bottom:0;
     left:0;
     right:0;
@@ -214,6 +215,7 @@ body{
     background:white;
     border-radius: 20px;
     box-shadow:0 0 0 1000px rgba(0,0,0,0.7);
+//  display: none;
     .zHead{
         width:100%;
         height:40px;
@@ -277,19 +279,19 @@ body{
                     height:14px;
                     border-radius: 50%;
                     background: #29dcbc;
-                    margin-top:2px;
-                    margin-left:2px;
+                    margin-top:-1px;
+                    margin-left:-8px;
                 }
             }
         }
     }
-    .quxiao{
+    .quxiao_wlr2{
         width:90px;
         height:35px;
         border-radius: 30px;
         border:1px solid #29dcbc;
         position: absolute;
-        bottom:15px;
+         bottom:-45px;
         left:20px;
         .xd{
             width:5px;
@@ -313,14 +315,14 @@ body{
             background: #29dcbc;
         }
     }
-    .queding{
+    .queding_wlr2{
         width:90px;
         height:35px;
         border-radius: 30px;
         background: #29dcbc;
         position: absolute;
-        bottom:15px;
-        right:20px;
+        bottom:-45px;
+        right:-225px;
         .xd{
             width:5px;
             height:5px;
