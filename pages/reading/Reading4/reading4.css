@@ -1,4 +1,13 @@
 @import url("../../../css/base.css");
+._w4box{
+	width:100%;
+	height: 100%;
+	position: fixed;
+	left:0;
+	top:0;
+	overflow: auto;
+	background:#ffe7a7;
+}
 ._w4Wtop{
 	width: 100%;
 	height: 1rem;

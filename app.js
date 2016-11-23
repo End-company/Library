@@ -38,7 +38,7 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/bookcity/lijiReading/index.html'
 	}).when('/fuzhuangsheji',{
 		templateUrl:'html/zhanghao/reci/reci.html',
-		controller:"ceciCtrl"
+		controller:"ceciCtrl",
 	}).when('/saixuan',{
 		templateUrl:'html/zhanghao/saixuan/saixuan.html'
 	}).when('/xianxia',{
@@ -89,6 +89,13 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/reading/Reading6/reading6.html'
 	}).when("/gerenCenter",{
 		templateUrl:'pages/mine/gerenCenter/gerenCenter.html'
+<<<<<<< HEAD
 >>>>>>> ff6877a065112060e9638fd76db239493f1de98f
+=======
+	}).when("/mulu",{
+		templateUrl:'pages/reading/mulu/mulu.html'
+	}).when("/Mybiji",{
+		templateUrl:'pages/reading/Mybiji/Mybiji.html'
+>>>>>>> 71160c3c185afa63ebc540f1a36c54e9bfbc494c
 	})
 }])
