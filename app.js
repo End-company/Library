@@ -77,7 +77,8 @@ app.config(['$routeProvider',function($routeProvider){
 	}).when("/Reading1",{
 		templateUrl:'pages/reading/Reading1/reading1.html'
 	}).when("/Reading2",{
-		templateUrl:'pages/reading/Reading2/reading2.html'
+		templateUrl:'pages/reading/Reading2/reading2.html',
+		controller:'read2Ctrl'
 	}).when("/Reading3",{
 		templateUrl:'pages/reading/Reading3/reading3.html'
 	}).when("/Reading4",{
