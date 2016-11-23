@@ -29,7 +29,8 @@ a{
 #headers_lcq{
    width: 100%;
    height: 2.2rem;
-   background: #29a6dc; 
+   background: #29a6dc;
+   width: 1000px; 
    
    .back{
        display: block;
@@ -40,6 +41,7 @@ a{
        }
        img{
           height: 1.2rem;
+          width: 1.2rem;
           margin-bottom: -1.4rem;
        }
    }
@@ -52,6 +54,7 @@ a{
     box-sizing: border-box;
     border-radius: 8px;
     box-shadow: 0 0 5px #e9effc;
+    margin-left: 50px;
     padding:{
         left: 33px;
         right: 33px;
@@ -60,6 +63,7 @@ a{
     img{
         width: 700px;
         margin-left: 28px;
+        height: 360px;
     }
     .list{
         height: 102px;
@@ -86,6 +90,7 @@ a{
                 margin-left: 43px;
 //              vertical-align: middle;
                 margin-top:-9px;
+                height: 50px;
                } 
             }
             .right-mulu{
@@ -128,6 +133,7 @@ a{
                 margin-left: 43px;
 //              vertical-align: middle;
                 margin-top:-9px;
+                height: 50px;
                } 
             }
             .right-shujia{
@@ -196,14 +202,15 @@ a{
     }
 }
 #middles_lcq{
-    height: 275px;
+//  height: 275px;
     width: 900px;
 //  background: red;
     margin:33px auto;
+    margin-left: 41px;
     box-sizing: border-box;
     .zxsp{
         width: 296px;
-        margin-left: 16px;
+        margin-left: 41px;
     }
     .ping-a{
         height: 154px;
@@ -213,6 +220,7 @@ a{
         box-shadow: 0 0 5px #e9effc;
         box-sizing: border-box;
         margin-top: 45px;
+        
         .left-p{
             width: 100px;
             height: 100%;
@@ -221,6 +229,8 @@ a{
             .pic1{
                 margin-left: 20px;
                 margin-top: 25px;
+                width: 90px;
+                height: 92px;
             }
         }
         .right-p{
@@ -239,6 +249,10 @@ a{
                 color: #8e8e8e;
                 margin-left: 84px; 
                 letter-spacing: 2px;
+                img{
+                    width: 29px;
+                    height: 25px;
+                }
                 
              }
              
@@ -296,7 +310,11 @@ a{
     height: 402px;
     margin:113px auto;
     .my-sqs{
-        margin-left: 16px;
+        margin-left: 41px;
+        img{
+            width: 307px;
+            height: 69px;
+        }
     }
     .add-sq{
         margin-top: 28px;
@@ -307,6 +325,7 @@ a{
         border-radius: 8px;
         box-shadow: 0 0 6px #e9effc;
         position: relative;
+        margin-left: 41px;
         .add{
             display: inline-block;
             margin-left: 350px;
@@ -330,8 +349,13 @@ a{
         }
     }
     .my-bj{
-        margin-left: -23px;
+       
         margin-top: 28px;
+//      margin-left: 41px;
+        img{
+            width: 369px;
+            height: 88px;
+        }
     }
     .add-sq{
         margin-top: 28px;
@@ -370,11 +394,17 @@ a{
     height: 480px;
     margin: 12px auto;
     .sxsj{
-        margin-left: -12px;
+//      margin-left: -12px;
+        img{
+            width: 369px;
+            height: 88px;
+        }
     }
     .books{
         .tu{
             margin-left: 10px;
+            width: 284px;
+            height: 376px;
         }
         position: relative;
         .dian{
