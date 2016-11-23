@@ -8,4 +8,5 @@ app.controller('ceciCtrl',['$scope',function($scope){
     header.on("touchmove",function(){
 		reci.css('display','none');
 	})
+
 }])

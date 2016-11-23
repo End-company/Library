@@ -1,14 +1,12 @@
 @import url("../../../css/base.css");
-.Wtop{
+._w4Wtop{
 	width: 100%;
 	height: 1rem;
 	background: #29a6dc;
 	position: relative;
 }
-body{
-	background:#ffe7a7 ;
-}
-.houtui{
+
+._w4houtui{
 	width:0.6rem;
 	height: 0.6rem;
 	position: absolute;
@@ -19,7 +17,7 @@ body{
     top:0.2rem;
     left:0.2rem;
 }
-.shuqian{
+._w4shuqian{
 	width:0.4rem;
 	height: 0.6rem;
 	position: absolute;
@@ -30,7 +28,7 @@ body{
     top:0.3rem;
     right:1.1rem;
 }
-.xiazai{
+._w4xiazai{
 	width:0.6rem;
 	height: 0.6rem;
 	position: absolute;
@@ -41,26 +39,27 @@ body{
     top:0.2rem;
     right:0.2rem;
 }
-.text1{
+._w4text1{
 	padding-left:0.3rem;
 	padding-right:0.2rem;
 }
-.text1 p{
+._w4text1 p{
 	margin-top:0.1rem;
 	margin-bottom: 0.2rem;
 	font-size: 12px;
 	line-height: 16px;
 	color:#7b6c55;
 }
-.bot2{
+._w4bot2{
 	width: 100%;
 	height: 2rem;
-	position: absolute;
+	position:fixed;
+	left:0;
 	bottom: 0;
 	background: #000;
-	z-index: 100;
+	z-index: 0;
 }
-.shangxia{
+._w4shangxia{
 	width: 90%;
 	height: auto;
 	position: absolute;
@@ -71,24 +70,24 @@ body{
 	
 }
 
-.li1{
+._w4li1{
 	width: 10%;
 	height: 0.5rem;
 	color:#bcbcbc;
 	float: left;
 	
 }
-.li1 span{
+._w4li1 span{
 	text-align: center;
 	line-height: 0.5rem;
 }
-.li2{
+._w4li2{
 	width: 65%;
 	height: 0.5rem;
 	color:#bcbcbc;
 	float: left;
 }
-.li3{
+._w4li3{
 	width: 25%;
 	height: 0.5rem;
 	float: left;
@@ -96,13 +95,13 @@ body{
 	line-height: 0.5rem;
 	color:#bcbcbc;
 }
-.li3 span:nth-of-type(1){
+._w4li3 span:nth-of-type(1){
 	width:45% ;
 	height: 0.5rem;
 	display: inline-block;
 	text-align: center;
 }
-.li3 span:nth-of-type(2){
+._w4li3 span:nth-of-type(2){
 	width:55% ;
 	height: 0.5rem;
 	display: inline-block;
@@ -112,7 +111,7 @@ body{
 	border-radius:5%;
 	font-size: 10px;
 }
-.baise{
+._w4baise{
 	width: 100%;
 	height: 0.1rem;
 	float: left;
@@ -122,7 +121,7 @@ body{
 	
 }
 
-.huang{
+._w4huang{
 	width:1rem ;
 	height: 100%;
 	position: absolute;
@@ -130,7 +129,7 @@ body{
 	top:0;
 	background: #2ecf2f;
 }
-.yuan2{
+._w4yuan2{
 	width: 0.3rem;
 	height: 0.3rem;
 	background: url(../../../imgs/wangchangqi/09.png);
@@ -141,7 +140,7 @@ body{
 	right:-0.2rem;
 	top:-0.1rem;
 }
-.huyan{
+._w4huyan{
 	width: 90%;
 	height: auto;
 	position: absolute;
@@ -150,17 +149,17 @@ body{
 	bottom:0.2rem;
 	margin: auto;
 }
-.huyan li:nth-of-type(1){
+._w4huyan li:nth-of-type(1){
 	width: 70%;
 	height: 0.5rem;
 	float: left;
 }
-.huyan li:nth-of-type(2){
+._w4huyan li:nth-of-type(2){
 	width: 30%;
 	height: 0.5rem;
 	float: left;
 }
-.yuandian1{
+._w4yuandian1{
 	display: inline-block;
 	width:0.2rem;
 	height: 0.2rem;
@@ -170,7 +169,7 @@ body{
 	background-position:center;
 	background-size:0.2rem 0.2rem;
 }
-.yuandian2{
+._w4yuandian2{
 	display: inline-block;
 	width:0.2rem;
 	height: 0.2rem;
@@ -180,6 +179,6 @@ body{
 	background-position:center;
 	background-size:0.2rem 0.2rem;
 }
-.huyan li span{
+._w4huyan li span{
 	color:#999999;
 }

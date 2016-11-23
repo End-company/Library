@@ -1,0 +1,254 @@
+$screen-list:320px,360px,375px,412px,414px;
+html{
+    font-size:100px;
+}
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+    
+}
+a{
+    text-decoration:none;
+}
+button{
+ border:none;
+}
+body{
+    font-size:16px;
+//  background: #fafafa;
+    font-family: "微软雅黑";
+}
+$design-size:750px;
+@each $i in $screen-list{
+    @media screen and (min-width:#{$i}){
+         html{
+         font-size:100px*$i/$design-size; 
+         }
+    }
+}
+
+@mixin pos{
+    position: absolute;
+    left: 0;
+    right:0;
+    top:0;
+    bottom: 0;
+//  margin: auto;
+}
+@mixin main{
+    width: 92%;
+    background: #fff;
+    border-radius: 5px;
+    margin: 15px auto;
+    box-shadow: 0px 0px 10px #787878;
+    
+}
+
+
+.q_header{
+    width: 100%;
+    height: 1rem;
+    background: #29a6dc;
+    position: relative;
+    .header_L{
+        width: 0.6rem;
+        height: 0.6rem;
+        position: absolute;
+        left:0.2rem;
+        top:0.2rem;
+        background:url(../imgs/header/header01.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:0.6rem 0.6rem;
+        a{
+         width: 0.6rem;
+        height: 0.6rem; 
+        }
+    }
+    .q_set{
+        width:auto;
+        height:1rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0.2rem;
+        bottom: 0;
+        margin: auto;
+        color:white;
+        text-align: center;
+        font-size:14px;
+       .q_set1{
+            height:60%;
+            line-height: 100%;
+            font-size: 20px;
+            position: relative;
+            img{
+                width: 100px;
+//              height: 2px;
+            position: absolute;
+            left:28px;
+            right:0;
+            bottom:-10px;
+            margin: auto;
+          }
+        }
+        .q_sets{
+            height:40%;
+            line-height: 100%;
+            color:#90dcff;
+            font-size:12px;
+        }
+    }
+}
+@mixin ri{
+    position:absolute;
+    top:50%;
+    right:5px;
+    font-size:12px;
+    color: #000000;          
+}
+@mixin ripic{
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    right:0.2rem;
+    top:0.5rem;
+    background:url(../imgs/qian/tan_03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;        
+}
+.main_t{
+    height:4.8rem;
+    @include main;
+    ul{
+        width: 100%;
+        height: 100%;
+        li{
+            width: 100%;
+            height: 25%;
+            line-height: 25%;
+            border-bottom:2px dotted #333;
+            box-sizing: border-box;
+            position: relative;
+            .m_title{
+            font-size:18px;
+            position: absolute;
+            top:20px;
+            left:45px;
+            height: 18px;
+            color: #000;
+            }
+            span.en{
+            font-size:12px;
+            position:absolute;
+            top:39px;
+            left:45px;
+            color:#999;
+//          transform: scale(0.7);
+            }
+            .m_r{
+               @include ri;
+            }
+            .r_pic{
+               @include ripic;
+            }
+        }
+    }   
+}
+
+@mixin left{
+                width: 0.5rem;
+                height: 0.5rem;
+                position: absolute;
+                left:0.2rem;
+                top:0.4rem;
+}
+
+.main_t ul li span{
+    display: inline-block;
+}
+
+.main_b{
+    height:2.4rem;
+    @include main;
+    ul{
+        width: 100%;
+        height: 100%;
+        li{
+            width: 100%;
+            height: 50%;
+            line-height: 50%;
+            border-bottom:2px dotted #333;
+            box-sizing: border-box;
+            position: relative;
+            
+            .m_title{
+            font-size:18px;
+            position: absolute;
+            top:20px;
+            left:45px;
+            height: 18px;
+            color: #000;
+            }
+            span.en{
+            font-size:10px;
+            position:absolute;
+            top:39px;
+            left:45px;
+            color:#999;
+            }
+            .m_r{
+               @include ri;
+            }
+            .r_pic{
+               @include ripic;
+            }
+        }
+    }
+}
+.main_l1{
+    @include left;
+    background:url(../imgs/qian/my_03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main_l2{
+    @include left;
+    background:url(../imgs/qian/my_06.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main_l3{
+    @include left;
+    background:url(../imgs/qian/my_08.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main_l4{
+    @include left;
+    background:url(../imgs/qian/my_10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ .main_l5{
+    @include left;
+    background:url(../imgs/qian/my_12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main_l6{
+    @include left;
+    background:url(../imgs/qian/my_14.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
