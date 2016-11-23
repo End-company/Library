@@ -69,7 +69,7 @@ a {
   background-size: 0.6rem 0.6rem;
 }
 #header_wlr #set-wlr {
-  width: auto;
+  width: 60%;
   height: 1rem;
   position: absolute;
   left: 0;

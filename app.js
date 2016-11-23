@@ -59,7 +59,6 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'html/guying/selectbookmark.html'
 	}).when('/selectnote',{
 		templateUrl:'html/guying/selectnote.html'
-<<<<<<< HEAD
 	}).when('/yuanfenBook1',{
 		templateUrl:'pages/shuye/yuanfenBook1/yuanfenBook1.html'
 	}).when('/yuanfenBook3',{
@@ -68,7 +67,6 @@ app.config(['$routeProvider',function($routeProvider){
 	}).when('/wodebiji',{
 		templateUrl:'pages/shuye/wodebiji/wodebiji.html',
 		controller:"wodebijiCtrl"
-=======
 	}).when('/close',{
 		templateUrl:'html/wangling/close.html'
 	}).when("/clear",{
@@ -89,13 +87,10 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/reading/Reading6/reading6.html'
 	}).when("/gerenCenter",{
 		templateUrl:'pages/mine/gerenCenter/gerenCenter.html'
-<<<<<<< HEAD
->>>>>>> ff6877a065112060e9638fd76db239493f1de98f
-=======
+
 	}).when("/mulu",{
 		templateUrl:'pages/reading/mulu/mulu.html'
 	}).when("/Mybiji",{
 		templateUrl:'pages/reading/Mybiji/Mybiji.html'
->>>>>>> 71160c3c185afa63ebc540f1a36c54e9bfbc494c
 	})
 }])
