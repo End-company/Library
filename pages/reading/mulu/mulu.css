@@ -1,11 +1,20 @@
 @import url("../../../css/base.css");
-.Wtop{
+._w7box{
+	position: fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height: 100%;
+	overflow: auto;
+	background:#ffe7a7;
+}
+._w7Wtop{
 	width: 100%;
 	height: 1rem;
 	background: #29a6dc;
 	position: relative;
 }
-.houtui{
+._w7houtui{
 	width:0.6rem;
 	height: 0.6rem;
 	position: absolute;
@@ -16,7 +25,7 @@
     top:0.2rem;
     left:0.2rem;
 }
-.Wtop_M{
+._w7Wtop_M{
 	width: 80%;
 	height: 1rem;
 	position: absolute;
@@ -24,7 +33,7 @@
 	top:0;
 	
 }
-.Wheiz{
+._w7Wheiz{
 	width: 100%;
 	height: 1rem;
 	background: url(../../../imgs/wangchangqi/01.png);
@@ -32,12 +41,12 @@
 	background-position: center;
 	background-size:120% 1.5rem;
 }
-.mulu{
+._w7mulu{
 	width: 100%;
 	height: 1rem;
 	
 }
-.mulu li{
+._w7mulu li{
 	width: 33.333%;
 	height: 1rem;
 	float: left;
@@ -45,7 +54,7 @@
 	
 	
 }
-.box1{
+._w7box1{
 	width: 1px;
 	height: 0.6rem;
 	background:#fff ;
@@ -53,7 +62,7 @@
 	right:-0.1rem;
 	top:0.1rem;
 }
-.active{
+._w7active{
 	width: 85%;
 	height: 90%;
 	position: absolute;
@@ -64,7 +73,7 @@
 	background-position: -0.9rem -0.55rem;
 	background-size:220%;
 }
-.span1{
+._w7span1{
 	position: absolute;
 	left:-0.1rem;
 	top:0.2rem;
@@ -75,7 +84,7 @@
 	font-size: 12px;
 	text-align:center;
 }
-.span2{
+._w7span2{
 	position: absolute;
 	
 	left:-0.1rem;
@@ -88,11 +97,11 @@
 	text-align:center;
 }
 /*头部*/
-.neirong{
+._w7neirong{
 	width: 100%;
 	height: auto;
 }
-.neirong li{
+._w7neirong li{
 	width: 100%;
 	height: 1.2rem;
 	
@@ -100,28 +109,28 @@
 	box-sizing: border-box;
 	border-bottom: 1px dashed #999999;
 }
-.neirong_1{
+._w7neirong_1{
 	display: block;
 	float: left;
 	margin-left:0.3rem;
 	line-height: 1.2rem;
 	text-align: center;
 }
-.neirong_2{
+._w7neirong_2{
 	display: block;
 	float: left;
 	line-height: 1.2rem;
 	text-align: center;
 	margin-left:0.3rem;
 }
-.neirong_3{
+._w7neirong_3{
 	display: block;
 	float: left;
 	line-height: 1.2rem;
 	text-align: center;
 	margin-left:0.3rem;
 }
-.neirong_4{
+._w7neirong_4{
 	display: block;
 	float: right;
 	height: 1.2rem;
