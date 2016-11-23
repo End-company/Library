@@ -59,7 +59,6 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'html/guying/selectbookmark.html'
 	}).when('/selectnote',{
 		templateUrl:'html/guying/selectnote.html'
-
 	}).when('/yuanfenBook1',{
 		templateUrl:'pages/shuye/yuanfenBook1/yuanfenBook1.html'
 	}).when('/yuanfenBook3',{
@@ -68,7 +67,6 @@ app.config(['$routeProvider',function($routeProvider){
 	}).when('/wodebiji',{
 		templateUrl:'pages/shuye/wodebiji/wodebiji.html',
 		controller:"wodebijiCtrl"
-
 	}).when('/close',{
 		templateUrl:'html/wangling/close.html'
 	}).when("/clear",{
@@ -78,7 +76,8 @@ app.config(['$routeProvider',function($routeProvider){
 	}).when("/Reading1",{
 		templateUrl:'pages/reading/Reading1/reading1.html'
 	}).when("/Reading2",{
-		templateUrl:'pages/reading/Reading2/reading2.html'
+		templateUrl:'pages/reading/Reading2/reading2.html',
+		controller:'read2Ctrl'
 	}).when("/Reading3",{
 		templateUrl:'pages/reading/Reading3/reading3.html'
 	}).when("/Reading4",{
@@ -87,20 +86,13 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/reading/Reading5/reading5.html'
 	}).when("/Reading6",{
 		templateUrl:'pages/reading/Reading6/reading6.html'
-<<<<<<< HEAD
 	}).when("/geren",{
 		templateUrl:'pages/mine/gerenCenter/geren.html'
-=======
 	}).when("/gerenCenter",{
 		templateUrl:'pages/mine/gerenCenter/gerenCenter.html'
-
-
-
->>>>>>> 49ae08ca2e0649dae038dc452ea36a3a22354dd4
 	}).when("/mulu",{
 		templateUrl:'pages/reading/mulu/mulu.html'
 	}).when("/Mybiji",{
 		templateUrl:'pages/reading/Mybiji/Mybiji.html'
-
 	})
 }])
