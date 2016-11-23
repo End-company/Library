@@ -14,8 +14,14 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/shuye/Allshuping/comment.html'
 	}).when('/index',{
 		templateUrl:'pages/mine/shezhi/index.html'
+	}).when('/sex',{
+		templateUrl:'pages/mine/wodeziliao/shexingbie.html'
+	}).when('/toux',{
+		templateUrl:'pages/mine/wodeziliao/shetouxiang.html'
 	}).when('/pinglunOK',{
 		templateUrl:'pages/shuye/pinglunOK/pinglunOK.html'
+	}).when('/pingOK',{
+		templateUrl:'pages/shuye/pinglunOK/pingOK.html'
 	}).when('/yijianfankui',{
 		templateUrl:'pages/mine/yijianfankui/feedback.html'
 	}).when('/xitongxinxi',{
@@ -31,7 +37,8 @@ app.config(['$routeProvider',function($routeProvider){
 	}).when('/lijiReading',{
 		templateUrl:'pages/bookcity/lijiReading/index.html'
 	}).when('/fuzhuangsheji',{
-		templateUrl:'html/zhanghao/reci/reci.html'
+		templateUrl:'html/zhanghao/reci/reci.html',
+		controller:"ceciCtrl"
 	}).when('/saixuan',{
 		templateUrl:'html/zhanghao/saixuan/saixuan.html'
 	}).when('/xianxia',{
@@ -52,6 +59,7 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'html/guying/selectbookmark.html'
 	}).when('/selectnote',{
 		templateUrl:'html/guying/selectnote.html'
+<<<<<<< HEAD
 	}).when('/yuanfenBook1',{
 		templateUrl:'pages/shuye/yuanfenBook1/yuanfenBook1.html'
 	}).when('/yuanfenBook3',{
@@ -60,5 +68,27 @@ app.config(['$routeProvider',function($routeProvider){
 	}).when('/wodebiji',{
 		templateUrl:'pages/shuye/wodebiji/wodebiji.html',
 		controller:"wodebijiCtrl"
+=======
+	}).when('/close',{
+		templateUrl:'html/wangling/close.html'
+	}).when("/clear",{
+		templateUrl:'html/wangling/clear.html'
+	}).when("/pianhao",{
+		templateUrl:'pages/mine/pianhao/pianhao.html'
+	}).when("/Reading1",{
+		templateUrl:'pages/reading/Reading1/reading1.html'
+	}).when("/Reading2",{
+		templateUrl:'pages/reading/Reading2/reading2.html'
+	}).when("/Reading3",{
+		templateUrl:'pages/reading/Reading3/reading3.html'
+	}).when("/Reading4",{
+		templateUrl:'pages/reading/Reading4/reading4.html'
+	}).when("/Reading5",{
+		templateUrl:'pages/reading/Reading5/reading5.html'
+	}).when("/Reading6",{
+		templateUrl:'pages/reading/Reading6/reading6.html'
+	}).when("/gerenCenter",{
+		templateUrl:'pages/mine/gerenCenter/gerenCenter.html'
+>>>>>>> ff6877a065112060e9638fd76db239493f1de98f
 	})
 }])

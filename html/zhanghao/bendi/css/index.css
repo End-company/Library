@@ -57,27 +57,27 @@ body {
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 0.80rem;
-    height: 0.80rem;
+    width: 0.60rem;
+    height: 0.60rem;
     border: 0.04rem solid #1074b5;
     text-align: center;
     border-radius: 50%;
     background-size: cover;
-    left: 0.2rem;
-    background: url(../img/return.png) -1px -2px no-repeat; }
+    left: 0.4rem;
+    background: url(../img/return.png) -6px -7px no-repeat; }
   #header .yuyin {
     position: absolute;
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 0.80rem;
-    height: 0.80rem;
+    width: 0.60rem;
+    height: 0.60rem;
     border: 0.04rem solid #1074b5;
     text-align: center;
     border-radius: 50%;
     background-size: cover;
-    right: 0.2rem;
-    background: url(../img/yuyin.png) -1px -1px no-repeat; }
+    right: 0.4rem;
+    background: url(../img/yuyin1.png) -2px -1px no-repeat; }
   #header .search {
     position: absolute;
     top: 0;
