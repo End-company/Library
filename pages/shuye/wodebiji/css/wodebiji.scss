@@ -26,25 +26,27 @@ img{
 a{
     text-decoration: none;
 }
-#header{
+#headering_lcq{
    width: 100%;
-   height: 1.28rem;
+   height: 2.2rem;
    background: #29a6dc; 
+   width: 1000px;
    
    .back{
        display: block;
-       height: 0.8rem;
+//     height: 0.8rem;
        margin:{
            left: 0.24rem;
            
        }
        img{
-          height: 0.8rem;
-          margin-bottom: -0.8rem;
+          height: 1.2rem;
+          width: 1.2rem;
+          margin-bottom: -1.4rem;
        }
    }
 }
-#toping{
+#toping_lcq{
     width: 100%;
 //  height: 430px;
     box-sizing: border-box;
@@ -60,12 +62,14 @@ a{
         margin-left: 61px;
         margin-top: 21px;
         height: 115px;
+        width: 900px;
         .first-left{
             width: 78px;
             height: 100%;
             float: left;
            .qian{
                width: 74px;
+               height: 82px;
            }
         }
         .first-right{
@@ -90,6 +94,7 @@ a{
                 margin-top: 16px;
                 img{
                     width: 59px;
+                    height: 21px;
                 }
             }
             .eye{
@@ -99,6 +104,8 @@ a{
                 display: inline-block;
                 .eyes{
                     display: inline-block;
+                    width: 30px;
+                    height: 19px;
                 }
                 .percity{
                     display: inline-block;
@@ -108,12 +115,13 @@ a{
     }
     .lang{
         img{
-            width: 100%;
+            width: 1000px;
+            height: 10px;
         }
     }
     
 }
-#middleing{
+#middleing_lcq{
     width: 900px;
     height: 655px;
     margin: 55px auto;
@@ -166,6 +174,10 @@ a{
     }
     .my-biji{
         margin-top: 41px;
+        img{
+            width: 369px;
+            height: 88px;
+        }
     }
     .cont1{
         width: 900px;
@@ -174,10 +186,15 @@ a{
         border-radius: 8px;
         box-shadow: 0 0 5px #e9effc;
         margin-top: 28px;
+        margin-left: 31px;
         .cir1{
             margin:{
                 left: 18px;
                 top: 20px;
+            }
+            img{
+                width: 28px;
+                height: 11px;
             }
         }
         .texts-a{
@@ -200,6 +217,7 @@ a{
         box-shadow: 0 0 5px #e9effc;
         margin-top: 28px;
         position: relative;
+        margin-left: 31px;
         .cir1{
             position: absolute;
             display: inline-block;
@@ -240,7 +258,7 @@ a{
         
     }
 }
-#bottoming{
+#bottoming_lcq{
     height: 544px;
     width: 900px;
     margin: 54px auto;
@@ -292,10 +310,16 @@ a{
     }
     .sxsj{
         margin-left: -12px;
+        img{
+            width: 369px;
+            height: 88px;
+        }
     }
     .books{
         .tu{
             margin-left: 10px;
+            width: 284px;
+            height: 376px;
         }
         position: relative;
         .dian{
