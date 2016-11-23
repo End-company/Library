@@ -77,8 +77,8 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/reading/Reading5/reading5.html'
 	}).when("/Reading6",{
 		templateUrl:'pages/reading/Reading6/reading6.html'
-	}).when("/gerenCenter",{
-		templateUrl:'pages/mine/gerenCenter/gerenCenter.html'
+	}).when("/geren",{
+		templateUrl:'pages/mine/gerenCenter/geren.html'
 	}).when("/mulu",{
 		templateUrl:'pages/reading/mulu/mulu.html'
 	}).when("/Mybiji",{
