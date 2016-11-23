@@ -53,6 +53,7 @@ body {
 }
 
 .header-le3 .header_R {
+  display: block;
   width: 0.8rem;
   height: 0.8rem;
   position: absolute;
@@ -225,13 +226,18 @@ body {
   top: 0.3rem;
 }
 
-.news .bookList {
+.booklunbo {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
 
-.news .bookList li {
+.booklunbo .bookList {
+  width: 12.5rem;
+  height: auto;
+}
+
+.booklunbo .bookList li {
   width: 2.3rem;
   height: 3.2rem;
   float: left;
@@ -240,10 +246,10 @@ body {
   background-image: url(../imgs/imgle/tu.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  position: relative;
+  float: left;
 }
 
-.news .bookList li p {
+.booklunbo .bookList li p {
   padding-left: 0.1rem;
   font-size: 15px;
   color: #666;
@@ -252,7 +258,7 @@ body {
   top: 2.3rem;
 }
 
-.news .bookList li span {
+.booklunbo .bookList li span {
   padding-left: 0.1rem;
   color: #999;
   font-size: 12px;
@@ -305,13 +311,13 @@ body {
   top: 0.25rem;
 }
 
-.rece-le .bookList {
+.rece-le .bookList1 {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
 
-.rece-le .bookList li {
+.rece-le .bookList1 li {
   width: 95%;
   height: 3rem;
   float: left;
@@ -323,7 +329,7 @@ body {
   position: relative;
 }
 
-.rece-le .bookList li .p1 {
+.rece-le .bookList1 li .p1 {
   font-size: 15px;
   color: #333;
   position: absolute;
@@ -331,7 +337,7 @@ body {
   top: 0.2rem;
 }
 
-.rece-le .bookList li .p2 {
+.rece-le .bookList1 li .p2 {
   width: 5rem;
   white-space: nowrap;
   overflow: hidden;
@@ -343,7 +349,7 @@ body {
   top: 0.6rem;
 }
 
-.rece-le .bookList li .p3 {
+.rece-le .bookList1 li .p3 {
   width: 5rem;
   font-size: 14px;
   color: #666;
@@ -352,7 +358,7 @@ body {
   top: 1.15rem;
 }
 
-.rece-le .bookList li .p4 {
+.rece-le .bookList1 li .p4 {
   width: 5rem;
   font-size: 12px;
   color: #999;
@@ -361,7 +367,7 @@ body {
   top: 1.5rem;
 }
 
-.rece-le .bookList li span {
+.rece-le .bookList1 li span {
   width: 3.5rem;
   font-size: 12px;
   color: #999;
@@ -370,20 +376,20 @@ body {
   top: 2.3rem;
 }
 
-.rece-le .bookList li span .p5 {
+.rece-le .bookList1 li span .p5 {
   font-size: 12px;
   color: #999;
   float: left;
 }
 
-.rece-le .bookList li span .p6 {
+.rece-le .bookList1 li span .p6 {
   font-size: 12px;
   color: #A5DDF5;
   float: left;
   margin-top: 0.03rem;
 }
 
-.rece-le .bookList li span .jindu {
+.rece-le .bookList1 li span .jindu {
   margin-top: 0.2rem;
   margin-left: 0.1rem;
   height: 0.1rem;
@@ -391,7 +397,7 @@ body {
   float: left;
 }
 
-.rece-le .bookList li .p7 {
+.rece-le .bookList1 li .p7 {
   color: #A0D6EE;
   font-size: 12px;
   position: absolute;

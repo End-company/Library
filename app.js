@@ -3,7 +3,8 @@ app.config(['$routeProvider',function($routeProvider){
 	$routeProvider.when('/',{
 		templateUrl:'pages/enter/login/login.html'
 	}).when('/wodeshujia',{
-		templateUrl:'pages/shujia/wodeshujia/shelf.html'
+		templateUrl:'pages/shujia/wodeshujia/shelf.html',
+		controller:'shelfCtrl',
 	}).when('/list',{
 		templateUrl:'pages/bookcity/bangdan/list.html'
 	}).when('/selected',{
