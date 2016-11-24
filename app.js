@@ -45,9 +45,11 @@ app.config(['$routeProvider',function($routeProvider){
 	}).when('/ziliao',{
 		templateUrl:'html/wangqian/ziliao.html'
 	}).when('/bookmark',{
-		templateUrl:'html/guying/bookmark.html'
+		templateUrl:'html/guying/bookmark.html',
+		controller:"bookmarkCtrl"
 	}).when('/mynote',{
-		templateUrl:'html/guying/mynote.html'
+		templateUrl:'html/guying/mynote.html',
+		controller:"mynoteCtrl"
 	}).when('/selectbookmark',{
 		templateUrl:'html/guying/selectbookmark.html'
 	}).when('/selectnote',{
