@@ -45,43 +45,15 @@ body {
   }
 }
 
-.header {
+.header-le3 {
   width: 100%;
   height: 1rem;
   background: #29a6dc;
   position: relative;
 }
 
-.header .title {
-  width: 50%;
-  height: 1rem;
-  margin: 0 auto;
-  position: relative;
-}
-
-.header .title span {
-  color: #D1E8F5;
-  font-size: 18px;
-  position: absolute;
-  top: 0rem;
-  left: 1rem;
-}
-
-.header .title img {
-  position: absolute;
-  top: 0.45rem;
-  left: 1.35rem;
-}
-
-.header .title p {
-  color: #84D2F5;
-  font-size: 12px;
-  position: absolute;
-  top: 0.6rem;
-  left: 0.76rem;
-}
-
-.header_R {
+.header-le3 .header_R {
+  display: block;
   width: 0.8rem;
   height: 0.8rem;
   position: absolute;
@@ -93,7 +65,38 @@ body {
   background-size: contain;
 }
 
-.nav_bot {
+.header-le3 .title {
+  width: 50%;
+  height: 1rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header-le3 .title span {
+  color: #D1E8F5;
+  font-size: 18px;
+  position: absolute;
+  top: 0rem;
+  left: 1rem;
+}
+
+.header-le3 .title img {
+  position: absolute;
+  top: 0.45rem;
+  left: 1.35rem;
+  width: 0.8rem;
+  height: 0.1rem;
+}
+
+.header-le3 .title p {
+  color: #84D2F5;
+  font-size: 12px;
+  position: absolute;
+  top: 0.6rem;
+  left: 0.76rem;
+}
+
+.nav_botle {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -101,27 +104,27 @@ body {
   width: 100%;
 }
 
-.nav_bot ul {
+.nav_botle ul {
   width: 100%;
   height: 100%;
   background: #151C2B;
 }
 
-.nav_bot ul li {
+.nav_botle ul li {
   float: left;
   width: 33.3%;
   height: 1.2rem;
   position: relative;
 }
 
-.nav_bot ul li img {
+.nav_botle ul li img {
   width: 0.6rem;
   height: 0.6rem;
   margin-left: 0.9rem;
   margin-top: 0.1rem;
 }
 
-.nav_bot ul li span {
+.nav_botle ul li span {
   color: #676869;
   font-size: 14px;
   position: absolute;
@@ -129,35 +132,35 @@ body {
   top: 0.7rem;
 }
 
-.nav_bot ul .sel {
+.nav_botle ul .sel {
   background-image: url(../imgs/imgle/sel-bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
-.nav_bot ul .sel span {
+.nav_botle ul .sel span {
   color: #fff;
 }
 
-.banner {
+.ban {
   width: 100%;
   height: 3.5rem;
   overflow: hidden;
 }
 
-.banner .imgBox {
+.ban .imgBox {
   width: 90%;
   height: 3.5rem;
   margin: 0.4rem auto;
   box-shadow: 0,0,10px #666666;
 }
 
-.banner .imgBox img {
+.ban .imgBox img {
   width: 100%;
   height: 100%;
 }
 
-.banner ul {
+.ban ul {
   width: auto;
   height: 0.3rem;
   position: absolute;
@@ -165,7 +168,7 @@ body {
   top: 4.6rem;
 }
 
-.banner ul li {
+.ban ul li {
   width: 0.1rem;
   height: 0.1rem;
   border-radius: 50%;
@@ -175,23 +178,23 @@ body {
   float: left;
 }
 
-.banner ul .blue {
+.ban ul .blue {
   background: #29A6DC;
 }
 
-.new {
+.news {
   width: 100%;
   height: auto;
   margin-top: 0.5rem;
 }
 
-.new .newTitle {
+.news .newTitle {
   height: 1rem;
   padding-left: 0.4rem;
   position: relative;
 }
 
-.new .newTitle .i1 {
+.news .newTitle .i1 {
   width: 0.4rem;
   height: 0.4rem;
   position: absolute;
@@ -199,7 +202,7 @@ body {
   top: 0.05rem;
 }
 
-.new .newTitle p {
+.news .newTitle p {
   font-size: 18px;
   color: #000;
   position: absolute;
@@ -207,7 +210,7 @@ body {
   top: 0;
 }
 
-.new .newTitle span {
+.news .newTitle span {
   font-size: 12px;
   color: #666;
   position: absolute;
@@ -215,7 +218,7 @@ body {
   top: 0.4rem;
 }
 
-.new .newTitle .i2 {
+.news .newTitle .i2 {
   width: 0.6rem;
   height: 0.3rem;
   position: absolute;
@@ -223,13 +226,18 @@ body {
   top: 0.3rem;
 }
 
-.new .bookList {
+.booklunbo {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
 
-.new .bookList li {
+.booklunbo .bookList {
+  width: 12.5rem;
+  height: auto;
+}
+
+.booklunbo .bookList li {
   width: 2.3rem;
   height: 3.2rem;
   float: left;
@@ -238,10 +246,10 @@ body {
   background-image: url(../imgs/imgle/tu.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  position: relative;
+  float: left;
 }
 
-.new .bookList li p {
+.booklunbo .bookList li p {
   padding-left: 0.1rem;
   font-size: 15px;
   color: #666;
@@ -250,7 +258,7 @@ body {
   top: 2.3rem;
 }
 
-.new .bookList li span {
+.booklunbo .bookList li span {
   padding-left: 0.1rem;
   color: #999;
   font-size: 12px;
@@ -259,19 +267,19 @@ body {
   top: 2.7rem;
 }
 
-.rece {
+.rece-le {
   width: 100%;
   height: auto;
   margin-top: 0.5rem;
 }
 
-.rece .newTitle {
+.rece-le .newTitle {
   height: 1rem;
   padding-left: 0.4rem;
   position: relative;
 }
 
-.rece .newTitle .i1 {
+.rece-le .newTitle .i1 {
   width: 0.4rem;
   height: 0.4rem;
   position: absolute;
@@ -279,7 +287,7 @@ body {
   top: 0.05rem;
 }
 
-.rece .newTitle p {
+.rece-le .newTitle p {
   font-size: 18px;
   color: #000;
   position: absolute;
@@ -287,7 +295,7 @@ body {
   top: 0;
 }
 
-.rece .newTitle span {
+.rece-le .newTitle span {
   font-size: 12px;
   color: #666;
   position: absolute;
@@ -295,7 +303,7 @@ body {
   top: 0.4rem;
 }
 
-.rece .newTitle .i2 {
+.rece-le .newTitle .i2 {
   width: 0.6rem;
   height: 0.3rem;
   position: absolute;
@@ -303,13 +311,13 @@ body {
   top: 0.25rem;
 }
 
-.rece .bookList {
+.rece-le .bookList1 {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
 
-.rece .bookList li {
+.rece-le .bookList1 li {
   width: 95%;
   height: 3rem;
   float: left;
@@ -321,7 +329,7 @@ body {
   position: relative;
 }
 
-.rece .bookList li .p1 {
+.rece-le .bookList1 li .p1 {
   font-size: 15px;
   color: #333;
   position: absolute;
@@ -329,7 +337,7 @@ body {
   top: 0.2rem;
 }
 
-.rece .bookList li .p2 {
+.rece-le .bookList1 li .p2 {
   width: 5rem;
   white-space: nowrap;
   overflow: hidden;
@@ -341,7 +349,7 @@ body {
   top: 0.6rem;
 }
 
-.rece .bookList li .p3 {
+.rece-le .bookList1 li .p3 {
   width: 5rem;
   font-size: 14px;
   color: #666;
@@ -350,7 +358,7 @@ body {
   top: 1.15rem;
 }
 
-.rece .bookList li .p4 {
+.rece-le .bookList1 li .p4 {
   width: 5rem;
   font-size: 12px;
   color: #999;
@@ -359,7 +367,7 @@ body {
   top: 1.5rem;
 }
 
-.rece .bookList li span {
+.rece-le .bookList1 li span {
   width: 3.5rem;
   font-size: 12px;
   color: #999;
@@ -368,27 +376,28 @@ body {
   top: 2.3rem;
 }
 
-.rece .bookList li span .p5 {
+.rece-le .bookList1 li span .p5 {
   font-size: 12px;
   color: #999;
   float: left;
 }
 
-.rece .bookList li span .p6 {
+.rece-le .bookList1 li span .p6 {
   font-size: 12px;
   color: #A5DDF5;
   float: left;
   margin-top: 0.03rem;
 }
 
-.rece .bookList li span img {
+.rece-le .bookList1 li span .jindu {
   margin-top: 0.2rem;
   margin-left: 0.1rem;
+  height: 0.1rem;
   width: 2rem;
   float: left;
 }
 
-.rece .bookList li .p7 {
+.rece-le .bookList1 li .p7 {
   color: #A0D6EE;
   font-size: 12px;
   position: absolute;

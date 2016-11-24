@@ -1,4 +1,4 @@
-$(function(){
+app.controller('ceciCtrl',['$scope',function($scope){
 	var search=$('.search');
 	var reci=$('.reci');
 	var header=$('#header')
@@ -8,4 +8,5 @@ $(function(){
     header.on("touchmove",function(){
 		reci.css('display','none');
 	})
-})
+
+}])

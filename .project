@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Library</name>
+	<name>library</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -14,21 +14,9 @@
 	<natures>
 		<nature>com.aptana.projects.webnature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>css/综合</name>
-			<type>2</type>
-			<location>E:/UI项目/综合</location>
-		</link>
-		<link>
-			<name>imgs/information/angularSPA工程架构</name>
-			<type>2</type>
-			<location>E:/UI项目/angularSPA工程架构</location>
-		</link>
-	</linkedResources>
 	<filteredResources>
 		<filter>
-			<id>1479436976388</id>
+			<id>0</id>
 			<name></name>
 			<type>26</type>
 			<matcher>

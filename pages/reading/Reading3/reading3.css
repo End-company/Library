@@ -1,14 +1,21 @@
 @import url("../../../css/base.css");
-.Wtop{
+._w3box{
+	width:100%;
+	height: 100%;
+	position: fixed;
+	left:0;
+	top:0;
+	overflow: auto;
+	background:#ffe7a7;
+}
+._w3Wtop{
 	width: 100%;
 	height: 1rem;
 	background: #29a6dc;
 	position: relative;
 }
-body{
-	background:#ffe7a7 ;
-}
-.houtui{
+
+._w3houtui{
 	width:0.6rem;
 	height: 0.6rem;
 	position: absolute;
@@ -19,7 +26,7 @@ body{
     top:0.2rem;
     left:0.2rem;
 }
-.shuqian{
+._w3shuqian{
 	width:0.4rem;
 	height: 0.6rem;
 	position: absolute;
@@ -30,7 +37,7 @@ body{
     top:0.3rem;
     right:1.1rem;
 }
-.xiazai{
+._w3xiazai{
 	width:0.6rem;
 	height: 0.6rem;
 	position: absolute;
@@ -41,26 +48,27 @@ body{
     top:0.2rem;
     right:0.2rem;
 }
-.text1{
+._w3text1{
 	padding-left:0.3rem;
 	padding-right:0.2rem;
 }
-.text1 p{
+._w3text1 p{
 	margin-top:0.1rem;
 	margin-bottom: 0.2rem;
 	font-size: 12px;
 	line-height: 16px;
 	color:#7b6c55;
 }
-.bot2{
+._w3bot2{
 	width: 100%;
 	height: 3rem;
-	position: absolute;
+	position:fixed;
+	left:0;
 	bottom: 0;
 	background: #000;
 	z-index: 100;
 }
-.shangxia{
+._w3shangxia{
 	width: 90%;
 	height: auto;
 	position: absolute;
@@ -70,7 +78,7 @@ body{
 	margin: auto;
 	
 }
-.shangxia3{
+._w3shangxia3{
 	width: 90%;
 	height: auto;
 	position: absolute;
@@ -80,24 +88,24 @@ body{
 	margin: auto;
 	
 }
-.li1{
+._w3li1{
 	width: 10%;
 	height: 0.5rem;
 	color:#bcbcbc;
 	float: left;
 	
 }
-.li1 span{
+._w3li1 span{
 	text-align: center;
 	line-height: 0.5rem;
 }
-.li2{
+._w3li2{
 	width: 80%;
 	height: 0.5rem;
 	color:#bcbcbc;
 	float: left;
 }
-.li3{
+._w3li3{
 	width: 10%;
 	height: 0.5rem;
 	float: left;
@@ -105,7 +113,7 @@ body{
 	line-height: 0.5rem;
 	color:#bcbcbc;
 }
-.baise{
+._w3baise{
 	width: 80%;
 	height: 0.1rem;
 	float: left;
@@ -114,7 +122,7 @@ body{
 	position: relative;
 	
 }
-.zihao{
+._w3zihao{
 	width: 0.3rem;
 	height: 0.3rem;
 	margin-right:0.2rem;
@@ -126,7 +134,7 @@ body{
 	margin-top:0.1rem;
 	float: left;
 }
-.hangju{
+._w3hangju{
 	width: 0.3rem;
 	height: 0.3rem;
 	margin-right:0.2rem;
@@ -138,7 +146,7 @@ body{
 	margin-top:0.1rem;
 	float: left;
 }
-.huang{
+._w3huang{
 	width:1rem ;
 	height: 100%;
 	position: absolute;
@@ -146,7 +154,7 @@ body{
 	top:0;
 	background: #2ecf2f;
 }
-.yuan2{
+._w3yuan2{
 	width: 0.3rem;
 	height: 0.3rem;
 	background: url(../../../imgs/wangchangqi/09.png);
@@ -157,7 +165,7 @@ body{
 	right:-0.2rem;
 	top:-0.1rem;
 }
-.shangxia33{
+._w3shangxia33{
 	width: 90%;
 	height: 1rem;
 	position: absolute;
@@ -167,25 +175,25 @@ body{
 	margin:auto;
 	
 }
-.li331{
+._w3li331{
 	width: 10%;
 	height: 1rem;
 	color:#fff;
 	float: left;
 }
-.li332{
+._w3li332{
 	width: 90%;
 	height: 1rem;
 	float: left;
 	
 	
 }
-.yanseLie{
+._w3yanseLie{
 	width: 100%;
 	height: 1rem;
 	
 }
-.yanseLie li{
+._w3yanseLie li{
 	float: left;
 	width: 12.5%;
 	padding-top:0.1rem;
@@ -195,49 +203,49 @@ body{
 	height: 1rem;
 	
 }
-.lie1{
+._w3lie1{
 	
 	width: 0.5rem;
 	height: 0.5rem;
 	background: #fcf3db;
 }
-.lie2{
+._w3lie2{
 	
 	width: 0.5rem;
 	height: 0.5rem;
 	background: #ffe9b0;
 }
-.lie3{
+._w3lie3{
 	
 	width: 0.5rem;
 	height: 0.5rem;
 	background:#d8a764;
 }
-.lie4{
+._w3lie4{
 	
 	width: 0.5rem;
 	height: 0.5rem;
 	background: #3876ac;
 }
-.lie5{
+._w3lie5{
 	
 	width: 0.5rem;
 	height: 0.5rem;
 	background: #21858e;
 }
-.lie6{
+._w3lie6{
 	
 	width: 0.5rem;
 	height: 0.5rem;
 	background: #f4c5d4;
 }
-.lie7{
+._w3lie7{
 	
 	width: 0.5rem;
 	height: 0.5rem;
 	background: #79d143;
 }
-.lie8{
+._w3lie8{
 	
 	width: 0.5rem;
 	height: 0.5rem;

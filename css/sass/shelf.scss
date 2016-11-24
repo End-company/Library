@@ -20,11 +20,24 @@ $design-size:750px;
          }
     }
 }
-.header{
+.header-le3{
     width: 100%;
     height: 1rem;
     background: #29a6dc;
     position: relative;
+    
+    .header_R{
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    right:0.2rem;
+    top:0.15rem;
+    background:url(../imgs/header/header02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
     .title{
         width: 50%;
         height:1rem;
@@ -42,6 +55,8 @@ $design-size:750px;
             position: absolute;
             top:0.45rem;
             left:1.35rem;
+            width: 0.8rem;
+            height:0.1rem;
         }
         p{
             color:#84D2F5;
@@ -62,18 +77,8 @@ $design-size:750px;
 //  background-repeat: no-repeat;
 //  background-position: center;
 //}
-.header_R{
-    width: 0.8rem;
-    height: 0.8rem;
-    position: absolute;
-    right:0.2rem;
-    top:0.15rem;
-    background:url(../imgs/header/header02.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-.nav_bot{
+
+.nav_botle{
     position: fixed;
     bottom: 0;
     left: 0;
@@ -112,7 +117,7 @@ $design-size:750px;
         }
     }
 }
-.banner{
+.ban{
     width:100%;
     height:3.5rem;
 //  background: #eee;
@@ -153,7 +158,7 @@ $design-size:750px;
         }
     }
 }
-.new{
+.news{
     width: 100%;
     height:auto;
     margin-top:0.5rem;
@@ -191,10 +196,16 @@ $design-size:750px;
         top:0.3rem;
     }   
     }
-    .bookList{
+    
+}
+.booklunbo{
         width: 100%;
         height:auto;
         overflow: hidden;
+    .bookList{
+        width:12.5rem;
+        height:auto;
+//      overflow: hidden;
         li{
             width: 2.3rem;
             height:3.2rem;
@@ -205,7 +216,8 @@ $design-size:750px;
             background-image: url(../imgs/imgle/tu.png);
             background-repeat: no-repeat;
             background-size:100% 100%;
-            position: relative;
+            float: left;
+//          position: relative;
             p{
                 padding-left:0.1rem;
 //              padding-right: 0.05rem;
@@ -226,7 +238,7 @@ $design-size:750px;
         }
     }
 }
-.rece{
+.rece-le{
     width: 100%;
     height:auto;
     margin-top:0.5rem;
@@ -264,7 +276,7 @@ $design-size:750px;
         top:0.25rem;
     }   
     }
-    .bookList{
+    .bookList1{
         width: 100%;
         height:auto;
         overflow: hidden;
@@ -335,9 +347,10 @@ $design-size:750px;
                     float: left;
                     margin-top: 0.03rem;
                 }
-                img{
+                .jindu{
                     margin-top: 0.2rem;
                     margin-left: 0.1rem;
+                    height:0.1rem;
                     width: 2rem;
                     float: left;
                 }

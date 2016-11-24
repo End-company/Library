@@ -52,51 +52,54 @@ a {
   text-decoration: none;
 }
 
-#header {
+#headering_lcq {
   width: 100%;
-  height: 1.28rem;
+  height: 2.2rem;
   background: #29a6dc;
+  width: 1000px;
 }
 
-#header .back {
+#headering_lcq .back {
   display: block;
-  height: 0.8rem;
   margin-left: 0.24rem;
 }
 
-#header .back img {
-  height: 0.8rem;
-  margin-bottom: -0.8rem;
+#headering_lcq .back img {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-bottom: -1.4rem;
 }
 
-#toping {
+#toping_lcq {
   width: 100%;
   box-sizing: border-box;
   margin-top: 41px;
 }
 
-#toping .my-sq {
+#toping_lcq .my-sq {
   margin-left: 48px;
   margin-top: 71px;
 }
 
-#toping .first {
+#toping_lcq .first {
   margin-left: 61px;
   margin-top: 21px;
   height: 115px;
+  width: 900px;
 }
 
-#toping .first .first-left {
+#toping_lcq .first .first-left {
   width: 78px;
   height: 100%;
   float: left;
 }
 
-#toping .first .first-left .qian {
+#toping_lcq .first .first-left .qian {
   width: 74px;
+  height: 82px;
 }
 
-#toping .first .first-right {
+#toping_lcq .first .first-right {
   width: 540px;
   height: 100%;
   float: left;
@@ -104,53 +107,57 @@ a {
   margin-left: 84px;
 }
 
-#toping .first .first-right .first-title {
+#toping_lcq .first .first-right .first-title {
   font-size: 24px;
   color: #151c2b;
   font-weight: 600;
 }
 
-#toping .first .first-right .cont {
+#toping_lcq .first .first-right .cont {
   color: #505050;
   font-size: 18px;
   margin-top: 12px;
 }
 
-#toping .first .first-right .sj {
+#toping_lcq .first .first-right .sj {
   display: inline-block;
   margin-top: 16px;
 }
 
-#toping .first .first-right .sj img {
+#toping_lcq .first .first-right .sj img {
   width: 59px;
+  height: 21px;
 }
 
-#toping .first .first-right .eye {
+#toping_lcq .first .first-right .eye {
   margin-top: 16px;
   position: absolute;
   right: -30px;
   display: inline-block;
 }
 
-#toping .first .first-right .eye .eyes {
+#toping_lcq .first .first-right .eye .eyes {
+  display: inline-block;
+  width: 30px;
+  height: 19px;
+}
+
+#toping_lcq .first .first-right .eye .percity {
   display: inline-block;
 }
 
-#toping .first .first-right .eye .percity {
-  display: inline-block;
+#toping_lcq .lang img {
+  width: 1000px;
+  height: 10px;
 }
 
-#toping .lang img {
-  width: 100%;
-}
-
-#middleing {
+#middleing_lcq {
   width: 900px;
   height: 655px;
   margin: 55px auto;
 }
 
-#middleing .reading {
+#middleing_lcq .reading {
   width: 222px;
   height: 39px;
   background: #29a6dc;
@@ -159,7 +166,7 @@ a {
   margin-left: 308px;
 }
 
-#middleing .reading .scirle-a {
+#middleing_lcq .reading .scirle-a {
   width: 7px;
   height: 7px;
   background: #FFFFFF;
@@ -172,7 +179,7 @@ a {
   left: 29px;
 }
 
-#middleing .reading .scirle-b {
+#middleing_lcq .reading .scirle-b {
   width: 7px;
   height: 7px;
   background: #FFFFFF;
@@ -185,11 +192,11 @@ a {
   right: 29px;
 }
 
-#middleing .reading .ljyd {
+#middleing_lcq .reading .ljyd {
   margin-left: 63px;
 }
 
-#middleing .reading .ljyd a {
+#middleing_lcq .reading .ljyd a {
   display: inline-block;
   font-size: 22px;
   color: #FFFFFF;
@@ -197,32 +204,43 @@ a {
   line-height: 39px;
 }
 
-#middleing .my-biji {
+#middleing_lcq .my-biji {
   margin-top: 41px;
 }
 
-#middleing .cont1 {
+#middleing_lcq .my-biji img {
+  width: 369px;
+  height: 88px;
+}
+
+#middleing_lcq .cont1 {
   width: 900px;
   height: 83px;
   box-sizing: border-box;
   border-radius: 8px;
   box-shadow: 0 0 5px #e9effc;
   margin-top: 28px;
+  margin-left: 31px;
 }
 
-#middleing .cont1 .cir1 {
+#middleing_lcq .cont1 .cir1 {
   margin-left: 18px;
   margin-top: 20px;
 }
 
-#middleing .cont1 .texts-a {
+#middleing_lcq .cont1 .cir1 img {
+  width: 28px;
+  height: 11px;
+}
+
+#middleing_lcq .cont1 .texts-a {
   font-size: 22px;
   color: #858585;
   letter-spacing: 2px;
   margin-left: 56px;
 }
 
-#middleing .cont2 {
+#middleing_lcq .cont2 {
   width: 900px;
   height: 114px;
   box-sizing: border-box;
@@ -230,16 +248,17 @@ a {
   box-shadow: 0 0 5px #e9effc;
   margin-top: 28px;
   position: relative;
+  margin-left: 31px;
 }
 
-#middleing .cont2 .cir1 {
+#middleing_lcq .cont2 .cir1 {
   position: absolute;
   display: inline-block;
   left: 18px;
   top: 16px;
 }
 
-#middleing .cont2 .texts-a {
+#middleing_lcq .cont2 .texts-a {
   margin-left: 55px;
   margin-top: 16px;
   display: inline-block;
@@ -248,7 +267,7 @@ a {
   letter-spacing: 2px;
 }
 
-#middleing .cont2 .biao {
+#middleing_lcq .cont2 .biao {
   position: absolute;
   width: 130px;
   height: 36px;
@@ -256,11 +275,11 @@ a {
   bottom: 1px;
 }
 
-#middleing .cont2 .biao .clk {
+#middleing_lcq .cont2 .biao .clk {
   display: inline-block;
 }
 
-#middleing .cont2 .biao .date {
+#middleing_lcq .cont2 .biao .date {
   display: inline-block;
   position: absolute;
   right: -22px;
@@ -269,13 +288,13 @@ a {
   font-size: 22px;
 }
 
-#bottoming {
+#bottoming_lcq {
   height: 544px;
   width: 900px;
   margin: 54px auto;
 }
 
-#bottoming .reading {
+#bottoming_lcq .reading {
   width: 222px;
   height: 39px;
   background: #29a6dc;
@@ -284,7 +303,7 @@ a {
   margin-left: 308px;
 }
 
-#bottoming .reading .scirle-a {
+#bottoming_lcq .reading .scirle-a {
   width: 7px;
   height: 7px;
   background: #FFFFFF;
@@ -297,7 +316,7 @@ a {
   left: 29px;
 }
 
-#bottoming .reading .scirle-b {
+#bottoming_lcq .reading .scirle-b {
   width: 7px;
   height: 7px;
   background: #FFFFFF;
@@ -310,11 +329,11 @@ a {
   right: 29px;
 }
 
-#bottoming .reading .ljyd {
+#bottoming_lcq .reading .ljyd {
   margin-left: 63px;
 }
 
-#bottoming .reading .ljyd a {
+#bottoming_lcq .reading .ljyd a {
   display: inline-block;
   font-size: 22px;
   color: #FFFFFF;
@@ -322,25 +341,32 @@ a {
   line-height: 39px;
 }
 
-#bottoming .sxsj {
+#bottoming_lcq .sxsj {
   margin-left: -12px;
 }
 
-#bottoming .books {
+#bottoming_lcq .sxsj img {
+  width: 369px;
+  height: 88px;
+}
+
+#bottoming_lcq .books {
   position: relative;
 }
 
-#bottoming .books .tu {
+#bottoming_lcq .books .tu {
   margin-left: 10px;
+  width: 284px;
+  height: 376px;
 }
 
-#bottoming .books .dian {
+#bottoming_lcq .books .dian {
   width: 100%;
   height: 20px;
   margin: 10px auto;
 }
 
-#bottoming .books .dian .yuan {
+#bottoming_lcq .books .dian .yuan {
   position: absolute;
   background: #0090ff;
   width: 8px;
@@ -350,7 +376,7 @@ a {
   left: 400px;
 }
 
-#bottoming .books .dian .yuan2 {
+#bottoming_lcq .books .dian .yuan2 {
   position: absolute;
   border: 2px solid #0090ff;
   box-sizing: border-box;
@@ -361,7 +387,7 @@ a {
   left: 420px;
 }
 
-#bottoming .books .dian .yuan3 {
+#bottoming_lcq .books .dian .yuan3 {
   position: absolute;
   border: 2px solid #0090ff;
   box-sizing: border-box;

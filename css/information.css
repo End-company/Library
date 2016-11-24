@@ -60,6 +60,7 @@ body {
 }
 
 .zcc_L {
+  display: block;
   width: 0.6rem;
   height: 0.6rem;
   position: absolute;
@@ -84,7 +85,7 @@ body {
 }
 
 .zcc_c {
-  width: auto;
+  width: 70%;
   height: 0.6rem;
   position: absolute;
   left: 0;

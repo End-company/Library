@@ -20,7 +20,7 @@ $design-size:750px;
          }
     }
 }
-.header{
+.header-le2{
     width: 100%;
     height: 1rem;
     background: #29a6dc;
@@ -48,7 +48,7 @@ $design-size:750px;
     background-position: center;
     background-size: contain;
 }
-.nav{
+.nav-le2{
     width:5rem;
     height:1rem;
     background-image: url(../imgs/imgle/headbg.png);
@@ -72,6 +72,7 @@ $design-size:750px;
             position: absolute;
             left: 0.6rem;
             top:0.1rem;
+            width: 28px;
         }
         img{
             position: absolute;
@@ -98,20 +99,21 @@ $design-size:750px;
         background-size:contain ;
         background-repeat: no-repeat;
         position: absolute;
-        left:36.5%;
+        left:36%;
         top:-0.03rem;
         p{
             font-size:14px;
             color: #fff;
             position: absolute;
-            left: 0.57rem;
+            left: 0.6rem;
             top:0.1rem;
+            width: 28px;
         }
         img{
             position: absolute;
-            left: 0.7rem;
+            left: 0.57rem;
             top:0.5rem;
-            width: 0.3rem;
+            width: 0.4rem;
             height: 0.1rem;
         }
     }
@@ -140,6 +142,7 @@ $design-size:750px;
             position: absolute;
             left: 0.55rem;
             top:0.1rem;
+            width: 28px;
         }
         img{
             position: absolute;
