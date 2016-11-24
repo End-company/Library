@@ -25,7 +25,9 @@ $design-size:750px;
     height: 1rem;
     background: #29a6dc;
     position: relative;
+    
     .header_R{
+    display: block;
     width: 0.8rem;
     height: 0.8rem;
     position: absolute;
@@ -194,10 +196,16 @@ $design-size:750px;
         top:0.3rem;
     }   
     }
-    .bookList{
+    
+}
+.booklunbo{
         width: 100%;
         height:auto;
         overflow: hidden;
+    .bookList{
+        width:12.5rem;
+        height:auto;
+//      overflow: hidden;
         li{
             width: 2.3rem;
             height:3.2rem;
@@ -208,7 +216,8 @@ $design-size:750px;
             background-image: url(../imgs/imgle/tu.png);
             background-repeat: no-repeat;
             background-size:100% 100%;
-            position: relative;
+            float: left;
+//          position: relative;
             p{
                 padding-left:0.1rem;
 //              padding-right: 0.05rem;
@@ -267,7 +276,7 @@ $design-size:750px;
         top:0.25rem;
     }   
     }
-    .bookList{
+    .bookList1{
         width: 100%;
         height:auto;
         overflow: hidden;

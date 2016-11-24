@@ -3,7 +3,8 @@ app.config(['$routeProvider',function($routeProvider){
 	$routeProvider.when('/',{
 		templateUrl:'pages/enter/login/login.html'
 	}).when('/wodeshujia',{
-		templateUrl:'pages/shujia/wodeshujia/shelf.html'
+		templateUrl:'pages/shujia/wodeshujia/shelf.html',
+		controller:'shelfCtrl',
 	}).when('/list',{
 		templateUrl:'pages/bookcity/bangdan/list.html'
 	}).when('/selected',{
@@ -52,9 +53,11 @@ app.config(['$routeProvider',function($routeProvider){
 	}).when('/ziliao',{
 		templateUrl:'html/wangqian/ziliao.html'
 	}).when('/bookmark',{
-		templateUrl:'html/guying/bookmark.html'
+		templateUrl:'html/guying/bookmark.html',
+		controller:"bookmarkCtrl"
 	}).when('/mynote',{
-		templateUrl:'html/guying/mynote.html'
+		templateUrl:'html/guying/mynote.html',
+		controller:"mynoteCtrl"
 	}).when('/selectbookmark',{
 		templateUrl:'html/guying/selectbookmark.html'
 	}).when('/selectnote',{
