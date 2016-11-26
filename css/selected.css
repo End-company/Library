@@ -45,7 +45,7 @@ body {
   }
 }
 
-.header {
+.header-le1 {
   width: 100%;
   height: 1rem;
   background: #29a6dc;
@@ -64,7 +64,7 @@ body {
   background-size: contain;
 }
 
-.nav {
+.nav-le1 {
   width: 5rem;
   height: 1rem;
   background-image: url(../imgs/imgle/headbg.png);
@@ -75,7 +75,7 @@ body {
   top: 0.17rem;
 }
 
-.nav .selected {
+.nav-le1 .selected {
   width: 33.3%;
   height: 100%;
   background-image: url(../imgs/imgle/nav.png);
@@ -86,15 +86,16 @@ body {
   top: -0.01rem;
 }
 
-.nav .selected p {
+.nav-le1 .selected p {
   font-size: 14px;
   color: #fff;
   position: absolute;
   left: 0.6rem;
   top: 0.1rem;
+  width: 28px;
 }
 
-.nav .selected img {
+.nav-le1 .selected img {
   position: absolute;
   left: 0.55rem;
   top: 0.5rem;
@@ -102,7 +103,7 @@ body {
   height: 0.1rem;
 }
 
-.nav .col1 {
+.nav-le1 .col1 {
   width: 0.1rem;
   height: 60%;
   background-image: url(../imgs/imgle/col.png);
@@ -113,33 +114,34 @@ body {
   top: 10%;
 }
 
-.nav .list {
+.nav-le1 .list {
   width: 33.3%;
   height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
-  left: 38%;
+  left: 34%;
   top: -0.03rem;
 }
 
-.nav .list p {
+.nav-le1 .list p {
   font-size: 14px;
   color: #fff;
   position: absolute;
-  left: 0.5rem;
+  left: 0.6rem;
   top: 0.1rem;
+  width: 28px;
 }
 
-.nav .list img {
+.nav-le1 .list img {
   position: absolute;
-  left: 0.55rem;
+  left: 0.65rem;
   top: 0.5rem;
   width: 0.4rem;
   height: 0.1rem;
 }
 
-.nav .col2 {
+.nav-le1 .col2 {
   width: 0.1rem;
   height: 60%;
   background-image: url(../imgs/imgle/col.png);
@@ -150,7 +152,7 @@ body {
   top: 10%;
 }
 
-.nav .class {
+.nav-le1 .class {
   width: 33.3%;
   height: 100%;
   background-size: contain;
@@ -160,15 +162,16 @@ body {
   top: -0.03rem;
 }
 
-.nav .class p {
+.nav-le1 .class p {
   font-size: 14px;
   color: #fff;
   position: absolute;
   left: 0.55rem;
   top: 0.1rem;
+  width: 28px;
 }
 
-.nav .class img {
+.nav-le1 .class img {
   position: absolute;
   left: 0.55rem;
   top: 0.5rem;

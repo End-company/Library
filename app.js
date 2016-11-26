@@ -76,7 +76,8 @@ app.config(['$routeProvider',function($routeProvider){
 	}).when("/Reading1",{
 		templateUrl:'pages/reading/Reading1/reading1.html'
 	}).when("/Reading2",{
-		templateUrl:'pages/reading/Reading2/reading2.html'
+		templateUrl:'pages/reading/Reading2/reading2.html',
+		controller:'read2Ctrl'
 	}).when("/Reading3",{
 		templateUrl:'pages/reading/Reading3/reading3.html'
 	}).when("/Reading4",{
@@ -85,9 +86,14 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/reading/Reading5/reading5.html'
 	}).when("/Reading6",{
 		templateUrl:'pages/reading/Reading6/reading6.html'
+	}).when("/geren",{
+		templateUrl:'pages/mine/gerenCenter/geren.html'
 	}).when("/gerenCenter",{
 		templateUrl:'pages/mine/gerenCenter/gerenCenter.html'
+<<<<<<< HEAD
 
+=======
+>>>>>>> f26bcc4c15c72c383d83b1d15df1c0aa0a6d8075
 	}).when("/mulu",{
 		templateUrl:'pages/reading/mulu/mulu.html'
 	}).when("/Mybiji",{
