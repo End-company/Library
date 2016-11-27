@@ -3,7 +3,8 @@ app.config(['$routeProvider',function($routeProvider){
 	$routeProvider.when('/',{
 		templateUrl:'pages/enter/login/login.html'
 	}).when('/wodeshujia',{
-		templateUrl:'pages/shujia/wodeshujia/shelf.html'
+		templateUrl:'pages/shujia/wodeshujia/shelf.html',
+		controller:'shelfCtrl',
 	}).when('/list',{
 		templateUrl:'pages/bookcity/bangdan/list.html'
 	}).when('/selected',{
@@ -52,9 +53,11 @@ app.config(['$routeProvider',function($routeProvider){
 	}).when('/ziliao',{
 		templateUrl:'html/wangqian/ziliao.html'
 	}).when('/bookmark',{
-		templateUrl:'html/guying/bookmark.html'
+		templateUrl:'html/guying/bookmark.html',
+		controller:"bookmarkCtrl"
 	}).when('/mynote',{
-		templateUrl:'html/guying/mynote.html'
+		templateUrl:'html/guying/mynote.html',
+		controller:"mynoteCtrl"
 	}).when('/selectbookmark',{
 		templateUrl:'html/guying/selectbookmark.html'
 	}).when('/selectnote',{
@@ -90,10 +93,7 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl:'pages/mine/gerenCenter/geren.html'
 	}).when("/gerenCenter",{
 		templateUrl:'pages/mine/gerenCenter/gerenCenter.html'
-<<<<<<< HEAD
 
-=======
->>>>>>> f26bcc4c15c72c383d83b1d15df1c0aa0a6d8075
 	}).when("/mulu",{
 		templateUrl:'pages/reading/mulu/mulu.html'
 	}).when("/Mybiji",{
